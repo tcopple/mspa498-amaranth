@@ -6,7 +6,6 @@ import pandas
 def convert_to_csv(xpt_filepath, csv_filepath):
     try:
         print("Converting ", xpt_filepath, " to ", csv_filepath)
-
         path = os.path.dirname(csv_filepath)
         if not os.path.exists(path):
             os.makedirs(path)
@@ -33,8 +32,20 @@ if __name__ == '__main__':
     #one by one unzip the zip files to the xpt directory
     for filepath in files:
 
-        file_name = os.path.basename(filepath)
-        file_without_extension = os.path.splitext(file_name)[0]
-        csv_filepath = os.path.join(csvs_path, file_without_extension + ".csv")
+        #remote the path from the filepath
+        file_name = os.path.basename(filepath).lower()
+
+        #remote the extension from the filename and then take the last two characters
+        #which in this case correspond to the year suffix, 00, 01, 02, etc.
+        year_suffix = int(os.path.splitext(file_name)[0][-2:])
+
+        year = -1
+        if year_suffix > 50:
+            year = 1900 + year_suffix
+        else:
+            year = 2000 + year_suffix
+
+        filename = "brfss" + str(year) + ".csv"
+        csv_filepath = os.path.join(csvs_path, filename)
 
         convert_to_csv(filepath, csv_filepath)
