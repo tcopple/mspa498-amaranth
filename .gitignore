@@ -3,6 +3,7 @@
 /data/brfss-csvs/
 /data/brfss-zips/
 /data/codebooks/
+/data/formats/sas/
 
 /src/r/MonetDB/
 /src/r/download
