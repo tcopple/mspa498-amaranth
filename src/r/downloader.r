@@ -288,7 +288,7 @@ func.download.year = function(year) {
     # create a new object `cYYYY` containing the non-numeric columns
     assign(paste0('c' , year) , charx)
 
-    print(paste("Finished", year, sep=" "))
+    print(paste("Finished", year, "\n", sep=" "))
   }
 
   # create a data frame containing all weight, psu, and stratification variables for each year

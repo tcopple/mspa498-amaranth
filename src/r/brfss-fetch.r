@@ -71,7 +71,7 @@ source_url(
 )
 
 # uncomment this line to only download the 2011 single-year file and no others
-years.to.download <- c(2014:2015)
+years.to.download <- c(2005:2015)
 
 for(year in years.to.download) {
   func.download.year(year)
