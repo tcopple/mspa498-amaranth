@@ -1,0 +1,2713 @@
+{
+    "$imonth": {
+        "1": "January",
+        "10": "October",
+        "11": "November",
+        "12": "December",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September"
+    },
+    "_2aidtst": {
+        ".": "Missing or Age greater than 64",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "9": "Dont know/Not Sure/Refused"
+    },
+    "_2denstr": {
+        ".": "Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Listed",
+        "2": "Unlisted",
+        "3": "Zero block"
+    },
+    "_2pneumo": {
+        ".": "Missing or Age Less Than 65",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "9": "Dont know/Not Sure Or Refused/Missing"
+    },
+    "_2raceg": {
+        ".": "Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Non-Hispanic White",
+        "2": "Non-White or Hispanic",
+        "9": "Dont know/Not sure/Refused"
+    },
+    "_2racegr": {
+        ".": "Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "White only, Non-Hispanic",
+        "2": "Black only, Non-Hispanic",
+        "3": "Other race only, Non-Hispanic",
+        "4": "Multiracial, Non-Hispanic",
+        "5": "Hispanic",
+        "9": "Dont know/Not sure/Refused"
+    },
+    "_3drnkdy": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "0": "Did not drink",
+        "1 - 9899": "Number of drinks per day",
+        "9900": "Dont know/Not sure/Refused/Missing"
+    },
+    "_3drnkmo": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "0": "Did not drink in the past month",
+        "1 - 9998": "Number of Drinks",
+        "9999": "Dont know/Refused/Missing"
+    },
+    "_3flshot": {
+        ".": "Missing or Age Less Than 65",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "9": "Dont know/Not Sure Or Refused/Missing"
+    },
+    "_3rfbing": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "No",
+        "2": "Yes",
+        "9": "Dont know/Refused/Missing"
+    },
+    "_3rfdrhv": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "No",
+        "2": "Yes",
+        "9": "Dont know/Refused/Missing"
+    },
+    "_3rfdrmn": {
+        ".": "Respondent is female",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "No",
+        "2": "Yes",
+        "9": "Dont know/Refused/Missing"
+    },
+    "_3rfdrwm": {
+        ".": "Respondent is male",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "No",
+        "2": "Yes",
+        "9": "Dont know/Refused/Missing"
+    },
+    "_3rfsmok": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "No",
+        "2": "Yes",
+        "9": "Dont know/Refused/Missing"
+    },
+    "_3smoker": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Current smoker - now smokes every day",
+        "2": "Current smoker - now smokes some days",
+        "3": "Former smoker",
+        "4": "Never smoked",
+        "9": "Dont know/Refused/Missing"
+    },
+    "_4bmi": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 9998": "1 or greater",
+        "9999": "Dont know/Refused/Missing"
+    },
+    "_4rfbmi": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "No",
+        "2": "Yes",
+        "9": "Dont know/Refused/Missing"
+    },
+    "_age65yr": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Age 18 to 64",
+        "2": "Age 65 or older",
+        "3": "Dont know/Refused/Missing"
+    },
+    "_age_g": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Age 18 - 24",
+        "2": "Age 25 to 34",
+        "3": "Age 35 to 44",
+        "4": "Age 45 to 54",
+        "5": "Age 55 to 64",
+        "6": "Age 65 or older"
+    },
+    "_ageg5yr": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Age 18 - 24",
+        "10": "Age 65 to 69",
+        "11": "Age 70 to 74",
+        "12": "Age 75 to 79",
+        "13": "Age 80 or older",
+        "14": "Dont know/Refused/Missing",
+        "2": "Age 25 to 29",
+        "3": "Age 30 to 34",
+        "4": "Age 35 to 39",
+        "5": "Age 40 to 44",
+        "6": "Age 45 to 49",
+        "7": "Age 50 to 54",
+        "8": "Age 55 to 59",
+        "9": "Age 60 to 64"
+    },
+    "_agegfmt": {
+        ".": "Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "0": "Age 18 or older",
+        "1": "Age 18 - 24",
+        "10": "Age 55 or older",
+        "11": "Age 18 to 44",
+        "12": "Age 45 or older",
+        "13": "Age 65 or older",
+        "2": "Age 25 to 34",
+        "3": "Age 35 to 44",
+        "4": "Age 45 to 54",
+        "5": "Age 55 to 64",
+        "6": "Age 65 to 74",
+        "7": "Age 75 or older",
+        "8": "Age 18 to 34",
+        "9": "Age 35 to 54"
+    },
+    "_asthmst": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Current",
+        "2": "Former",
+        "3": "Never",
+        "9": "Dont know/Not Sure Or Refused/Missing"
+    },
+    "_bmi4cat": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Neither overweight nor obese",
+        "2": "Overweight",
+        "3": "Obese",
+        "9": "Dont know/Refused/Missing"
+    },
+    "_chldcnt": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "No children in household",
+        "2": "One child in household",
+        "3": "Two children in household",
+        "4": "Three children in household",
+        "5": "Four children in household",
+        "6": "Five or more children in household",
+        "9": "Dont know/Not sure/Missing"
+    },
+    "_cholchk": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Had cholesterol checked in past 5 years.",
+        "2": "Did not have cholesterol checked in past 5 years",
+        "3": "Have never had cholesterol checked",
+        "9": "Dont know/Not Sure Or Refused/Missing"
+    },
+    "_cnrace": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "0": "Other/do not know/refused",
+        "1": "1 category chosen",
+        "2": "2 category chosen",
+        "3": "3 category chosen",
+        "4": "4 category chosen",
+        "5": "5 category chosen"
+    },
+    "_cnracec": {
+        ".": "\"_CNRACE",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "0": "zero or missing",
+        "1": "One category chosen",
+        "2": "Two or more categories chosen"
+    },
+    "_crace": {
+        ".": "Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "White only",
+        "2": "Black or African American only",
+        "3": "Asian Only",
+        "4": "Native Hawaiian or other Pacific Islander only",
+        "5": "American Indian or Alaskan Native only",
+        "6": "Other race only",
+        "7": "Multiracial",
+        "77": "Dont know/Not sure",
+        "99": "Refused"
+    },
+    "_drdxart": {
+        ".": "Dont know/Not Sure/Refused/Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Diagnosed with arthritis",
+        "2": "Not diagnosed with arthritis"
+    },
+    "_educag": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Did not graduate High School",
+        "2": "Graduated High School",
+        "3": "Attended College or Technical School",
+        "4": "Graduated from College or Technical School",
+        "9": "Dont know/Not sure/Missing"
+    },
+    "_frtindx": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Less than once per day or never",
+        "2": "Once but less than 3 times per day",
+        "3": "3 but less than 5 times per day",
+        "4": "5 or more times per day",
+        "9": "Dont know/Refused/Missing"
+    },
+    "_fv5srv": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Consume < 5 times per day",
+        "2": "Consume 5 or more times per day",
+        "9": "Dont know/Not sure/Missing"
+    },
+    "_highrsk": {
+        ".": "Missing or Age greater than 64",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "No",
+        "2": "Yes",
+        "9": "Dont know/Not Sure/Refused"
+    },
+    "_impage": {
+        ".": "Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "18 - 24": "Age 18 to 24",
+        "25 - 34": "Age 25 to 34",
+        "35 - 44": "Age 35 to 44",
+        "45 - 54": "Age 45 to 54",
+        "55 - 64": "Age 55 to 64",
+        "65 - 99": "Age 65 or older"
+    },
+    "_impnph": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Number of phones",
+        "2": " ",
+        "3": " ",
+        "4": " ",
+        "5": " ",
+        "6": " ",
+        "7": " ",
+        "8": "8 or more"
+    },
+    "_incomg": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Less than $15,000",
+        "2": "$15,000 to less than $25,000",
+        "3": "$25,000 to less than $35,000",
+        "4": "$35,000 to less than $50,000",
+        "5": "$50,000 or more",
+        "9": "Dont know/Not sure/Missing"
+    },
+    "_mrace": {
+        ".": "Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "White only",
+        "2": "Black or African American only",
+        "3": "Asian Only",
+        "4": "Native Hawaiian or other Pacific Islander only",
+        "5": "American Indian or Alaskan Native only",
+        "6": "Other race only",
+        "7": "Multiracial",
+        "77": "Dont know/Not sure",
+        "99": "Refused"
+    },
+    "_prace": {
+        ".": "Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "White",
+        "2": "Black or African American",
+        "3": "Asian",
+        "4": "Native Hawaiian or other Pacific Islander",
+        "5": "American Indian or Alaskan Native",
+        "6": "Other race",
+        "7": "No preferred race",
+        "77": "Dont know/Not sure",
+        "8": "Multiracial but preferred race not asked",
+        "99": "Refused"
+    },
+    "_race_g": {
+        ".": "Dont know/Not sure/Refused component question",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "White - Non-Hispanic",
+        "2": "Black - Non-Hispanic",
+        "3": "Hispanic",
+        "4": "Other race only, Non-Hispanic",
+        "5": "Multiracial, Non-Hispanic"
+    },
+    "_rfchol": {
+        ".": "Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "No",
+        "2": "Yes",
+        "9": "Dont know/Not Sure Or Refused/Missing"
+    },
+    "_rfnopa": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "9": "Dont know/Not Sure/Refused/Missing"
+    },
+    "_rfpamod": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "9": "Dont know/Not Sure/Refused/Missing"
+    },
+    "_rfparec": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Meet physical activity recommendations",
+        "2": "Insufficient physical activity",
+        "3": "No physical activity",
+        "9": "Dont know/Not Sure/Refused/Missing"
+    },
+    "_rfpavig": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "9": "Dont know/Not Sure/Refused/Missing"
+    },
+    "_state": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Alabama",
+        "10": "Delaware",
+        "11": "District of Columbia",
+        "12": "Florida",
+        "13": "Georgia",
+        "15": "Hawaii",
+        "16": "Idaho",
+        "17": "Illinois",
+        "18": "Indiana",
+        "19": "Iowa",
+        "2": "Alaska",
+        "20": "Kansas",
+        "21": "Kentucky",
+        "22": "Louisiana",
+        "23": "Maine",
+        "24": "Maryland",
+        "25": "Massachusetts",
+        "26": "Michigan",
+        "27": "Minnesota",
+        "28": "Mississippi",
+        "29": "Missouri",
+        "30": "Montana",
+        "31": "Nebraska",
+        "32": "Nevada",
+        "33": "New Hampshire",
+        "34": "New Jersey",
+        "35": "New Mexico",
+        "36": "New York",
+        "37": "North Carolina",
+        "38": "North Dakota",
+        "39": "Ohio",
+        "4": "Arizona",
+        "40": "Oklahoma",
+        "41": "Oregon",
+        "42": "Pennsylvania",
+        "44": "Rhode Island",
+        "45": "South Carolina",
+        "46": "South Dakota",
+        "47": "Tennessee",
+        "48": "Texas",
+        "49": "Utah",
+        "5": "Arkansas",
+        "50": "Vermont",
+        "51": "Virginia",
+        "53": "Washington",
+        "54": "West Virginia",
+        "55": "Wisconsin",
+        "56": "Wyoming",
+        "6": "California",
+        "66": "Guam",
+        "72": "Puerto Rico",
+        "78": "Virgin Islands",
+        "8": "Colorado",
+        "9": "Connecticut"
+    },
+    "_totinda": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Had physical activity or exercise",
+        "2": "No physical activity or exercise in last 30 days",
+        "9": "Dont know/Refused/Missing"
+    },
+    "age": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "18 - 24": "Age 18 - 24",
+        "25 - 34": "Age 25 - 34",
+        "35 - 44": "Age 35 - 44",
+        "45 - 54": "Age 45 - 54",
+        "55 - 64": "Age 55 - 64",
+        "65 - 99": "Age 65 or older",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "alc4day": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "101 - 199": "Days per week",
+        "201 - 299": "Days in past 30",
+        "777": "Dont know/Not sure",
+        "888": "No drinks in past 30 days",
+        "999": "Refused"
+    },
+    "arthedu": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "arthexer": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "arthwgt": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "arttoday": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "I can do everything I would like to do",
+        "2": "I can do most things I would like to do",
+        "3": "I can do some things I would like to do",
+        "4": "I can hardly do anything I would like to do",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "asactlim": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 365": "Number of days",
+        "777": "Dont know/Not sure",
+        "888": "None",
+        "999": "Refused"
+    },
+    "asattack": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "asdrvist": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 87": "Number of visits",
+        "88": "None",
+        "98": "Dont know/Not sure",
+        "99": "Refused"
+    },
+    "aservist": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 87": "Number of visits",
+        "88": "None",
+        "98": "Dont know/Not sure",
+        "99": "Refused"
+    },
+    "asinhalr": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "One to four times(in the past 30 days)",
+        "2": "Five to fourteen times(in the past 30 days)",
+        "3": "Fifteen to twenty-nine times(in the past 30 days)",
+        "4": "Thirty to fifty-nine times(in the past 30 days)",
+        "5": "Sixty to ninety-nine times(in the past 30 days)",
+        "6": "More than 100 times(in the past 30 days)",
+        "7": "Dont know/Not sure",
+        "8": "Never(incl no attack in past 30 days)",
+        "9": "Refused"
+    },
+    "asnoslep": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "One or two",
+        "2": "Three to four",
+        "3": "Five",
+        "4": "Six to ten",
+        "5": "More than ten",
+        "7": "Dont know/Not sure",
+        "8": "None",
+        "9": "Refused"
+    },
+    "aspunsaf": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes, not stomach related",
+        "2": "Yes, stomach problems",
+        "3": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "asrchkup": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 87": "Number of visits",
+        "88": "None",
+        "98": "Dont know/Not sure",
+        "99": "Refused"
+    },
+    "ast2hma": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "asth2med": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "1-14 days",
+        "2": "15-24 days",
+        "3": "25-30 days",
+        "7": "Dont know/Not sure",
+        "8": "Never",
+        "9": "Refused"
+    },
+    "asthmage": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "11 - 96": "Age 11 or older",
+        "97": "Age 10 or younger",
+        "98": "Dont know/Not sure",
+        "99": "Refused"
+    },
+    "asthnow": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "asymptom": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Less than once a week",
+        "2": "Once or twice a week",
+        "3": "More that 2 times a week, but not every day",
+        "4": "Every day, but not all the time",
+        "5": "Every day, all the time",
+        "7": "Dont know/Not sure",
+        "8": "Not at any time",
+        "9": "Refused"
+    },
+    "ave2drnk": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 76": "Number of drinks",
+        "77": "Dont know/Not sure",
+        "78 - 98": "Number of drinks",
+        "99": "Refused"
+    },
+    "bldstool": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "bldsugar": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "101 - 199": "Times per day",
+        "201 - 299": "Times per week",
+        "301 - 399": "Times per month",
+        "401 - 499": "Times per year",
+        "777": "Dont know/Not sure",
+        "888": "Never",
+        "999": "Refused"
+    },
+    "bloodcho": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "bp4high": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "Yes, but female told only during pregnancy",
+        "3": "No",
+        "4": "Told borderline high or pre-hypertensive",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "bpalcadv": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "3": "Do not drink",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "bpalchol": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "3": "Do not drink",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "bpeatadv": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "bpeathbt": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "bpexer": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "bpexradv": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "bphi2mr": {
+        ".": "Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "Yes, but female told only during pregnancy",
+        "3": "No",
+        "4": "Told borderline or pre-hypertensive",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "bpmedadv": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "bpmeds": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "bpsalt": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "3": "Do not use salt",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "bpsltadv": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "3": "Do not use salt",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "carrots": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "101 - 199": "Per day",
+        "201 - 299": "Per week",
+        "301 - 399": "Per month",
+        "401 - 499": "Per year",
+        "555": "Never",
+        "777": "Dont know/Not sure",
+        "999": "Refused"
+    },
+    "casth2dx": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "casth2no": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "cellfon": {
+        ".": "Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Not a cellular phone",
+        "2": "Yes"
+    },
+    "checkup": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Within the past year (< 12 months ago)",
+        "2": "Within the past 2 years (1 year but < 2 years ago)",
+        "3": "Within the past 5 years (2 years but < 5 years ago)",
+        "4": "5 or more years ago",
+        "7": "Dont know/Not sure",
+        "8": "Never",
+        "9": "Refused"
+    },
+    "children": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 87": "Number of children",
+        "88": "None",
+        "99": "Refused"
+    },
+    "chk3hemo": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 76": "Number of times",
+        "77": "Dont know/Not sure",
+        "88": "None",
+        "98": "Never heard of hemoglobin A one C test",
+        "99": "Refused"
+    },
+    "cholchk": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Within the past year (< 12 months ago)",
+        "2": "Within the past 2 years (1 year but < 2 years ago)",
+        "3": "Within the past 5 years (2 years but < 5 years ago)",
+        "4": "5 or more years ago",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "ciflumst": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "ciflusht": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "ctelenum": {
+        ".": "Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No"
+    },
+    "cvd3crhd": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "cvd3infr": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "cvd3strk": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "cvdasprn": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "denclean": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Within the past year (< 12 months ago)",
+        "2": "Within the past 2 years (1 year but < 2 years ago)",
+        "3": "Within the past 5 years (2 years but < 5 years ago)",
+        "4": "5 or more years ago",
+        "7": "Dont know/Not sure",
+        "8": "Never",
+        "9": "Refused"
+    },
+    "dia2bete": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "Yes, but female told only during pregnancy",
+        "3": "No",
+        "4": "No, pre-diabetes or boarderline diabetes",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "diab2age": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 97": "Age in years",
+        "98": "Dont know/Not sure",
+        "99": "Refused"
+    },
+    "diabedu": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "diabeye": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "diabpill": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "digrecex": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "doctdiab": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 76": "Number of times",
+        "77": "Dont know/Not sure",
+        "88": "None",
+        "99": "Refused"
+    },
+    "dradvice": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes, lose weight",
+        "2": "Yes, gain weight",
+        "3": "Yes, maintain current weight",
+        "4": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "dretime": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Within the past year (< 12 months)",
+        "2": "Within the past 2 years (1 year but < 2 years ago)",
+        "3": "Within the past 3 years (2 years but < 3 years ago)",
+        "4": "Within the past 5 years (3 years but < 5 years ago)",
+        "5": "5 or more years ago",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "drnk25ge": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 76": "Number of Times",
+        "77": "Dont know/Not Sure",
+        "78 - 87": "Number of times",
+        "88": "None",
+        "89 - 98": "Number of times",
+        "99": "Refused"
+    },
+    "drnk4any": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "drocdy2_": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "0": "No Drink-Occasions per day",
+        "1 - 899": "Drink-Occasions per day",
+        "900": "Dont know/Not Sure Or Refused/Missing"
+    },
+    "educa": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Never attended school or only kindergarten",
+        "2": "Grades 1 - 8 (Elementary)",
+        "3": "Grades 9 - 11 (Some high school)",
+        "4": "Grade 12 or GED (High school graduate)",
+        "5": "College 1 year to 3 years (Some college or technical school)",
+        "6": "College 4 years or more (College graduate)",
+        "9": "Refused"
+    },
+    "employ": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Employed for wages",
+        "2": "Self-employed",
+        "3": "Out of work for more than 1 year",
+        "4": "Out of work for less that 1 year",
+        "5": "A homemaker",
+        "6": "A student",
+        "7": "Retired",
+        "8": "Unable to work",
+        "9": "Refused"
+    },
+    "exer2any": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "eyeexam": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Within the past month (< 1 month ago)",
+        "2": "Within the past year (1 month but < 12 months ago)",
+        "3": "Within the past 2 years (1 year but < 2 years ago)",
+        "4": "2 or more years ago",
+        "7": "Dont know/Not sure",
+        "8": "Never",
+        "9": "Refused"
+    },
+    "feet2chk": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "101 - 199": "Times per day",
+        "201 - 299": "Times per week",
+        "301 - 399": "Times per month",
+        "401 - 499": "Times per year",
+        "555": "No feet",
+        "777": "Dont know/Not sure",
+        "888": "Never",
+        "999": "Refused"
+    },
+    "feetchk": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 76": "Number of times",
+        "77": "Dont know/Not sure",
+        "88": "None",
+        "99": "Refused"
+    },
+    "feetsore": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "fewcal": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes, fewer calories",
+        "2": "Yes, less fat",
+        "3": "Yes, fewer calories and less fat",
+        "4": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "firstaid": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Take them the hospital",
+        "2": "Tell them to call their doctor",
+        "3": "Call 911",
+        "4": "Call their spouse or a family member",
+        "5": "Do something else",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "flu2spry": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "flu3shot": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "fmonth": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "January",
+        "10": "October",
+        "11": "November",
+        "12": "December",
+        "2": "February",
+        "3": "March",
+        "4": "April",
+        "5": "May",
+        "6": "June",
+        "7": "July",
+        "8": "August",
+        "9": "September"
+    },
+    "fruit": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "101 - 199": "Per day",
+        "201 - 299": "Per week",
+        "301 - 399": "Per month",
+        "401 - 499": "Per year",
+        "555": "Never",
+        "777": "Dont know/Not sure",
+        "999": "Refused"
+    },
+    "fruitjui": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "101 - 199": "Per day",
+        "201 - 299": "Per week",
+        "301 - 399": "Per month",
+        "401 - 499": "Per year",
+        "555": "Never",
+        "777": "Dont know/Not sure",
+        "999": "Refused"
+    },
+    "greensal": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "101 - 199": "Per day",
+        "201 - 299": "Per week",
+        "301 - 399": "Per month",
+        "401 - 499": "Per year",
+        "555": "Never",
+        "777": "Dont know/Not sure",
+        "999": "Refused"
+    },
+    "ha1symp": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "ha2symp": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "ha3symp": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "ha4symp": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "ha5symp": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "ha6symp": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "had2hyst": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "had2pap": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "had3sigm": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "hadmam": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "harehab": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "hav2arth": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "hechmhom": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 365": "Number of days",
+        "777": "Dont know/Not sure",
+        "888": "None",
+        "999": "Refused"
+    },
+    "hechmyrd": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 365": "Number of days",
+        "555": "Do not have a yard or garden",
+        "777": "Dont know/Not sure",
+        "888": "None",
+        "999": "Refused"
+    },
+    "height": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "200 - 711": "Height (ft/inches)",
+        "7777": "Dont know/Not sure",
+        "9000 - 9998": "Height (meters/centimeters)",
+        "9999": "Refused"
+    },
+    "hewtrdrk": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Unfiltered tap water",
+        "2": "Filtered tap water",
+        "3": "Bottled or vended water",
+        "4": "Water from another source",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "hewtrsrc": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "A city, county, or town water system",
+        "2": "A small water system operated by a home association",
+        "3": "A private well serving your home",
+        "4": "Other source",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "hisp2anc": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "hiv2risk": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "hiv5tst": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "hlthplan": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "housesmk": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Smoking is not allowed anywhere inside your home",
+        "2": "Smoking is allowed in some places or at some times",
+        "3": "Smoking is allowed anywhere inside the home",
+        "4": "There are no rules about smoking inside the home",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "howlong": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Within the past year (<12 months ago)",
+        "2": "Within the past 2 years (1 year but < 2 years ago)",
+        "3": "Within the past 3 years (2 years but < 3 years ago)",
+        "4": "Within the past 5 years (3 years but < 5 years ago)",
+        "5": "5 or more years ago",
+        "7": "Dont know/Not sure",
+        "8": "Never",
+        "9": "Refused"
+    },
+    "ht3in": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 998": "Height in inches",
+        "999": "Dont know/Refused/Missing"
+    },
+    "ht3m": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 998": "Height in meters [2 implied decimal places]",
+        "999": "Dont know/Refused/Missing"
+    },
+    "iaqcodtr": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "iaqgasap": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "iaqhtdys": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 365": "Number of days",
+        "555": "Do not have",
+        "777": "Dont know/Not sure",
+        "888": "None",
+        "999": "Refused"
+    },
+    "iaqhtsrc": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "iaqmold": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "in2come": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Less than $10,000",
+        "2": "Less than $15,000 ($10,000 to less than $15,000)",
+        "3": "Less than $20,000 ($15,000 to less than $20,000)",
+        "4": "Less than $25,000 ($20,000 to less than $25,000)",
+        "5": "Less than $35,000 ($25,000 to less than $35,000)",
+        "6": "Less than $50,000 ($35,000 to less than $50,000)",
+        "7": "Less than $75,000 ($50,000 to less than $75,000)",
+        "77": "Dont know/Not sure",
+        "8": "$75,000 or more",
+        "99": "Refused"
+    },
+    "indoors": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "insulin": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "9": "Refused"
+    },
+    "ipv12pvl": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "ipvphhrt": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "ipvphyvl": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "ipvreltn": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Boyfriend",
+        "10": "Former wife or former female live-in partner",
+        "11": "Other",
+        "2": "Girlfriend",
+        "3": "Former boyfriend",
+        "4": "Former girlfriend",
+        "5": "Male you were dating",
+        "6": "Female you were dating",
+        "7": "Husband or male live-in partner",
+        "77": "Dont know/Not sure",
+        "8": "Former husband or former male live-in partner",
+        "9": "Wife or female live-in partner",
+        "99": "Refused"
+    },
+    "ipvsxinj": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "ipvthrat": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "ipvuwsex": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "jobactiv": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Mostly sitting or standing",
+        "2": "Mostly walking",
+        "3": "Mostly heavy labor or physically demanding work",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "join2trt": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "jointsym": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "last2pap": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Within the past year (anytime less than 12 months ago)",
+        "2": "Within the past 2 years (1 year but less than 2 years ago)",
+        "3": "Within the past 3 years (2 years but less than 3 years ago)",
+        "4": "Within the past 5 years (3 years but less than 5 years ago)",
+        "5": "5 or more years ago",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "last2sig": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Within the past year (< 12 months ago)",
+        "2": "Within the past 2 years (1 year but < 2 years ago)",
+        "3": "Within the past 5 years (2 years but < 5 years ago)",
+        "4": "Within the past 10 years (5 years but < 10 years ago)",
+        "5": "10 or more years ago",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "last3den": {
+        ".": "Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Within the past year (< 12 months ago)",
+        "2": "Within the past 2 years (1 year but < 2 years ago)",
+        "3": "Within the past 5 years (2 years but < 5 years ago)",
+        "4": "5 or more years ago",
+        "7": "Dont know/Not sure",
+        "8": "Never",
+        "9": "Refused"
+    },
+    "lengexam": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Within the past year (< 12 months ago)",
+        "2": "Within the past 2 years (1 year but < 2 years ago)",
+        "3": "Within the past 3 years (2 years but < 3 years ago)",
+        "4": "Within the past 5 years (3 years but < 5 years ago)",
+        "5": "5 or more years ago",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "lmt2join": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "losewt": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "lst2blds": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Within the past year (< 12 months ago)",
+        "2": "Within the past 2 years (1 year but < 2 years ago)",
+        "3": "Within the past 5 years (2 years but < 5 years ago)",
+        "4": "5 or more years ago",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "maintain": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "marital": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Married",
+        "2": "Divorced",
+        "3": "Widowed",
+        "4": "Separated",
+        "5": "Never married",
+        "6": "A member of an unmarried couple",
+        "9": "Refused"
+    },
+    "maxdrnks": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 76": "Number of drinks",
+        "77": "Dont know/Not sure",
+        "78 - 98": "Number of drinks",
+        "99": "Refused"
+    },
+    "medcost": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "menthlth": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 30": "Number of days",
+        "77": "Dont know/Not sure",
+        "88": "None",
+        "99": "Refused"
+    },
+    "modcat_": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Meet recommendations for moderate physical activity",
+        "2": "Insufficient activity to meet moderate recommendations",
+        "3": "No moderate physical activity",
+        "9": "Dont know/Not sure/Refused/Missing"
+    },
+    "modpact": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "modpaday": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 7": "Days per week",
+        "77": "Dont know/Not sure",
+        "88": "Do less than 10 mins of moderate activity at a time",
+        "99": "Refused"
+    },
+    "modpatim": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "10 - 759": "Hours and minutes per day",
+        "777": "Dont know/Not sure",
+        "800 - 959": "Hours and minutes per day",
+        "999": "Refused"
+    },
+    "mscode": {
+        ".": "GU, PR, VI",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "In the center city of an MSA",
+        "2": "Outside the center city of an MSA but inside the county containing the center city",
+        "3": "Inside a suburban county of the MSA",
+        "4": "In an MSA that has no center city",
+        "5": "Not in an MSA"
+    },
+    "num2hhol": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "num2phon": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Residential telephone number",
+        "2": "Residential telephone numbers",
+        "3": "Residential telephone numbers",
+        "4": "Residential telephone numbers",
+        "5": "Residential telephone numbers",
+        "6": "Residential telephone numbers",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "ny": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "No",
+        "2": "Yes",
+        "9": "Dont know/Not Sure Or Refused/Missing"
+    },
+    "o2race": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "White",
+        "2": "Black or African American",
+        "3": "Asian",
+        "4": "Native Hawaiian or Other Pacific Islander",
+        "5": "American Indian, Alaska Native",
+        "6": "Other",
+        "7": "Dont know/Not sure",
+        "8": "Multiracial but preferred race not asked",
+        "9": "Refused"
+    },
+    "ostpros": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "pacat_": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Meet recommendations for moderate and vigorous physical activity",
+        "2": "Meet recommendations for vigorous physical activity",
+        "3": "Meet recommendations for moderate physical activity",
+        "4": "Insufficient activity to meet moderate or vigorous recommendations",
+        "5": "No moderate or vigorous physical activity",
+        "9": "Dont know/Not sure/Refused/Missing"
+    },
+    "pain2act": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 30": "Number of days",
+        "77": "Dont know/Not sure",
+        "88": "None",
+        "99": "Refused"
+    },
+    "pain30dy": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "pers2doc": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes, only one",
+        "2": "More than one",
+        "3": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "phyact": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "physhlth": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 30": "Number of days",
+        "77": "Dont know/Not sure",
+        "88": "None",
+        "99": "Refused"
+    },
+    "pneu3vac": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "poorhlth": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 30": "Number of days",
+        "77": "Dont know/Not sure",
+        "88": "None",
+        "99": "Refused"
+    },
+    "potatoes": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "101 - 199": "Per day",
+        "201 - 299": "Per week",
+        "301 - 399": "Per month",
+        "401 - 499": "Per year",
+        "555": "Never",
+        "777": "Dont know/Not sure",
+        "999": "Refused"
+    },
+    "precall": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "To be called",
+        "3": "Pre-screened as non-working number",
+        "4": "cell phone - PRO-T-S",
+        "5": "Pre-screened as business number",
+        "6": "cell phone - Interviewer"
+    },
+    "pregnant": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "profexam": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "prostate": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "psatest": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "psatime": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Within the past year (< 12 months ago)",
+        "2": "Within the past 2 years (1 year but < 2 years ago)",
+        "3": "Within the past 3 years (2 years but < 3 years ago)",
+        "4": "Within the past 5 years (3 years but < 5 years ago)",
+        "5": "5 or more years ago",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "pvtresid": {
+        ".": "Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No"
+    },
+    "ql2actlm": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "ql2hlth": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 30": "Number of days",
+        "77": "Dont know/Not sure",
+        "88": "None",
+        "99": "Refused"
+    },
+    "ql2mentl": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 30": "Number of days",
+        "77": "Dont know/Not sure",
+        "88": "None",
+        "99": "Refused"
+    },
+    "ql2rest": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 30": "Number of days",
+        "77": "Dont know/Not sure",
+        "88": "None",
+        "99": "Refused"
+    },
+    "ql2stres": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 30": "Number of days",
+        "77": "Dont know/Not sure",
+        "88": "None",
+        "99": "Refused"
+    },
+    "qstlang": {
+        ".": "Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "English",
+        "2": "Spanish",
+        "3": "Other"
+    },
+    "race2fmt": {
+        ".": "Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "White only, non-Hispanic",
+        "2": "Black only, non-Hispanic",
+        "3": "Asian only, non-Hispanic",
+        "4": "Native Hawaiian or other Pacific Islander only, No",
+        "5": "American Indian or Alaskan Native only, Non-Hispan",
+        "6": "Other race only, non-Hispanic",
+        "7": "Multiracial, non-Hispanic",
+        "8": "Hispanic",
+        "9": "Dont know/Not sure/Refused"
+    },
+    "rchislat": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "rcsbrace": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "White",
+        "2": "Black or African American",
+        "3": "Asian",
+        "4": "Native Hawaiian or other Pacific Islander",
+        "5": "American Indian or Alaskan Native",
+        "6": "Other",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "rcsgendr": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Boy",
+        "2": "Girl",
+        "9": "Refused"
+    },
+    "rcsreltn": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Parent (mother or father),biologic, step or adoptive",
+        "2": "Grandparent",
+        "3": "Foster parent or guardian",
+        "4": "Sibling (brother or sister), biologic,step or adoptive",
+        "5": "Other relative",
+        "6": "Not related in any way",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "rmvteeth": {
+        ".": "Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "1 to 5",
+        "2": "6 or more, but not all",
+        "3": "All",
+        "7": "Dont know/Not sure",
+        "8": "None",
+        "9": "Refused"
+    },
+    "rr1emtsm": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Never",
+        "2": "No more than once a year",
+        "3": "At least once a month",
+        "4": "At least once a week",
+        "5": "At least once a day",
+        "6": "At least once an hour",
+        "7": "Dont know/Not Sure",
+        "8": "Constantly",
+        "9": "Refused"
+    },
+    "rr1physm": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Never",
+        "2": "No more than once a year",
+        "3": "At least once a month",
+        "4": "At least once a week",
+        "5": "At least once a day",
+        "6": "At least once an hour",
+        "7": "Dont know/Not Sure",
+        "8": "Constantly",
+        "9": "Refused"
+    },
+    "scdscmed": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 76": "Number of visits (01-76)",
+        "77": "Dont know/Not sure",
+        "88": "None",
+        "99": "Refused"
+    },
+    "scdscmth": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 76": "Number of visits (01-76)",
+        "77": "Dont know/Not sure",
+        "88": "None",
+        "99": "Refused"
+    },
+    "scgetcar": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 76": "Number of times (01-76)",
+        "77": "Dont know/Not sure",
+        "88": "None",
+        "99": "Refused"
+    },
+    "sclstsmk": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Within the past month (anytime less  than 1 month ago)",
+        "2": "Within the past 3 months (1 month but  less than 3 months ago)",
+        "3": "Within the past 6 months (3 months but  less than 6 months ago)",
+        "4": "Within the past year (6 months but less  than 1 year ago)",
+        "5": "Within the past 5 years (1 year but less  than 5 years ago)",
+        "6": "Within the past 10 years (5 years but  less than 10 years ago)",
+        "7": "10 or more years ago",
+        "77": "Dont know/Not sure",
+        "99": "Refused"
+    },
+    "scqitsmk": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 76": "Number of visits (01-76)",
+        "77": "Dont know/Not sure",
+        "88": "None",
+        "99": "Refused"
+    },
+    "sex": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Male",
+        "2": "Female"
+    },
+    "smkpublc": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Not allowed in any public areas",
+        "2": "Allowed in some public areas",
+        "3": "Allowed in all public areas",
+        "4": "No official policy",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "smkwork": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Not allowed in any work areas",
+        "2": "Allowed in some work areas",
+        "3": "Allowed in all work areas",
+        "4": "No official policy",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "smok100_": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "smok2day": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Every day",
+        "2": "Some days",
+        "3": "Not at all",
+        "7": "Dont Know/Not Sure",
+        "9": "Refused"
+    },
+    "stop2smk": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "str1symp": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "str2symp": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "str3symp": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "str4symp": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "str5symp": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "str6symp": {
+        ".": "Not asked, Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "strehab": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "sveanosx": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "svehdsex": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "svgender": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Male",
+        "2": "Female",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "svhadsex": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "svnosex": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "svnotch": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "svrelatn": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Complete stranger",
+        "10": "Co-worker",
+        "11": "Neighbor",
+        "12": "Parent",
+        "13": "Step-parent",
+        "14": "Parent's partner",
+        "15": "Other relative",
+        "16": "Other non-relative",
+        "17": "Multiple perpetrators",
+        "2": "A person known < 24 hours",
+        "3": "Acquaintance",
+        "4": "Friend",
+        "5": "Date",
+        "6": "Current boyfriend/girlfriend",
+        "7": "Former boyfriend/girlfriend",
+        "77": "Dont know/Not sure",
+        "8": "Spouse or live-in partner",
+        "9": "Ex-spouse or ex live-in partner",
+        "99": "Refused"
+    },
+    "svsextch": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "tel2serv": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "told2hi": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "unk6adig": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "11985 - 772005": "Code month and year",
+        "777777": "Dont know/Not sure",
+        "991985 - 992005": "Code month and year",
+        "999999": "Refused"
+    },
+    "useequip": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "vegetabl": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "101 - 199": "Servings per day",
+        "201 - 299": "Servings per week",
+        "301 - 399": "Servings per month",
+        "401 - 499": "Servings per year",
+        "555": "Never",
+        "777": "Dont know/Not sure",
+        "999": "Refused"
+    },
+    "vet2stat": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Currently on active duty",
+        "2": "Currently in a National Guard or Reserve unit",
+        "3": "Retired from military service",
+        "4": "Medically discharged from military service",
+        "5": "Discharged from military service",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "veteran": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "viatwork": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "vicatrct": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "Yes, but had them removed",
+        "3": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "vidifclt": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "No difficulty",
+        "2": "A little difficulty",
+        "3": "Moderate difficulty",
+        "4": "Extreme difficulty",
+        "5": "Unable to do because of eyesight",
+        "6": "Unable to do for other reasons",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "vieyeexm": {
+        ".": "Module not used or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Within past month",
+        "2": "Within past year",
+        "3": "Within past 2 years",
+        "4": "2 or more years ago",
+        "5": "Never",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "vigcat_": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Meet recommendations for vigorous physical activity",
+        "2": "Insufficient activity to meet vigorous recommendations",
+        "3": "No vigorous physical activity",
+        "9": "Dont know/Not sure/Refused/Missing"
+    },
+    "viglucma": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "vigpact": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "vigpaday": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 7": "Days per week",
+        "77": "Dont know/Not sure",
+        "88": "Do less than 10 mins of vigorous activity at a time",
+        "99": "Refused"
+    },
+    "vigpatim": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "10 - 759": "Hours and minutes per day",
+        "777": "Dont know/Not sure",
+        "800 - 959": "Hours and minutes per day",
+        "999": "Refused"
+    },
+    "viinsur": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "vimacdeg": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Yes",
+        "2": "No",
+        "7": "Dont know/Not Sure",
+        "9": "Refused"
+    },
+    "vimiswrk": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 554": "Number of days",
+        "555": "None",
+        "777": "Dont know/Not sure",
+        "999": "Refused"
+    },
+    "vinocare": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Cost/insurance",
+        "2": "Do not have/know an eye doctor",
+        "3": "Cannot get to the office/clinic (too far away,no transportation)",
+        "4": "Could not get an appt",
+        "5": "No reason to go",
+        "6": "Have not thought of it",
+        "7": "Other",
+        "77": "Dont know/Not Sure",
+        "8": "Not Applicable (Blind)",
+        "99": "Refused"
+    },
+    "viprfvst": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Within the past month (< 1 month ago)",
+        "2": "Within the past year (1+ month but < 12 months ago)",
+        "3": "Within the past 2 years (1+ years but < 2 years ago)",
+        "4": "2 or more years ago",
+        "5": "Never",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "vireadif": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "No difficulty",
+        "2": "A little difficulty",
+        "3": "Moderate difficulty",
+        "4": "Extreme difficulty",
+        "5": "Unable to do because of eyesight",
+        "6": "Unable to do for other reasons",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "viteldif": {
+        ".": "Not asked, Module not used, or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "No difficulty",
+        "2": "A little difficulty",
+        "3": "Moderate difficulty",
+        "4": "Extreme difficulty",
+        "5": "Unable to do because of eyesight",
+        "6": "Unable to do for other reasons",
+        "7": "Dont know/Not sure",
+        "9": "Refused"
+    },
+    "weight": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "50 - 999": "Weight (pounds)",
+        "7777": "Dont know/Not sure",
+        "9000 - 9998": "Weight (kilograms)",
+        "9999": "Refused"
+    },
+    "whr7tst": {
+        ".": "Not asked or Missing",
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1": "Private doctor or HMO",
+        "2": "Counseling and testing site",
+        "3": "Hospital",
+        "4": "Clinic",
+        "5": "In a jail or prison (or other correctional facility)",
+        "6": "Home",
+        "7": "Somewhere else",
+        "77": "Dont know/Not sure",
+        "8": "Drug treatment facility",
+        "99": "Refused"
+    },
+    "wt2kg": {
+        ".D": "DK/NS",
+        ".R": "REFUSED",
+        "1 - 99998": "Weight in kilograms [2 implied decimal places]",
+        "99999": "Dont know/Refused/Missing"
+    }
+}
