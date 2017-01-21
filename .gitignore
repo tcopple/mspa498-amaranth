@@ -3,6 +3,10 @@
 /data/brfss-csvs/
 /data/brfss-zips/
 
+/src/r/MonetDB/
+/src/r/download
+/src/r/R.Rproj
+
 .DS_Store
 
 # STANDARD R IGNORE FILES
