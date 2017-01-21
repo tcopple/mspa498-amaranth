@@ -2,10 +2,12 @@
 /data/brfss-xpts/
 /data/brfss-csvs/
 /data/brfss-zips/
+/data/codebooks/
 
 /src/r/MonetDB/
 /src/r/download
 /src/r/R.Rproj
+*.rda
 
 .DS_Store
 
