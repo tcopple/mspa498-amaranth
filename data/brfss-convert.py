@@ -23,11 +23,17 @@ def convert_to_csv(xpt_filepath, csv_filepath):
 
 if __name__ == '__main__':
     #local that store assumed paths
-    xpts_path = "./brfss-xpts/"
-    csvs_path = "./brfss-csvs/"
+
+    script_path = os.path.realpath(__file__)
+    script_dir = os.path.dirname(script_path)
+    xpts_path = os.path.join(script_dir, "brfss-xpts")
+    csvs_path = os.path.join(script_dir, "brfss-csvs")
 
     #read all files in zips directory
-    files = glob.glob(xpts_path + "*")
+    globs = os.path.join(xpts_path, "*")
+    files = glob.glob(globs)
+
+    print("Looking for files that match pattern [" + globs + "].")
 
     #one by one unzip the zip files to the xpt directory
     for filepath in files:
