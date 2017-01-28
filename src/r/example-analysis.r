@@ -30,7 +30,7 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # remove the # in order to run this install.packages line only once
-install.packages( "stringr" )
+#install.packages( "stringr" )
 
 # uncomment this line by removing the `#` at the front..
 # setwd( "C:/My Directory/BRFSS/" )
@@ -43,7 +43,7 @@ library(stringr) 		# load stringr package (manipulates character strings easily)
 
 # uncomment one of these lines by removing the `#` at the front..
 # load( 'b2010 design.rda' )	# analyze the 2010 single-year acs
-load( 'b2011 design.rda' )	# analyze the 2011 single-year acs
+load( 'b2011design.rda' )	# analyze the 2011 single-year acs
 # load( 'b2009 design.rda' )	# analyze the 2009 single-year acs
 # load( 'b1984 design.rda' )	# analyze the 1984 single-year acs
 
@@ -94,7 +94,7 @@ class( db )
 
 # instead, perform the same unweighted count directly from the sql table
 # stored inside the monet database on your hard disk (as opposed to RAM)
-dbGetQuery(db , "SELECT COUNT(*) AS num_records FROM b2011" )
+x = dbGetQuery(db , "SELECT COUNT(*) AS num_records FROM b2011" )
 
 
 
@@ -123,10 +123,10 @@ dbGetQuery( db , "SELECT xstate , SUM( xllcpwt ) AS sum_weights FROM b2011 group
 # calculate the mean of a linear variable #
 
 # average age - nationwide
-svymean( ~age , brfss.d , na.rm = TRUE )
+svymean(~age, brfss.d, na.rm = TRUE)
 
 # by state
-svyby( ~age , ~ xstate , brfss.d , svymean , na.rm = TRUE )
+svyby( ~age , ~xstate , brfss.d , svymean , na.rm = TRUE )
 
 
 # calculate the distribution of a categorical variable #
