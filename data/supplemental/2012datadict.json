@@ -1,0 +1,5216 @@
+{
+    "_age65yr": {
+        "alt-name": "_age65yr",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Age 18 to 64",
+            "2": "Age 65 or older",
+            "3": "Dont know/Refused/Missing"
+        },
+        "label": "reported age in two age groups calculated variable",
+        "location": "1631",
+        "section": "calculated race variables"
+    },
+    "_age_g": {
+        "alt-name": "_age_g",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Age 18 to 24",
+            "2": "Age 25 to 34",
+            "3": "Age 35 to 44",
+            "4": "Age 45 to 54",
+            "5": "Age 55 to 64",
+            "6": "Age 65 or older"
+        },
+        "label": "imputed age in six groups",
+        "location": "1632",
+        "section": "calculated race variables"
+    },
+    "_ageg5yr": {
+        "alt-name": "_ageg5yr",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Age 18 to 24",
+            "10": "Age 65 to 69",
+            "11": "Age 70 to 74",
+            "12": "Age 75 to 79",
+            "13": "Age 80 or older",
+            "14": "Dont know/Refused/Missing",
+            "2": "Age 25 to 29",
+            "3": "Age 30 to 34",
+            "4": "Age 35 to 39",
+            "5": "Age 40 to 44",
+            "6": "Age 45 to 49",
+            "7": "Age 50 to 54",
+            "8": "Age 55 to 59",
+            "9": "Age 60 to 64"
+        },
+        "label": "reported age in five-year age categories calculated variable",
+        "location": "1629-1630",
+        "section": "calculated race variables"
+    },
+    "_aidtst3": {
+        "alt-name": "_3aidtst",
+        "codes": {
+            ".": "Missing or Age greater than 64",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "9": "Dont know/Not Sure/Refused"
+        },
+        "label": "ever been tested for hiv calculated variable",
+        "location": "1681",
+        "section": "calculated variables"
+    },
+    "_alteth2": {
+        "alt-name": "_al2teth",
+        "codes": {
+            ".": "Missing or Age Less Than 65",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "No",
+            "2": "Yes",
+            "9": "Dont know/Not Sure Or Refused/Missing"
+        },
+        "label": "adults aged 65+ who have had all their natural teeth extracted",
+        "location": "1605",
+        "section": "oral health"
+    },
+    "_asthms1": {
+        "alt-name": "_1asthms",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Current",
+            "2": "Former",
+            "3": "Never",
+            "9": "Dont know/Not Sure Or Refused/Missing"
+        },
+        "label": "computed asthma status",
+        "location": "1602",
+        "section": "calculated variables"
+    },
+    "_bmi5": {
+        "alt-name": "_5bmi",
+        "codes": {
+            ".": "Dont know/Refused/Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 9999": "1 or greater"
+        },
+        "label": "computed body mass index",
+        "location": "1644-1647",
+        "section": "calculated race variables"
+    },
+    "_bmi5cat": {
+        "alt-name": "_bmi5cat",
+        "codes": {
+            ".": "Dont know/Refused/Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Underweight",
+            "2": "Normal Weight",
+            "3": "Overweight",
+            "4": "Obese"
+        },
+        "label": "computed body mass index categories",
+        "location": "1648",
+        "section": "calculated race variables"
+    },
+    "_casthm1": {
+        "alt-name": "_1casthm",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "No",
+            "2": "Yes",
+            "9": "Dont know/Not Sure Or Refused/Missing"
+        },
+        "label": "current asthma calculated variable",
+        "location": "1601",
+        "section": "calculated variables"
+    },
+    "_chldcnt": {
+        "alt-name": "_chldcnt",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "No children in household",
+            "2": "One child in household",
+            "3": "Two children in household",
+            "4": "Three children in household",
+            "5": "Four children in household",
+            "6": "Five or more children in household",
+            "9": "Dont know/Not sure/Missing"
+        },
+        "label": "computed number of children in household",
+        "location": "1650",
+        "section": "calculated race variables"
+    },
+    "_clcpm01": {
+        "label": "child combined land-line and cell-phone first margin (age-gender)",
+        "location": "1253-1255",
+        "section": "child weighting variables"
+    },
+    "_clcpm02": {
+        "label": "child combined land-line and cell-phone second margin (race/ethnicity)",
+        "location": "1256-1258",
+        "section": "child weighting variables"
+    },
+    "_clcpm03": {
+        "label": "child combined land-line and cell-phone third margin (gender-race/ethnicity)",
+        "location": "1259-1261",
+        "section": "child weighting variables"
+    },
+    "_clcpm04": {
+        "label": "child combined land-line and cell-phone fourth margin (age-race/ethnicity)",
+        "location": "1262-1264",
+        "section": "child weighting variables"
+    },
+    "_clcpm05": {
+        "label": "child combined land-line and cell-phone fifth margin (telephone source)",
+        "location": "1265-1267",
+        "section": "child weighting variables"
+    },
+    "_cllcpwt": {
+        "label": "final child weight: land-line and cell-phone data",
+        "location": "1268-1277",
+        "section": "child weighting variables"
+    },
+    "_cnrace": {
+        "alt-name": "_cnrace",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "0": "Other/do not know/refused",
+            "1": "1 category chosen",
+            "2": "2 category chosen",
+            "3": "3 category chosen",
+            "4": "4 category chosen",
+            "5": "5 category chosen"
+        },
+        "label": "computed number of census race categories chosen",
+        "location": "1627",
+        "section": "calculated race variables"
+    },
+    "_cnracec": {
+        "alt-name": "_cnracec",
+        "codes": {
+            ".": "\"_CNRACE",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "0": "zero or missing",
+            "1": "One category chosen",
+            "2": "Two or more categories chosen"
+        },
+        "label": "computed number of census race categories chosen, collapsed",
+        "location": "1628",
+        "section": "calculated race variables"
+    },
+    "_crace": {
+        "alt-name": "_crace",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "White only",
+            "2": "Black or African American only",
+            "3": "Asian Only",
+            "4": "Native Hawaiian or other Pacific Islander only",
+            "5": "American Indian or Alaskan Native only",
+            "6": "Other race only",
+            "7": "Multiracial",
+            "77": "Dont know/Not sure",
+            "99": "Refused"
+        },
+        "label": "child non-hispanic race including multiracial",
+        "location": "1140-1141",
+        "section": "child demographic variables"
+    },
+    "_denstr2": {
+        "alt-name": "_2denstr",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Listed",
+            "2": "Unlisted",
+            "3": "Zero block",
+            "9": "Not Applicable"
+        },
+        "label": "household density stratum code",
+        "location": "5",
+        "section": "record identification"
+    },
+    "_denvst2": {
+        "alt-name": "_den2vst",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "9": "Dont know/Not Sure Or Refused/Missing"
+        },
+        "label": "adults who have visited a dentist, dental hygenist or dental clinic within the past year",
+        "location": "1606",
+        "section": "oral health"
+    },
+    "_drdxar1": {
+        "alt-name": "_drdx1ar",
+        "codes": {
+            ".": "Dont know/Not Sure/Refused/Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Diagnosed with arthritis",
+            "2": "Not diagnosed with arthritis"
+        },
+        "label": "respondents diagnosed with arthritis",
+        "location": "1603",
+        "section": "calculated variables"
+    },
+    "_drnkdy4": {
+        "alt-name": "_4drnkdy",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "0": "Did not drink",
+            "1 - 9899": "Number of drinks per day",
+            "9900": "Dont know/Not sure/Refused/Missing"
+        },
+        "label": "computed number of drinks of alcohol beverages per day",
+        "location": "1660-1663",
+        "section": "calculated variables"
+    },
+    "_drnkmo4": {
+        "alt-name": "_4drnkmo",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "0": "Did not drink in the past month",
+            "1 - 9998": "Number of Drinks",
+            "9999": "Dont know/Refused/Missing"
+        },
+        "label": "computed total number drinks a month",
+        "location": "1664-1667",
+        "section": "calculated variables"
+    },
+    "_dualcor": {
+        "label": "dual phone use correction factor",
+        "location": "1403-1412",
+        "section": "child weighting variables"
+    },
+    "_dualuse": {
+        "alt-name": "_dualuse",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Land Line: Cell Phone Mostly",
+            "2": "Cell Phone: Cell Phone Mostly",
+            "3": "Land Line: Cell Phone Occasionally",
+            "4": "Cell Phone: Cell Phone Occasionally",
+            "9": "No Dual Phone Use"
+        },
+        "label": "dual phone use categories",
+        "location": "1402",
+        "section": "child weighting variables"
+    },
+    "_educag": {
+        "alt-name": "_educag",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Did not graduate High School",
+            "2": "Graduated High School",
+            "3": "Attended College or Technical School",
+            "4": "Graduated from College or Technical School",
+            "9": "Dont know/Not sure/Missing"
+        },
+        "label": "computed level of education completed categories",
+        "location": "1651",
+        "section": "calculated race variables"
+    },
+    "_exteth2": {
+        "alt-name": "_ex2teth",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Not at risk",
+            "2": "At risk",
+            "9": "Dont know/Not Sure Or Refused/Missing"
+        },
+        "label": "risk factor for having had permanent teeth extracted",
+        "location": "1604",
+        "section": "oral health"
+    },
+    "_flshot5": {
+        "alt-name": "_5flshot",
+        "codes": {
+            ".": "Age Less Than 65",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "9": "Dont know/Not Sure Or Refused/Missing"
+        },
+        "label": "flu shot calculated variable",
+        "location": "1671",
+        "section": "calculated variables"
+    },
+    "_geostr": {
+        "label": "geographic stratum code",
+        "location": "3-4",
+        "section": "record identification"
+    },
+    "_hcvu651": {
+        "alt-name": "_hcv165u",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Have health care coverage",
+            "2": "Do not have health care coverage",
+            "9": "Dont know/Not Sure, Refused or Missing"
+        },
+        "label": "respondents aged 18-64 with health care coverage",
+        "location": "1598",
+        "section": "calculated variables"
+    },
+    "_impage": {
+        "alt-name": "_impage",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "18 - 24": "Age 18 to 24",
+            "25 - 34": "Age 25 to 34",
+            "35 - 44": "Age 35 to 44",
+            "45 - 54": "Age 45 to 54",
+            "55 - 64": "Age 55 to 64",
+            "65 - 99": "Age 65 or older"
+        },
+        "label": "age value used to determine age groups",
+        "location": "943-944",
+        "section": "questionnaire language"
+    },
+    "_impnph": {
+        "alt-name": "_impnph",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Number of phones",
+            "2": " ",
+            "3": " ",
+            "4": " ",
+            "5": " ",
+            "6": " ",
+            "7": " ",
+            "8": "8 or more"
+        },
+        "label": "imputed number of phones",
+        "location": "947",
+        "section": "questionnaire language"
+    },
+    "_imprace": {
+        "alt-name": "_imprace",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "White, Non-Hispanic",
+            "2": "Black, Non-Hispanic",
+            "3": "Asian, Non-Hispanic",
+            "4": "American Indian/Alaskan Native, Non-Hispanic",
+            "5": "Hispanic",
+            "6": "Other race, Non-Hispanic"
+        },
+        "label": "imputed race/ethnicity value",
+        "location": "945-946",
+        "section": "questionnaire language"
+    },
+    "_incomg": {
+        "alt-name": "_incomg",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Less than $15,000",
+            "2": "$15,000 to less than $25,000",
+            "3": "$25,000 to less than $35,000",
+            "4": "$35,000 to less than $50,000",
+            "5": "$50,000 or more",
+            "9": "Dont know/Not sure/Missing"
+        },
+        "label": "computed income categories",
+        "location": "1652",
+        "section": "calculated race variables"
+    },
+    "_llcpm01": {
+        "label": "combined land-line and cell-phone first margin (age-gender)",
+        "location": "1413-1415",
+        "section": "child weighting variables"
+    },
+    "_llcpm02": {
+        "label": "combined land-line and cell-phone second margin (race/ethnicity)",
+        "location": "1416-1418",
+        "section": "child weighting variables"
+    },
+    "_llcpm03": {
+        "label": "combined land-line and cell-phone third margin (education)",
+        "location": "1419-1421",
+        "section": "child weighting variables"
+    },
+    "_llcpm04": {
+        "label": "combined land-line and cell-phone fourth margin (marital status)",
+        "location": "1422-1424",
+        "section": "child weighting variables"
+    },
+    "_llcpm05": {
+        "label": "combined land-line and cell-phone fifth margin (home ownership)",
+        "location": "1425-1427",
+        "section": "child weighting variables"
+    },
+    "_llcpm06": {
+        "label": "combined land-line and cell-phone sixth margin (gender-race/ethnicity)",
+        "location": "1428-1430",
+        "section": "child weighting variables"
+    },
+    "_llcpm07": {
+        "label": "combined land-line and cell-phone seventh margin (age-race/ethnicity)",
+        "location": "1431-1433",
+        "section": "child weighting variables"
+    },
+    "_llcpm08": {
+        "label": "combined land-line and cell-phone eighth margin (telephone source)",
+        "location": "1434-1436",
+        "section": "child weighting variables"
+    },
+    "_llcpm09": {
+        "label": "combined land-line and cell-phone ninth margin (regions)",
+        "location": "1437-1439",
+        "section": "child weighting variables"
+    },
+    "_llcpm10": {
+        "label": "combined land-line and cell-phone tenth margin (regions-age)",
+        "location": "1440-1442",
+        "section": "child weighting variables"
+    },
+    "_llcpm11": {
+        "label": "combined land-line and cell-phone eleventh margin (regions-gender)",
+        "location": "1443-1445",
+        "section": "child weighting variables"
+    },
+    "_llcpm12": {
+        "label": "combined land-line and cell-phone twelfth margin (regions-race/ethnicity)",
+        "location": "1446-1448",
+        "section": "child weighting variables"
+    },
+    "_llcpwt": {
+        "label": "final weight: land-line and cell-phone data",
+        "location": "1449-1458",
+        "section": "child weighting variables"
+    },
+    "_ltasth1": {
+        "alt-name": "_1ltasth",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "No",
+            "2": "Yes",
+            "9": "Dont know/Not Sure Or Refused/Missing"
+        },
+        "label": "lifetime asthma calculated variable",
+        "location": "1600",
+        "section": "calculated variables"
+    },
+    "_mam502y": {
+        "alt-name": "_mam502y",
+        "codes": {
+            ".": "Missing or Age less than 50 or Male",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "9": "Dont know/Not Sure/Refused"
+        },
+        "label": "women respondents aged 50+ who have had a mammogram in the past two years",
+        "location": "1676",
+        "section": "calculated variables"
+    },
+    "_mrace": {
+        "alt-name": "_mrace",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "White only",
+            "2": "Black or African American only",
+            "3": "Asian Only",
+            "4": "Native Hawaiian or other Pacific Islander only",
+            "5": "American Indian or Alaskan Native only",
+            "6": "Other race only",
+            "7": "Multiracial",
+            "77": "Dont know/Not sure",
+            "99": "Refused"
+        },
+        "label": "computed non-hispanic race including multiracial",
+        "location": "1621-1622",
+        "section": "calculated race variables"
+    },
+    "_pneumo2": {
+        "alt-name": "_2pneumo",
+        "codes": {
+            ".": "Age Less Than 65",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "9": "Dont know/Not Sure Or Refused/Missing"
+        },
+        "label": "pneumonia vaccination calculated variable",
+        "location": "1672",
+        "section": "calculated variables"
+    },
+    "_prace": {
+        "alt-name": "_prace",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "White",
+            "2": "Black or African American",
+            "3": "Asian",
+            "4": "Native Hawaiian or other Pacific Islander",
+            "5": "American Indian or Alaskan Native",
+            "6": "Other race",
+            "7": "No preferred race",
+            "77": "Dont know/Not sure",
+            "8": "Multiracial but preferred race not asked",
+            "99": "Refused"
+        },
+        "label": "computed preferred race",
+        "location": "1619-1620",
+        "section": "calculated race variables"
+    },
+    "_psu": {
+        "label": "primary sampling unit",
+        "location": "34-43",
+        "section": "record identification"
+    },
+    "_race_g": {
+        "alt-name": "_race_g",
+        "codes": {
+            ".": "Dont know/Not sure/Refused component question",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "White - Non-Hispanic",
+            "2": "Black - Non-Hispanic",
+            "3": "Hispanic",
+            "4": "Other race only, Non-Hispanic",
+            "5": "Multiracial, Non-Hispanic"
+        },
+        "label": "computed race groups used for internet prevalence tables",
+        "location": "1626",
+        "section": "calculated race variables"
+    },
+    "_raceg2": {
+        "alt-name": "_2raceg",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Non-Hispanic White",
+            "2": "Non-White or Hispanic",
+            "9": "Dont know/Not sure/Refused"
+        },
+        "label": "computed non-hispanic whites/all others race categories race/ethnic group codes used in post-stratification.",
+        "location": "1624",
+        "section": "calculated race variables"
+    },
+    "_racegr2": {
+        "alt-name": "_2racegr",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "White only, Non-Hispanic",
+            "2": "Black only, Non-Hispanic",
+            "3": "Other race only, Non-Hispanic",
+            "4": "Multiracial, Non-Hispanic",
+            "5": "Hispanic",
+            "9": "Dont know/Not sure/Refused"
+        },
+        "label": "computed five level race/ethnicity category.",
+        "location": "1625",
+        "section": "calculated race variables"
+    },
+    "_raw": {
+        "label": "raw weighting factor",
+        "location": "901-910",
+        "section": "questionnaire language"
+    },
+    "_rawch": {
+        "label": "raw child weighting factor",
+        "location": "1142-1151",
+        "section": "child weighting variables"
+    },
+    "_rawrake": {
+        "label": "raw weighting factor used in raking",
+        "location": "921-930",
+        "section": "questionnaire language"
+    },
+    "_region": {
+        "label": "region",
+        "location": "941-942",
+        "section": "questionnaire language"
+    },
+    "_rfbing5": {
+        "alt-name": "_5rfbing",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "No",
+            "2": "Yes",
+            "9": "Dont know/Refused/Missing"
+        },
+        "label": "binge drinking calculated variable",
+        "location": "1659",
+        "section": "calculated variables"
+    },
+    "_rfblds2": {
+        "alt-name": "_rf2blds",
+        "codes": {
+            ".": "Missing or Age less than 50",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "9": "Dont know/Not Sure/Refused"
+        },
+        "label": "respondents aged 50+ who have had a blood stool test within the past two years",
+        "location": "1679",
+        "section": "calculated variables"
+    },
+    "_rfbmi5": {
+        "alt-name": "_5rfbmi",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "No",
+            "2": "Yes",
+            "9": "Dont know/Refused/Missing"
+        },
+        "label": "overweight or obese calculated variable",
+        "location": "1649",
+        "section": "calculated race variables"
+    },
+    "_rfdrhv4": {
+        "alt-name": "_4rfdrhv",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "No",
+            "2": "Yes",
+            "9": "Dont know/Refused/Missing"
+        },
+        "label": "heavy alcohol consumption  calculated variable",
+        "location": "1668",
+        "section": "calculated variables"
+    },
+    "_rfdrmn4": {
+        "alt-name": "_4rfdrmn",
+        "codes": {
+            ".": "Respondent is female",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "No",
+            "2": "Yes",
+            "9": "Dont know/Refused/Missing"
+        },
+        "label": "adult men heavy alcohol consumption calculated variable",
+        "location": "1669",
+        "section": "calculated variables"
+    },
+    "_rfdrwm4": {
+        "alt-name": "_4rfdrwm",
+        "codes": {
+            ".": "Respondent is male",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "No",
+            "2": "Yes",
+            "9": "Dont know/Refused/Missing"
+        },
+        "label": "adult women heavy alcohol consumption calculated variable",
+        "location": "1670",
+        "section": "calculated variables"
+    },
+    "_rfhlth": {
+        "alt-name": "_rfhlth",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Good or Better Health",
+            "2": "Fair or Poor Health",
+            "9": "Dont know/Not Sure Or Refused/Missing"
+        },
+        "label": "adults with good or better health",
+        "location": "1597",
+        "section": "calculated variables"
+    },
+    "_rfmam2y": {
+        "alt-name": "_rfmam2y",
+        "codes": {
+            ".": "Missing or Age less than 40 or Male",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "9": "Dont know/Not Sure/Refused"
+        },
+        "label": "women respondents aged 40+ who have had a mammogram in the past two years",
+        "location": "1675",
+        "section": "calculated variables"
+    },
+    "_rfpap32": {
+        "alt-name": "_32rfpap",
+        "codes": {
+            ".": "Missing or Male",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "9": "Dont know/Not Sure/Refused"
+        },
+        "label": "women respondents aged 18+ who have had a pap test in the past three years",
+        "location": "1677",
+        "section": "calculated variables"
+    },
+    "_rfpsa21": {
+        "alt-name": "_rf21psa",
+        "codes": {
+            ".": "Missing or Age less than 40 or Female",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "9": "Dont know/Not Sure/Refused"
+        },
+        "label": "male respondents aged 40+ who have had a psa test in the past 2 years",
+        "location": "1678",
+        "section": "calculated variables"
+    },
+    "_rfseat2": {
+        "alt-name": "_2rfseat",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Always or Almost Always Wear Seat Belt",
+            "2": "Sometimes, Seldom, or Never Wear Seat Belt",
+            "9": "Dont know/Not Sure Or Refused/Missing"
+        },
+        "label": "always or nearly always wear seat belts",
+        "location": "1673",
+        "section": "calculated variables"
+    },
+    "_rfseat3": {
+        "alt-name": "_3rfseat",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Always Wear Seat Belt",
+            "2": "Dont Always Wear Seat Belt",
+            "9": "Dont know/Not Sure Or Refused/Missing"
+        },
+        "label": "always wear seat belts",
+        "location": "1674",
+        "section": "calculated variables"
+    },
+    "_rfsigm2": {
+        "alt-name": "_2rfsigm",
+        "codes": {
+            ".": "Missing or Age less than 50",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "9": "Dont know/Not Sure/Refused"
+        },
+        "label": "respondents aged 50 or older who have had a sigmoidoscopy or colonoscopy",
+        "location": "1680",
+        "section": "calculated variables"
+    },
+    "_rfsmok3": {
+        "alt-name": "_3rfsmok",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "No",
+            "2": "Yes",
+            "9": "Dont know/Refused/Missing"
+        },
+        "label": "current smoking calculated variable",
+        "location": "1654",
+        "section": "calculated variables"
+    },
+    "_smoker3": {
+        "alt-name": "_3smoker",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Current smoker - now smokes every day",
+            "2": "Current smoker - now smokes some days",
+            "3": "Former smoker",
+            "4": "Never smoked",
+            "9": "Dont know/Refused/Missing"
+        },
+        "label": "computed smoking status",
+        "location": "1653",
+        "section": "calculated variables"
+    },
+    "_state": {
+        "alt-name": "_state",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Alabama",
+            "10": "Delaware",
+            "11": "District of Columbia",
+            "12": "Florida",
+            "13": "Georgia",
+            "15": "Hawaii",
+            "16": "Idaho",
+            "17": "Illinois",
+            "18": "Indiana",
+            "19": "Iowa",
+            "2": "Alaska",
+            "20": "Kansas",
+            "21": "Kentucky",
+            "22": "Louisiana",
+            "23": "Maine",
+            "24": "Maryland",
+            "25": "Massachusetts",
+            "26": "Michigan",
+            "27": "Minnesota",
+            "28": "Mississippi",
+            "29": "Missouri",
+            "30": "Montana",
+            "31": "Nebraska",
+            "32": "Nevada",
+            "33": "New Hampshire",
+            "34": "New Jersey",
+            "35": "New Mexico",
+            "36": "New York",
+            "37": "North Carolina",
+            "38": "North Dakota",
+            "39": "Ohio",
+            "4": "Arizona",
+            "40": "Oklahoma",
+            "41": "Oregon",
+            "42": "Pennsylvania",
+            "44": "Rhode Island",
+            "45": "South Carolina",
+            "46": "South Dakota",
+            "47": "Tennessee",
+            "48": "Texas",
+            "49": "Utah",
+            "5": "Arkansas",
+            "50": "Vermont",
+            "51": "Virginia",
+            "53": "Washington",
+            "54": "West Virginia",
+            "55": "Wisconsin",
+            "56": "Wyoming",
+            "6": "California",
+            "66": "Guam",
+            "72": "Puerto Rico",
+            "78": "Virgin Islands",
+            "8": "Colorado",
+            "9": "Connecticut"
+        },
+        "label": "state fips code",
+        "location": "1-2",
+        "section": "record identification"
+    },
+    "_strwt": {
+        "label": "stratum weight",
+        "location": "891-900",
+        "section": "questionnaire language"
+    },
+    "_ststr": {
+        "label": "sample design stratification variable",
+        "location": "886-890",
+        "section": "questionnaire language"
+    },
+    "_totinda": {
+        "alt-name": "_totinda",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Had physical activity or exercise",
+            "2": "No physical activity or exercise in last 30 days",
+            "9": "Dont know/Refused/Missing"
+        },
+        "label": "leisure time physical activity calculated variable",
+        "location": "1599",
+        "section": "calculated variables"
+    },
+    "_wt2": {
+        "label": "design weight",
+        "location": "911-920",
+        "section": "questionnaire language"
+    },
+    "_wt2ch": {
+        "label": "child design weight",
+        "location": "1152-1161",
+        "section": "child weighting variables"
+    },
+    "_wt2rake": {
+        "label": "design weight used in raking",
+        "location": "931-940",
+        "section": "questionnaire language"
+    },
+    "acedeprs": {
+        "alt-name": "acedeprs",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "live with anyone depressed, mentally ill, or suicidal?",
+        "location": "381",
+        "section": "module 22: adverse childhood experience"
+    },
+    "acedivrc": {
+        "alt-name": "acedivrc",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "8": "Parents not married",
+            "9": "Refused"
+        },
+        "label": "were your parents divorced/seperated?",
+        "location": "385",
+        "section": "module 22: adverse childhood experience"
+    },
+    "acedrink": {
+        "alt-name": "acedrink",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "live with a problem drinker/alcoholic?",
+        "location": "382",
+        "section": "module 22: adverse childhood experience"
+    },
+    "acedrugs": {
+        "alt-name": "acedrugs",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "live with anyone who used illegal drugs or abused prescriptions?",
+        "location": "383",
+        "section": "module 22: adverse childhood experience"
+    },
+    "acehurt": {
+        "alt-name": "acehurt",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Never",
+            "2": "Once",
+            "3": "More than once",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "how often did a parent physically hurt you in any way?",
+        "location": "387",
+        "section": "module 22: adverse childhood experience"
+    },
+    "acehvsex": {
+        "alt-name": "acehvsex",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Never",
+            "2": "Once",
+            "3": "More than once",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "how often did anyone ever force you to have sex?",
+        "location": "391",
+        "section": "module 22: adverse childhood experience"
+    },
+    "aceprisn": {
+        "alt-name": "aceprisn",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "live with anyone who served time in prison or jail?",
+        "location": "384",
+        "section": "module 22: adverse childhood experience"
+    },
+    "acepunch": {
+        "alt-name": "acepunch",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Never",
+            "2": "Once",
+            "3": "More than once",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "how often did your parents beat each other up?",
+        "location": "386",
+        "section": "module 22: adverse childhood experience"
+    },
+    "aceswear": {
+        "alt-name": "aceswear",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Never",
+            "2": "Once",
+            "3": "More than once",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "how often did a parent swear at you?",
+        "location": "388",
+        "section": "module 22: adverse childhood experience"
+    },
+    "acetouch": {
+        "alt-name": "acetouch",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Never",
+            "2": "Once",
+            "3": "More than once",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "how often did anyone ever touch you sexually?",
+        "location": "389",
+        "section": "module 22: adverse childhood experience"
+    },
+    "acetthem": {
+        "alt-name": "acetthem",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Never",
+            "2": "Once",
+            "3": "More than once",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "how often did anyone make you touch them sexually?",
+        "location": "390",
+        "section": "module 22: adverse childhood experience"
+    },
+    "addepev2": {
+        "alt-name": "ad2depev",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "ever told you had a depressive disorder",
+        "location": "94",
+        "section": "chronic health conditions"
+    },
+    "adltchld": {
+        "alt-name": "adltchld",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "0": "No selection",
+            "1": "Adult",
+            "2": "Child"
+        },
+        "label": "which household member was selected to be the focus of the callback.",
+        "location": "423",
+        "section": "asthma follow-up call back"
+    },
+    "age": {
+        "alt-name": "age",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "18 - 24": "Age 18 - 24",
+            "25 - 34": "Age 25 - 34",
+            "35 - 44": "Age 35 - 44",
+            "45 - 54": "Age 45 - 54",
+            "55 - 64": "Age 55 - 64",
+            "65 - 99": "Age 65 or older",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "reported age in years",
+        "location": "100-101",
+        "section": "demographics"
+    },
+    "alcday5": {
+        "alt-name": "alc5day",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "101 - 199": "Days per week",
+            "201 - 299": "Days in past 30 days",
+            "777": "Dont know/Not sure",
+            "888": "No drinks in past 30 days",
+            "999": "Refused"
+        },
+        "label": "days in past 30 had alcoholic beverage",
+        "location": "151-153",
+        "section": "alcohol consumption"
+    },
+    "asactlim": {
+        "alt-name": "asactlim",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 365": "Number of days",
+            "777": "Dont know/Not sure",
+            "888": "None",
+            "999": "Refused"
+        },
+        "label": "activities limited due to asthma during past 12 months",
+        "location": "292-294",
+        "section": "module 9: adult asthma history"
+    },
+    "asattack": {
+        "alt-name": "asattack",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "asthma during past 12 months",
+        "location": "285",
+        "section": "module 9: adult asthma history"
+    },
+    "asdrvist": {
+        "alt-name": "asdrvist",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 87": "\"Number of visits [87",
+            "88": "None",
+            "98": "Dont know/Not sure",
+            "99": "Refused"
+        },
+        "label": "urgent asthma treatment during past 12 months",
+        "location": "288-289",
+        "section": "module 9: adult asthma history"
+    },
+    "aservist": {
+        "alt-name": "aservist",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 87": "\"Number of visits [87",
+            "88": "None",
+            "98": "Dont know/Not sure",
+            "99": "Refused"
+        },
+        "label": "emergency asthma care during past 12 months",
+        "location": "286-287",
+        "section": "module 9: adult asthma history"
+    },
+    "asinhalr": {
+        "alt-name": "asinhalr",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "1 to 4 times (in the past 30 days)",
+            "2": "5 to 14 times (in the past 30 days)",
+            "3": "15 to 29 times (in the past 30 days)",
+            "4": "30 to 59 times (in the past 30 days)",
+            "5": "60 to 99 times (in the past 30 days)",
+            "6": "100 or more times (in the past 30 days)",
+            "7": "Dont know/Not sure",
+            "8": "Never (include no attack in past 30 days)",
+            "9": "Refused"
+        },
+        "label": "times used asthma inhaler during an attack in past 30 days",
+        "location": "298",
+        "section": "module 9: adult asthma history"
+    },
+    "asnoslep": {
+        "alt-name": "asnoslep",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "One or two",
+            "2": "Three to four",
+            "3": "Five",
+            "4": "Six to ten",
+            "5": "More than ten",
+            "7": "Dont know/Not sure",
+            "8": "None",
+            "9": "Refused"
+        },
+        "label": "sleep difficulty due to asthma during past 30 days",
+        "location": "296",
+        "section": "module 9: adult asthma history"
+    },
+    "asrchkup": {
+        "alt-name": "asrchkup",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 87": "\"Number of visits [87",
+            "88": "None",
+            "98": "Dont know/Not sure",
+            "99": "Refused"
+        },
+        "label": "routine asthma care during past 12 months",
+        "location": "290-291",
+        "section": "module 9: adult asthma history"
+    },
+    "asthma3": {
+        "alt-name": "ast3hma",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "ever told had asthma",
+        "location": "88",
+        "section": "chronic health conditions"
+    },
+    "asthmage": {
+        "alt-name": "asthmage",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "11 - 96": "\"Age 11 or older [96",
+            "97": "Age 10 or younger",
+            "98": "Dont know/Not sure",
+            "99": "Refused"
+        },
+        "label": "age at asthma diagnosis",
+        "location": "283-284",
+        "section": "module 9: adult asthma history"
+    },
+    "asthmed3": {
+        "alt-name": "asth3med",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "1 to 14 days",
+            "2": "15 to 24 days",
+            "3": "25 to 30 days",
+            "7": "Dont know/Not sure",
+            "8": "Never",
+            "9": "Refused"
+        },
+        "label": "days used prescribed preventative asthma med in past 30 days",
+        "location": "297",
+        "section": "module 9: adult asthma history"
+    },
+    "asthnow": {
+        "alt-name": "asthnow",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "still have asthma",
+        "location": "89",
+        "section": "chronic health conditions"
+    },
+    "asymptom": {
+        "alt-name": "asymptom",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Less than once a week",
+            "2": "Once or twice a week",
+            "3": "More that 2 times a week, but not every day",
+            "4": "Every day, but not all the time",
+            "5": "Every day, all the time",
+            "7": "Dont know/Not sure",
+            "8": "Not at any time",
+            "9": "Refused"
+        },
+        "label": "asthma symptoms during past 30 days",
+        "location": "295",
+        "section": "module 9: adult asthma history"
+    },
+    "avedrnk2": {
+        "alt-name": "ave2drnk",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 76": "Number of drinks",
+            "77": "Dont know/Not sure",
+            "78 - 98": "Number of drinks",
+            "99": "Refused"
+        },
+        "label": "avg alcoholic drinks per day in past 30",
+        "location": "154-155",
+        "section": "alcohol consumption"
+    },
+    "bldstool": {
+        "alt-name": "bldstool",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "ever had blood stool test using home kit",
+        "location": "190",
+        "section": "colorectal cancer screening"
+    },
+    "bldsugar": {
+        "alt-name": "bldsugar",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "101 - 199": "Times per day",
+            "201 - 299": "Times per week",
+            "301 - 399": "Times per month",
+            "401 - 499": "Times per year",
+            "777": "Dont know/Not sure",
+            "888": "Never",
+            "999": "Refused"
+        },
+        "label": "how often check blood for glucose",
+        "location": "215-217",
+        "section": "module 2: diabetes"
+    },
+    "cadult": {
+        "alt-name": "cadult",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes, Male Respondent",
+            "2": "Yes, Female Respondent",
+            "3": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "are you 18 years of age or older?",
+        "location": "426",
+        "section": "cell phone introduction"
+    },
+    "callback": {
+        "alt-name": "callback",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "asthma follow-up call back request",
+        "location": "422",
+        "section": "asthma follow-up call back"
+    },
+    "casthdx2": {
+        "alt-name": "casth2dx",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "hlth pro ever said child has asthma",
+        "location": "408",
+        "section": "module 24: childhood asthma prevalence"
+    },
+    "casthno2": {
+        "alt-name": "casth2no",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "child still have asthma?",
+        "location": "409",
+        "section": "module 24: childhood asthma prevalence"
+    },
+    "cclghous": {
+        "alt-name": "cclghous",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No"
+        },
+        "label": "do you live in college housing?",
+        "location": "428",
+        "section": "cell phone introduction"
+    },
+    "cellfon": {
+        "alt-name": "cellfon",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Not a cellular phone",
+            "2": "Yes"
+        },
+        "label": "cellular telephone",
+        "location": "64",
+        "section": "record identification"
+    },
+    "cellfon2": {
+        "alt-name": "cell2fon",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "is this a cellular telephone?",
+        "location": "425",
+        "section": "cell phone introduction"
+    },
+    "chccopd1": {
+        "alt-name": "chc1copd",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know / Not sure",
+            "9": "Refused"
+        },
+        "label": "(ever told) you have (copd) chronic obstructive pulmonary disease, emphysema or chronic bronchitis?",
+        "location": "92",
+        "section": "chronic health conditions"
+    },
+    "chckidny": {
+        "alt-name": "chckidny",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know / Not sure",
+            "9": "Refused"
+        },
+        "label": "(ever told) you have kidney disease?",
+        "location": "95",
+        "section": "chronic health conditions"
+    },
+    "chcocncr": {
+        "alt-name": "chcocncr",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know / Not sure",
+            "9": "Refused"
+        },
+        "label": "(ever told) you had any other types of cancer?",
+        "location": "91",
+        "section": "chronic health conditions"
+    },
+    "chcscncr": {
+        "alt-name": "chcscncr",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know / Not sure",
+            "9": "Refused"
+        },
+        "label": "(ever told) you had skin cancer?",
+        "location": "90",
+        "section": "chronic health conditions"
+    },
+    "chcvisn1": {
+        "alt-name": "chc1visn",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not applicable (blind)",
+            "7": "Dont know / Not sure",
+            "9": "Refused"
+        },
+        "label": "do you have any trouble seeing, even when wearing glasses or contact lenses?",
+        "location": "96",
+        "section": "chronic health conditions"
+    },
+    "checkup1": {
+        "alt-name": "check1up",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Within past year (anytime less than 12 months ago)",
+            "2": "Within past 2 years (1 year but less than 2 years ago)",
+            "3": "Within past 5 years (2 years but less than 5 years ago)",
+            "4": "5 or more years ago",
+            "7": "Dont know/Not sure",
+            "8": "Never",
+            "9": "Refused"
+        },
+        "label": "length of time since last routine checkup",
+        "location": "83",
+        "section": "health care access"
+    },
+    "childage": {
+        "alt-name": "childage",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "0 - 11": "0 Years old",
+            "108 - 119": "9 Years old",
+            "12 - 23": "1 Year old",
+            "120 - 131": "10 Years old",
+            "132 - 143": "11 Years old",
+            "144 - 155": "12 Years old",
+            "156 - 167": "13 Years old",
+            "168 - 179": "14 Years old",
+            "180 - 191": "15 Years old",
+            "192 - 203": "16 Years old",
+            "204 - 215": "17 Years old",
+            "24 - 35": "2 Years old",
+            "36 - 47": "3 Years old",
+            "48 - 59": "4 Years old",
+            "60 - 71": "5 Years old",
+            "72 - 83": "6 Years old",
+            "777": "Dont know / Not sure",
+            "84 - 95": "7 Years old",
+            "96 - 107": "8 Years old",
+            "999": "Refused"
+        },
+        "label": "child age",
+        "location": "1162-1164",
+        "section": "child weighting variables"
+    },
+    "children": {
+        "alt-name": "children",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 87": "Number of children",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "number of children in household",
+        "location": "112-113",
+        "section": "demographics"
+    },
+    "chkhemo3": {
+        "alt-name": "chk3hemo",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 76": "\"Number of times  [76",
+            "77": "Dont know/Not sure",
+            "88": "None",
+            "98": "Never heard of A one C test",
+            "99": "Refused"
+        },
+        "label": "times checked for glycosylated hemoglobin",
+        "location": "223-224",
+        "section": "module 2: diabetes"
+    },
+    "cncrage": {
+        "alt-name": "cncrage",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 97": "Age in years",
+            "98": "Dont know/Not Sure",
+            "99": "Refused"
+        },
+        "label": "age told had cancer",
+        "location": "317-318",
+        "section": "module 15: cancer survivorship"
+    },
+    "cncrdiff": {
+        "alt-name": "cncrdiff",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Only one",
+            "2": "Two",
+            "3": "Three or more",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "how many types of cancer?",
+        "location": "316",
+        "section": "module 15: cancer survivorship"
+    },
+    "cncrtyp1": {
+        "alt-name": "cncr1typ",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Breast cancer",
+            "10": "Colon (intestine) cancer",
+            "11": "Esophageal (esophagus)",
+            "12": "Liver cancer",
+            "13": "Pancreatic (pancreas) cancer",
+            "14": "Rectal (rectum) cancer",
+            "15": "Stomach",
+            "16": "Hodgkins Lymphoma (Hodgkins disease)",
+            "17": "Leukemia (blood) cancer",
+            "18": "Non-Hodgkins Lymphoma",
+            "19": "Prostate cancer",
+            "2": "Cervical cancer (cancer of the cervix)",
+            "20": "Testicular cancer",
+            "21": "Melanoma",
+            "22": "Other skin cancer",
+            "23": "Heart",
+            "24": "Lung",
+            "25": "Bladder cancer",
+            "26": "Renal (kidney) cancer",
+            "27": "Bone",
+            "28": "Brain",
+            "29": "Neuroblastoma",
+            "3": "Endometrial cancer (cancer of the uterus)",
+            "30": "Other",
+            "4": "Ovarian cancer (cancer of the ovary)",
+            "5": "Head and neck cancer",
+            "6": "Oral cancer",
+            "7": "Pharyngeal (throat) cancer",
+            "77": "Dont know/Not Sure",
+            "8": "Thyroid",
+            "9": "Larynx",
+            "99": "Refused"
+        },
+        "label": "type of cancer",
+        "location": "319-320",
+        "section": "module 15: cancer survivorship"
+    },
+    "colghous": {
+        "alt-name": "colghous",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No"
+        },
+        "label": "do you live in college housing?",
+        "location": "63",
+        "section": "record identification"
+    },
+    "copddoc": {
+        "alt-name": "copddoc",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know / Not sure",
+            "9": "Refused"
+        },
+        "label": "have you seen doctor about shortness of breath?",
+        "location": "377",
+        "section": "module 21: chronic obstructive pulmonary disease (copd)"
+    },
+    "copdhosp": {
+        "alt-name": "copdhosp",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know / Not sure",
+            "9": "Refused"
+        },
+        "label": "been to e.r. or hospital because of copd?",
+        "location": "378",
+        "section": "module 21: chronic obstructive pulmonary disease (copd)"
+    },
+    "copdmeds": {
+        "alt-name": "copdmeds",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 76": "Number (00-76)",
+            "77": "Dont know / Not sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "how many medications do you take for copd?",
+        "location": "379-380",
+        "section": "module 21: chronic obstructive pulmonary disease (copd)"
+    },
+    "copdqol": {
+        "alt-name": "copdqol",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know / Not sure",
+            "9": "Refused"
+        },
+        "label": "does shortness of breath affect quality of life?",
+        "location": "376",
+        "section": "module 21: chronic obstructive pulmonary disease (copd)"
+    },
+    "copdtest": {
+        "alt-name": "copdtest",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know / Not sure",
+            "9": "Refused"
+        },
+        "label": "ever had a breathing test to diagnose your copd?",
+        "location": "375",
+        "section": "module 21: chronic obstructive pulmonary disease (copd)"
+    },
+    "cpdemo1": {
+        "alt-name": "cp1demo",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "do you have a cell phone for personal use?",
+        "location": "136",
+        "section": "demographics"
+    },
+    "cpdemo4": {
+        "alt-name": "cp4demo",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 100": "Enter Percent (1 to 100)",
+            "777": "Dont know/Not sure",
+            "888": "Zero",
+            "999": "Refused"
+        },
+        "label": "what percent of all calls are received on your cell phone?",
+        "location": "137-139",
+        "section": "demographics"
+    },
+    "craceasc": {
+        "label": "craceorg with responses in ascending order",
+        "location": "1134-1139",
+        "section": "child demographic variables"
+    },
+    "craceorg": {
+        "label": "crace with trailing 7, 8, 9s removed",
+        "location": "1128-1133",
+        "section": "child demographic variables"
+    },
+    "csrvclin": {
+        "alt-name": "csrvclin",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "participate in clinical trial as part of cancer treatment?",
+        "location": "329",
+        "section": "module 15: cancer survivorship"
+    },
+    "csrvctl1": {
+        "alt-name": "csrv1ctl",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes, with medication (or treatment)",
+            "2": "Yes, without medication (or treatment)",
+            "3": "No, with medication (or treatment)",
+            "4": "No, without medication (or treatment)",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "is pain under control?",
+        "location": "331",
+        "section": "module 15: cancer survivorship"
+    },
+    "csrvdein": {
+        "alt-name": "csrvdein",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "ever denied insurance coverage because of your cancer?",
+        "location": "328",
+        "section": "module 15: cancer survivorship"
+    },
+    "csrvdoc1": {
+        "alt-name": "csrv1doc",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Cancer Surgeon",
+            "10": "Other",
+            "2": "Family Practitioner",
+            "3": "General Surgeon",
+            "4": "Gynecologic Oncologist",
+            "5": "General Practitioner, Internist",
+            "6": "Plastic Surgeon, Reconstructive Surgeon",
+            "7": "Medical Oncologist",
+            "77": "Dont know/Not Sure",
+            "8": "Radiation Oncologist",
+            "9": "Urologist",
+            "99": "Refused"
+        },
+        "label": "what type of doctor provides majority of your care",
+        "location": "322-323",
+        "section": "module 15: cancer survivorship"
+    },
+    "csrvinsr": {
+        "alt-name": "csrvinsr",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "did health insurance pay for all of your cancer treatment",
+        "location": "327",
+        "section": "module 15: cancer survivorship"
+    },
+    "csrvinst": {
+        "alt-name": "csrvinst",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "instructions written or printed",
+        "location": "326",
+        "section": "module 15: cancer survivorship"
+    },
+    "csrvpain": {
+        "alt-name": "csrvpain",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "currently have physical pain from cancer or treatment?",
+        "location": "330",
+        "section": "module 15: cancer survivorship"
+    },
+    "csrvrtrn": {
+        "alt-name": "csrvrtrn",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "ever receive instructions from a doctor for follow-up check-ups",
+        "location": "325",
+        "section": "module 15: cancer survivorship"
+    },
+    "csrvsum": {
+        "alt-name": "csrvsum",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "did you receive a summary of cancer treatments received",
+        "location": "324",
+        "section": "module 15: cancer survivorship"
+    },
+    "csrvtrt1": {
+        "alt-name": "csrv1trt",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No, Ive completed treatment",
+            "3": "No, Ive refused treatment",
+            "4": "No, I havent started treatment",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "currently receiving treatment for cancer",
+        "location": "321",
+        "section": "module 15: cancer survivorship"
+    },
+    "cstate": {
+        "alt-name": "cstate",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "are you a resident of [state]?",
+        "location": "429",
+        "section": "cell phone introduction"
+    },
+    "ctelenum": {
+        "alt-name": "ctelenum",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No"
+        },
+        "label": "correct telephone number?",
+        "location": "61",
+        "section": "record identification"
+    },
+    "ctelnum1": {
+        "alt-name": "ctel1num",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "correct phone number?",
+        "location": "424",
+        "section": "cell phone introduction"
+    },
+    "ctycode1": {
+        "label": "county code",
+        "location": "126-128",
+        "section": "demographics"
+    },
+    "cvdcrhd4": {
+        "alt-name": "cvd4crhd",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "ever diagnosed with angina or coronary heart disease",
+        "location": "86",
+        "section": "chronic health conditions"
+    },
+    "cvdinfr4": {
+        "alt-name": "cvd4infr",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "ever diagnosed with heart attack",
+        "location": "85",
+        "section": "chronic health conditions"
+    },
+    "cvdstrk3": {
+        "alt-name": "cvd3strk",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "ever diagnosed with a stroke",
+        "location": "87",
+        "section": "chronic health conditions"
+    },
+    "diabage2": {
+        "alt-name": "diab2age",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 97": "\"Age in years  [97",
+            "98": "Dont know/Not sure",
+            "99": "Refused"
+        },
+        "label": "age when told diabetic",
+        "location": "212-213",
+        "section": "module 2: diabetes"
+    },
+    "diabedu": {
+        "alt-name": "diabedu",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "ever taken class in managing diabetes",
+        "location": "229",
+        "section": "module 2: diabetes"
+    },
+    "diabete3": {
+        "alt-name": "dia3bete",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "Yes, but female told only during pregnancy",
+            "3": "No",
+            "4": "No, pre-diabetes or borderline diabetes",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "(ever told) you have diabetes",
+        "location": "97",
+        "section": "chronic health conditions"
+    },
+    "diabeye": {
+        "alt-name": "diabeye",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "ever told diabetes has affected eyes",
+        "location": "228",
+        "section": "module 2: diabetes"
+    },
+    "dircont1": {
+        "alt-name": "hr02hcw",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "do you provide direct patient care as part of your routine work?",
+        "location": "300",
+        "section": "module 10: high risk/health care worker"
+    },
+    "dispcode": {
+        "label": "final disposition",
+        "location": "30-33",
+        "section": "record identification"
+    },
+    "doctdiab": {
+        "alt-name": "doctdiab",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 76": "\"Number of times  [76",
+            "77": "Dont know/Not sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "times seen health professional for diabetes",
+        "location": "221-222",
+        "section": "module 2: diabetes"
+    },
+    "drhpad1": {
+        "alt-name": "hr03hcw",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "has a doctor, nurse, or other health professional ever said that you haveproblem caused by a chronic illness or by medicines; taken for a chronic illness?",
+        "location": "301",
+        "section": "module 10: high risk/health care worker"
+    },
+    "drnk3ge5": {
+        "alt-name": "drnk35ge",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 76": "Number of Times",
+            "77": "Dont know/Not Sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "binge drinking",
+        "location": "156-157",
+        "section": "alcohol consumption"
+    },
+    "drnkany5": {
+        "alt-name": "drnk5any",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused/Missing"
+        },
+        "label": "drink any alcoholic beverages in past 30 days",
+        "location": "1655",
+        "section": "calculated variables"
+    },
+    "drnkdri2": {
+        "alt-name": "drnk2dri",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 76": "Number of times",
+            "77": "Dont know/Not sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "did you drive after having too much to drink in the past 30 days?",
+        "location": "175-176",
+        "section": "drinking and driving"
+    },
+    "drocdy3_": {
+        "alt-name": "drocdy3_",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "0": "No Drink-Occasions per day",
+            "1 - 899": "Drink-Occasions per day",
+            "900": "Dont know/Not Sure Or Refused/Missing"
+        },
+        "label": "computed drink-occasions-per-day",
+        "location": "1656-1658",
+        "section": "calculated variables"
+    },
+    "educa": {
+        "alt-name": "educa",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Never attended school or only kindergarten",
+            "2": "Grades 1 through 8 (Elementary)",
+            "3": "Grades 9 through 11 (Some high school)",
+            "4": "Grade 12 or GED (High school graduate)",
+            "5": "College 1 year to 3 years (Some college or technical school)",
+            "6": "College 4 years or more (College graduate)",
+            "9": "Refused"
+        },
+        "label": "education level",
+        "location": "114",
+        "section": "demographics"
+    },
+    "employ": {
+        "alt-name": "employ",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Employed for wages",
+            "2": "Self-employed",
+            "3": "Out of work for more than 1 year",
+            "4": "Out of work for less that 1 year",
+            "5": "A homemaker",
+            "6": "A student",
+            "7": "Retired",
+            "8": "Unable to work",
+            "9": "Refused"
+        },
+        "label": "employment status",
+        "location": "115",
+        "section": "demographics"
+    },
+    "emtsuprt": {
+        "alt-name": "emtsuprt",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Always",
+            "2": "Usually",
+            "3": "Sometimes",
+            "4": "Rarely",
+            "5": "Never",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "how often get emotional support needed",
+        "location": "420",
+        "section": "module 27: emotional support and life satisfaction"
+    },
+    "exerany2": {
+        "alt-name": "exer2any",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "exercise in past 30 days",
+        "location": "84",
+        "section": "exercise"
+    },
+    "eyeexam": {
+        "alt-name": "eyeexam",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Within the past month (anytime less than 1 month ago)",
+            "2": "Within the past year (1 month but less than 12 months ago)",
+            "3": "Within the past 2 years (1 year but less than 2 years ago)",
+            "4": "2 or more years ago",
+            "7": "Dont know/Not sure",
+            "8": "Never",
+            "9": "Refused"
+        },
+        "label": "last eye exam where pupils were dilated",
+        "location": "227",
+        "section": "module 2: diabetes"
+    },
+    "fall12mn": {
+        "alt-name": "fall12mn",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 76": "\"Number of times  [76",
+            "77": "Dont know/Not Sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "had fall past twelve months",
+        "location": "170-171",
+        "section": "falls"
+    },
+    "fallinj2": {
+        "alt-name": "fall2inj",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 76": "\"Number of falls [76",
+            "77": "Dont know/Not Sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "injured in fall",
+        "location": "172-173",
+        "section": "falls"
+    },
+    "feetchk": {
+        "alt-name": "feetchk",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 76": "\"Number of times  [76",
+            "77": "Dont know/Not sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "times feet check for sores/irritations",
+        "location": "225-226",
+        "section": "module 2: diabetes"
+    },
+    "feetchk2": {
+        "alt-name": "feet2chk",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "101 - 199": "Times per day",
+            "201 - 299": "Times per week",
+            "301 - 399": "Times per month",
+            "401 - 499": "Times per year",
+            "555": "No feet",
+            "777": "Dont know/Not sure",
+            "888": "Never",
+            "999": "Refused"
+        },
+        "label": "how often check feet for sores or irritations",
+        "location": "218-220",
+        "section": "module 2: diabetes"
+    },
+    "flshtmy2": {
+        "alt-name": "flsht2my",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "12007 - 122008": "Month / Year",
+            "777777": "Dont know/Not Sure",
+            "999999": "Refused"
+        },
+        "label": "when received most recent seasonal flu shot/spray",
+        "location": "161-166",
+        "section": "immunization"
+    },
+    "flushch2": {
+        "alt-name": "flush2ch",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "had seasonal flu shot past 12 mos",
+        "location": "410",
+        "section": "module 25: childhood immunization"
+    },
+    "flushot5": {
+        "alt-name": "flu5shot",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "seasonal flu shot/spray past 12 mos",
+        "location": "160",
+        "section": "immunization"
+    },
+    "fmonth": {
+        "alt-name": "fmonth",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "January",
+            "10": "October",
+            "11": "November",
+            "12": "December",
+            "2": "February",
+            "3": "March",
+            "4": "April",
+            "5": "May",
+            "6": "June",
+            "7": "July",
+            "8": "August",
+            "9": "September"
+        },
+        "label": "file month",
+        "location": "15-16",
+        "section": "record identification"
+    },
+    "fruit1": {
+        "alt-name": "fruit1f",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "101 - 199": "Per day",
+            "201 - 299": "Per week",
+            "300": "Less than one time per month",
+            "301 - 399": "Per month",
+            "555": "Never",
+            "777": "Dont know/Not sure",
+            "999": "Refused"
+        },
+        "label": "how many times did you eat fruit?",
+        "location": "268-270",
+        "section": "module 8: fruits and vegetables"
+    },
+    "fruitju1": {
+        "alt-name": "fruit1ju",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "101 - 199": "Per day",
+            "201 - 299": "Per week",
+            "300": "Less than one time per month",
+            "301 - 399": "Per month",
+            "555": "Never",
+            "777": "Dont know/Not sure",
+            "999": "Refused"
+        },
+        "label": "how many times did you drink 100% pure fruit juices?",
+        "location": "265-267",
+        "section": "module 8: fruits and vegetables"
+    },
+    "fvbeans": {
+        "alt-name": "fvbeans",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "101 - 199": "Per day",
+            "201 - 299": "Per week",
+            "300": "Less than one time per month",
+            "301 - 399": "Per month",
+            "555": "Never",
+            "777": "Dont know/Not sure",
+            "999": "Refused"
+        },
+        "label": "how many times did you eat beans or lentils?",
+        "location": "271-273",
+        "section": "module 8: fruits and vegetables"
+    },
+    "fvgreen": {
+        "alt-name": "fvgreen",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "101 - 199": "Per day",
+            "201 - 299": "Per week",
+            "300": "Less than one time per month",
+            "301 - 399": "Per month",
+            "555": "Never",
+            "777": "Dont know/Not sure",
+            "999": "Refused"
+        },
+        "label": "how many times did you eat dark green vegetables?",
+        "location": "274-276",
+        "section": "module 8: fruits and vegetables"
+    },
+    "fvorang": {
+        "alt-name": "fvorang",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "101 - 199": "Per day",
+            "201 - 299": "Per week",
+            "300": "Less than one time per month",
+            "301 - 399": "Per month",
+            "555": "Never",
+            "777": "Dont know/Not sure",
+            "999": "Refused"
+        },
+        "label": "how many times did you eat orange-colored vegetables?",
+        "location": "277-279",
+        "section": "module 8: fruits and vegetables"
+    },
+    "genhlth": {
+        "alt-name": "genhlth",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Excellent",
+            "2": "Very good",
+            "3": "Good",
+            "4": "Fair",
+            "5": "Poor",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "general health",
+        "location": "73",
+        "section": "health status"
+    },
+    "gp3dyfd1": {
+        "alt-name": "gp3dy1fd",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "does your household have a 3-day supply of non-perishable food for everyone who lives there?",
+        "location": "359",
+        "section": "module 19: general preparedness"
+    },
+    "gp3dyprs": {
+        "alt-name": "gp3dyprs",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "3": "No one in household requires prescribed medicine",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "does your household have a 3-day supply of prescription medication for each person who takes prescribed medicines?",
+        "location": "360",
+        "section": "module 19: general preparedness"
+    },
+    "gp3dywtr": {
+        "alt-name": "gp3dywtr",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "does your household have a 3-day supply of water for everyone who lives there?",
+        "location": "358",
+        "section": "module 19: general preparedness"
+    },
+    "gpbatrad": {
+        "alt-name": "gpbatrad",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "does your household have a working battery operated radio and working batteries for your use if the electricity is out?",
+        "location": "361",
+        "section": "module 19: general preparedness"
+    },
+    "gpemrcm1": {
+        "alt-name": "gpemr1cm",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Regular home telephones",
+            "2": "Cell phones",
+            "3": "Email",
+            "4": "Pager",
+            "5": "2-way radios",
+            "6": "Other",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "in a large-scale disaster or emergency, what would be your main method of communicating with relatives and friends?",
+        "location": "363",
+        "section": "module 19: general preparedness"
+    },
+    "gpemrin1": {
+        "alt-name": "gpemr1in",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Television",
+            "2": "Radio",
+            "3": "Internet",
+            "4": "Print media",
+            "5": "Neighbors",
+            "6": "Other",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "what would be your main method of getting information from authorities in a large-scale disaster or emergency?",
+        "location": "364",
+        "section": "module 19: general preparedness"
+    },
+    "gpflslit": {
+        "alt-name": "gpflslit",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "does your household have a working flashlight and working batteries for your use if the electricity is out?",
+        "location": "362",
+        "section": "module 19: general preparedness"
+    },
+    "gpmndevc": {
+        "alt-name": "gpmndevc",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "if public authorities announced mandatory evacuation from your community due to a large-scale disaster or emergency, would you evacuate?",
+        "location": "366",
+        "section": "module 19: general preparedness"
+    },
+    "gpnotev1": {
+        "alt-name": "gpnot1ev",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Lack of transportation",
+            "2": "Lack of trust in public officials",
+            "3": "Concern about leaving property behind",
+            "4": "Concern about personal safety",
+            "5": "Concern about family safety",
+            "6": "Concern about leaving pets",
+            "7": "Concern about traffic jams and inability to get out",
+            "77": "Dont know/Not Sure",
+            "8": "Health problems (could not be moved)",
+            "9": "Other",
+            "99": "Refused"
+        },
+        "label": "what would be the main reason why you might not evacuate if asked to do so?",
+        "location": "367-368",
+        "section": "module 19: general preparedness"
+    },
+    "gpvacpl1": {
+        "alt-name": "gpvac1pl",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "does your household have a disaster evacuation plan?",
+        "location": "365",
+        "section": "module 19: general preparedness"
+    },
+    "gpwelpr3": {
+        "alt-name": "gp3welpr",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Well prepared",
+            "2": "Somewhat prepared",
+            "3": "Not prepared at all",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "household prepared to handle large-scale disaster or emergency",
+        "location": "357",
+        "section": "module 19: general preparedness"
+    },
+    "hadhyst2": {
+        "alt-name": "had2hyst",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "had hysterectomy",
+        "location": "183",
+        "section": "breast/cervical cancer screening"
+    },
+    "hadmam": {
+        "alt-name": "hadmam",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "have you ever had a mammogram",
+        "location": "177",
+        "section": "breast/cervical cancer screening"
+    },
+    "hadpap2": {
+        "alt-name": "had2pap",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "ever had a pap test",
+        "location": "181",
+        "section": "breast/cervical cancer screening"
+    },
+    "hadsgco1": {
+        "alt-name": "had1sgco",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Sigmoidoscopy",
+            "2": "Colonoscopy",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "was last test a sigmoidoscopy or colonoscopy",
+        "location": "193",
+        "section": "colorectal cancer screening"
+    },
+    "hadsigm3": {
+        "alt-name": "had3sigm",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "ever had sigmoidoscopy/colonoscopy",
+        "location": "192",
+        "section": "colorectal cancer screening"
+    },
+    "havarth3": {
+        "alt-name": "hav3arth",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "told have arthritis",
+        "location": "93",
+        "section": "chronic health conditions"
+    },
+    "havhpad": {
+        "alt-name": "havhpad",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "still have this health problem",
+        "location": "302",
+        "section": "module 10: high risk/health care worker"
+    },
+    "height3": {
+        "alt-name": "height",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "200 - 711": "Height (ft/inches)",
+            "7777": "Dont know/Not sure",
+            "9000 - 9998": "Height (meters/centimeters)",
+            "9999": "Refused"
+        },
+        "label": "reported height in feet and inches",
+        "location": "122-125",
+        "section": "demographics"
+    },
+    "hispanc2": {
+        "alt-name": "hisp2anc",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "hispanic/latino",
+        "location": "102",
+        "section": "demographics"
+    },
+    "hivrdtst": {
+        "alt-name": "hivrdtst",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "was your last hiv test a rapid test?",
+        "location": "419",
+        "section": "module 26: hiv/aids"
+    },
+    "hivrisk3": {
+        "alt-name": "hiv3risk",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "do any high risk situations apply",
+        "location": "202",
+        "section": "hiv/aids"
+    },
+    "hivtst6": {
+        "alt-name": "hiv6tst",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "ever tested hiv",
+        "location": "195",
+        "section": "hiv/aids"
+    },
+    "hivtstd3": {
+        "alt-name": "hiv3tstd",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "11985 - 122008": "Code month and year",
+            "771985 - 772008": "Unknown month and known year",
+            "777777": "Dont know/Not sure",
+            "999999": "Refused"
+        },
+        "label": "month and year of last hiv test",
+        "location": "196-201",
+        "section": "hiv/aids"
+    },
+    "hlthpln1": {
+        "alt-name": "hlth1pln",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "have any health care coverage",
+        "location": "80",
+        "section": "health care access"
+    },
+    "howlong": {
+        "alt-name": "howlong",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Within the past year (anytime less than 12 months ago)",
+            "2": "Within the past 2 years (1 year but less than 2 years ago)",
+            "3": "Within the past 3 years (2 years but less than 3 years ago)",
+            "4": "Within the past 5 years (3 years but less than 5 years ago)",
+            "5": "5 or more years ago",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "how long since last mammogram",
+        "location": "178",
+        "section": "breast/cervical cancer screening"
+    },
+    "hpvadsht": {
+        "alt-name": "hpvadsht",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 2": "Number of shots",
+            "3": "All shots",
+            "77": "Dont know/Not Sure",
+            "99": "Refused"
+        },
+        "label": "number of hpv shots received",
+        "location": "308-309",
+        "section": "module 13: adult human papilloma virus (hpv)"
+    },
+    "hpvadvc2": {
+        "alt-name": "hpv2advc",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "3": "Doctor refused when asked",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "ever had the hpv vaccination?",
+        "location": "307",
+        "section": "module 13: adult human papilloma virus (hpv)"
+    },
+    "htin4": {
+        "alt-name": "ht4in",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "36 - 95": "Height in inches",
+            "999": "Dont know/Refused/Missing"
+        },
+        "label": "computed height in inches",
+        "location": "1633-1635",
+        "section": "calculated race variables"
+    },
+    "htm4": {
+        "alt-name": "ht4m",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "91 - 244": "Height in meters [2 implied decimal places]",
+            "999": "Dont know/Refused/Missing"
+        },
+        "label": "computed height in meters",
+        "location": "1636-1638",
+        "section": "calculated race variables"
+    },
+    "idate": {
+        "label": "interview date",
+        "location": "17-24",
+        "section": "record identification"
+    },
+    "iday": {
+        "label": "interview day",
+        "location": "19-20",
+        "section": "record identification"
+    },
+    "imfvplac": {
+        "alt-name": "imfvplac",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "A doctors office or health maintenance organization (HMO)",
+            "10": "Received vaccination in Canada/Mexico (Volunteered  Do not read)",
+            "11": "A school",
+            "2": "A health department",
+            "3": "Another type of clinic or health center (Example: a community health center)",
+            "4": "A senior, recreation, or community center",
+            "5": "A store (Examples: supermarket, drug store)",
+            "6": "A hospital (Example: inpatient)",
+            "7": "An emergency room",
+            "77": "Dont know / Not sure",
+            "8": "Workplace",
+            "9": "Some other kind of place",
+            "99": "Refused"
+        },
+        "label": "where did you get your last flu shot/vaccine?",
+        "location": "167-168",
+        "section": "immunization"
+    },
+    "imonth": {
+        "alt-name": "$imonth",
+        "codes": {
+            "1": "January",
+            "10": "October",
+            "11": "November",
+            "12": "December",
+            "2": "February",
+            "3": "March",
+            "4": "April",
+            "5": "May",
+            "6": "June",
+            "7": "July",
+            "8": "August",
+            "9": "September"
+        },
+        "label": "interview month",
+        "location": "17-18",
+        "section": "record identification"
+    },
+    "income2": {
+        "alt-name": "in2come",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Less than $10,000",
+            "2": "Less than $15,000 ($10,000 to less than $15,000)",
+            "3": "Less than $20,000 ($15,000 to less than $20,000)",
+            "4": "Less than $25,000 ($20,000 to less than $25,000)",
+            "5": "Less than $35,000 ($25,000 to less than $35,000)",
+            "6": "Less than $50,000 ($35,000 to less than $50,000)",
+            "7": "Less than $75,000 ($50,000 to less than $75,000)",
+            "77": "Dont know/Not sure",
+            "8": "$75,000 or more",
+            "99": "Refused"
+        },
+        "label": "income level",
+        "location": "116-117",
+        "section": "demographics"
+    },
+    "insulin": {
+        "alt-name": "insulin",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "9": "Refused"
+        },
+        "label": "now taking insulin",
+        "location": "214",
+        "section": "module 2: diabetes"
+    },
+    "intvid": {
+        "label": "interviewer identification",
+        "location": "25-29",
+        "section": "record identification"
+    },
+    "iyear": {
+        "label": "interview year",
+        "location": "21-24",
+        "section": "record identification"
+    },
+    "ladult": {
+        "label": "are you 18 years of age or older?",
+        "location": "65",
+        "section": "record identification"
+    },
+    "landline": {
+        "alt-name": "landline",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "do you also have a landline telephone?",
+        "location": "432",
+        "section": "cell phone introduction"
+    },
+    "lastden3": {
+        "alt-name": "last3den",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Within the past year (anytime less than 12 months ago)",
+            "2": "Within the past 2 years (1 year but less than 2 years ago)",
+            "3": "Within the past 5 years (2 years but less than 5 years ago)",
+            "4": "5 or more years ago",
+            "7": "Dont know/Not sure",
+            "8": "Never",
+            "9": "Refused"
+        },
+        "label": "last visited dentist or dental clinic",
+        "location": "98",
+        "section": "oral health"
+    },
+    "lastpap2": {
+        "alt-name": "last2pap",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Within the past year (anytime less than 12 months ago)",
+            "2": "Within the past 2 years (1 year but less than 2 years ago)",
+            "3": "Within the past 3 years (2 years but less than 3 years ago)",
+            "4": "Within the past 5 years (3 years but less than 5 years ago)",
+            "5": "5 or more years ago",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "how long since last pap test",
+        "location": "182",
+        "section": "breast/cervical cancer screening"
+    },
+    "lastsig3": {
+        "alt-name": "last3sig",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Within the past year (anytime less than 12 months ago)",
+            "2": "Within the past 2 years (1 year but less than 2 years ago)",
+            "3": "Within the past 3 years (2 years but less than 3 years ago)",
+            "4": "Within the past 5 years (3 years but less than 5 years ago)",
+            "5": "Within the past 10 years (5 years but less than 10 years ago)",
+            "6": "10 or more years ago",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "time since last sigmoidoscopy/colonoscopy",
+        "location": "194",
+        "section": "colorectal cancer screening"
+    },
+    "lastsmk2": {
+        "alt-name": "last2smk",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Within the past month (less than 1 month ago)",
+            "2": "Within the past 3 months (1 month but less than 3 months ago)",
+            "3": "Within the past 6 months (3 months but less than 6 months ago)",
+            "4": "Within the past year (6 months but less than 1 year ago)",
+            "5": "Within the past 5 years (1 year but less than 5 years ago)",
+            "6": "Within the past 10 years (5 years but less than 10 years ago)",
+            "7": "10 years or more",
+            "77": "Dont know/Not sure",
+            "8": "Never smoked regularly",
+            "99": "Refused"
+        },
+        "label": "interval since last smoked",
+        "location": "148-149",
+        "section": "tobacco use"
+    },
+    "lengexam": {
+        "alt-name": "lengexam",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Within the past year (anytime less than 12 months ago)",
+            "2": "Within the past 2 years (1 year but less than 2 years ago)",
+            "3": "Within the past 3 years (2 years but less than 3 years ago)",
+            "4": "Within the past 5 years (3 years but less than 5 years ago)",
+            "5": "5 or more years ago",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "how long since last breast physical exam",
+        "location": "180",
+        "section": "breast/cervical cancer screening"
+    },
+    "lsatisfy": {
+        "alt-name": "lsatisfy",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Very satisfied",
+            "2": "Satisfied",
+            "3": "Dissatisfied",
+            "4": "Very dissatisfied",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "satisfaction with life",
+        "location": "421",
+        "section": "module 27: emotional support and life satisfaction"
+    },
+    "lstblds3": {
+        "alt-name": "lst3blds",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Within the past year (anytime less than 12 months ago)",
+            "2": "Within the past 2 years (1 year but less than 2 years ago)",
+            "3": "Within the past 3 years (2 years but less than 3 years ago)",
+            "4": "Within the past 5 years (3 years but less than 5 years ago)",
+            "5": "5 or more years ago",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "time since last blood stool test",
+        "location": "191",
+        "section": "colorectal cancer screening"
+    },
+    "marital": {
+        "alt-name": "marital",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Married",
+            "2": "Divorced",
+            "3": "Widowed",
+            "4": "Separated",
+            "5": "Never married",
+            "6": "A member of an unmarried couple",
+            "9": "Refused"
+        },
+        "label": "marital status",
+        "location": "111",
+        "section": "demographics"
+    },
+    "maxdrnks": {
+        "alt-name": "maxdrnks",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 76": "Number of drinks",
+            "77": "Dont know/Not sure",
+            "88": "Invalid response",
+            "99": "Refused"
+        },
+        "label": "most drinks on single occasion past 30 days",
+        "location": "158-159",
+        "section": "alcohol consumption"
+    },
+    "medcost": {
+        "alt-name": "medcost",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "could not see dr. because of cost",
+        "location": "82",
+        "section": "health care access"
+    },
+    "menthlth": {
+        "alt-name": "menthlth",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 30": "Number of days",
+            "77": "Dont know/Not sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "number of days mental health not good",
+        "location": "76-77",
+        "section": "healthy days - health-related quality of life"
+    },
+    "misdeprd": {
+        "alt-name": "misdeprd",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "All",
+            "2": "Most",
+            "3": "Some",
+            "4": "A little",
+            "5": "None",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "how often feel depressed past 30 days",
+        "location": "341",
+        "section": "module 17: mental illness & stigma"
+    },
+    "miseffrt": {
+        "alt-name": "miseffrt",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "All",
+            "2": "Most",
+            "3": "Some",
+            "4": "A little",
+            "5": "None",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "how often feel everything was an effort past 30 days",
+        "location": "342",
+        "section": "module 17: mental illness & stigma"
+    },
+    "mishopls": {
+        "alt-name": "mishopls",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "All",
+            "2": "Most",
+            "3": "Some",
+            "4": "A little",
+            "5": "None",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "how often feel hopeless past 30 days",
+        "location": "339",
+        "section": "module 17: mental illness & stigma"
+    },
+    "misnervs": {
+        "alt-name": "misnervs",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "All",
+            "2": "Most",
+            "3": "Some",
+            "4": "A little",
+            "5": "None",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "how often feel nervous past 30 days",
+        "location": "338",
+        "section": "module 17: mental illness & stigma"
+    },
+    "misnowrk": {
+        "alt-name": "misnowrk",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 30": "Number",
+            "77": "Dont know/Not sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "emotional problem kept you from doing work past 30 days",
+        "location": "344-345",
+        "section": "module 17: mental illness & stigma"
+    },
+    "misphlpf": {
+        "alt-name": "misphlpf",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Agree strongly",
+            "2": "Agree slightly",
+            "3": "Neither agree nor disagree",
+            "4": "Disagree slightly",
+            "5": "Disagree strongly",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "people are generally caring toward people with mental illness",
+        "location": "348",
+        "section": "module 17: mental illness & stigma"
+    },
+    "misrstls": {
+        "alt-name": "misrstls",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "All",
+            "2": "Most",
+            "3": "Some",
+            "4": "A little",
+            "5": "None",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "how often feel restless past 30 days",
+        "location": "340",
+        "section": "module 17: mental illness & stigma"
+    },
+    "mistmnt": {
+        "alt-name": "mistmnt",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "receiving medicine or treatment from health pro for emotional problem",
+        "location": "346",
+        "section": "module 17: mental illness & stigma"
+    },
+    "mistrhlp": {
+        "alt-name": "mistrhlp",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Agree strongly",
+            "2": "Agree slightly",
+            "3": "Neither agree nor disagree",
+            "4": "Disagree slightly",
+            "5": "Disagree strongly",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "mental health treatment can help people lead normal life",
+        "location": "347",
+        "section": "module 17: mental illness & stigma"
+    },
+    "miswtles": {
+        "alt-name": "miswtles",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "All",
+            "2": "Most",
+            "3": "Some",
+            "4": "A little",
+            "5": "None",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "how often feel worthless past 30 days",
+        "location": "343",
+        "section": "module 17: mental illness & stigma"
+    },
+    "mrace": {
+        "label": "multiple race",
+        "location": "103-108",
+        "section": "demographics"
+    },
+    "mraceasc": {
+        "label": "mraceorg with responses in ascending order calculated variable",
+        "location": "1613-1618",
+        "section": "calculated race variables"
+    },
+    "mraceorg": {
+        "label": "mrace with trailing 7,8,9s removed calculated variable",
+        "location": "1607-1612",
+        "section": "calculated race variables"
+    },
+    "mscode": {
+        "alt-name": "mscode",
+        "codes": {
+            ".": "GU, PR, VI",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "In the center city of an MSA",
+            "2": "Outside the center city of an MSA but inside the county containing the center city",
+            "3": "Inside a suburban county of the MSA",
+            "4": "In an MSA that has no center city",
+            "5": "Not in an MSA"
+        },
+        "label": "metropolitan status code",
+        "location": "885",
+        "section": "questionnaire language"
+    },
+    "nattmpts": {
+        "label": "number of attempts",
+        "location": "44-45",
+        "section": "record identification"
+    },
+    "nrecsel": {
+        "label": "number of sample records selected from stratum",
+        "location": "46-51",
+        "section": "record identification"
+    },
+    "nrecstr": {
+        "label": "number of telephone numbers in stratum from which sample was selected",
+        "location": "52-60",
+        "section": "record identification"
+    },
+    "numadult": {
+        "label": "number of adults in household",
+        "location": "66-67",
+        "section": "record identification"
+    },
+    "numburn2": {
+        "alt-name": "num2burn",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "One",
+            "2": "Two",
+            "3": "Three",
+            "4": "Four",
+            "5": "Five or more",
+            "7": "Dont know/Not sure",
+            "8": "None",
+            "9": "Refused"
+        },
+        "label": "number of sunburns in past 12 months",
+        "location": "256",
+        "section": "module 6: excess sun exposure"
+    },
+    "numhhol2": {
+        "alt-name": "num2hhol",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "household telephones",
+        "location": "134",
+        "section": "demographics"
+    },
+    "nummen": {
+        "label": "number of adult men in household",
+        "location": "68-69",
+        "section": "record identification"
+    },
+    "numphon2": {
+        "alt-name": "num2phon",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Residential telephone number",
+            "2": "Residential telephone numbers",
+            "3": "Residential telephone numbers",
+            "4": "Residential telephone numbers",
+            "5": "Residential telephone numbers",
+            "6": "Residential telephone numbers",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "residential phones",
+        "location": "135",
+        "section": "demographics"
+    },
+    "numwomen": {
+        "label": "number of adult women in household",
+        "location": "70-71",
+        "section": "record identification"
+    },
+    "o_state": {
+        "label": "original state that collected the cell phone data",
+        "location": "954-955",
+        "section": "questionnaire language"
+    },
+    "orace2": {
+        "alt-name": "o2race",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "White",
+            "2": "Black or African American",
+            "3": "Asian",
+            "4": "Native Hawaiian or Other Pacific Islander",
+            "5": "American Indian, Alaska Native",
+            "6": "Other",
+            "7": "Dont know/Not sure",
+            "8": "Multiracial but preferred race not asked",
+            "9": "Refused"
+        },
+        "label": "respondent race choice",
+        "location": "109",
+        "section": "demographics"
+    },
+    "painact2": {
+        "alt-name": "pain2act",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 30": "Number of days",
+            "77": "Dont know/Not sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "how many days hard to do usual activities in past 30 days",
+        "location": "230-231",
+        "section": "module 3: healthy days (symptoms)"
+    },
+    "pcdmdecn": {
+        "label": "who made the decision with you to have psa test?",
+        "location": "311-315",
+        "section": "module 14: prostate cancer screening decision making module"
+    },
+    "pcpsaad1": {
+        "alt-name": "pcpsa1ad",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "has a health professional ever talked with you about the advantages of the psa test?",
+        "location": "184",
+        "section": "prostate cancer screening"
+    },
+    "pcpsadec": {
+        "alt-name": "pcpsadec",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "You made the decision",
+            "2": "Your doctor/nurse/health care provider made the decision",
+            "3": "Your doctor/nurse/health care provider and you made the decision together",
+            "4": "Your spouse/significant other/family member made the decision",
+            "7": "Dont know / Not sure",
+            "9": "Refused"
+        },
+        "label": "why was psa test done?",
+        "location": "310",
+        "section": "module 14: prostate cancer screening decision making module"
+    },
+    "pcpsadi1": {
+        "alt-name": "pcpsa1di",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "has a health professional ever talked with you about the disadvantages of the psa test?",
+        "location": "185",
+        "section": "prostate cancer screening"
+    },
+    "pcpsare1": {
+        "alt-name": "pcpsa1re",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "has a doctor ever recommended that you have a psa test?",
+        "location": "186",
+        "section": "prostate cancer screening"
+    },
+    "pcpsars1": {
+        "alt-name": "pcpsa1rs",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Part of a routine exam",
+            "2": "Because of a prostate problem",
+            "3": "Because of a family history of prostate cancer",
+            "4": "Because you were told you had prostate cancer",
+            "5": "Some other reason",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "what was the main reason you had this psa test?",
+        "location": "189",
+        "section": "prostate cancer screening"
+    },
+    "pctcell": {
+        "label": "what percent of your calls are received on your cell phone?",
+        "location": "433-435",
+        "section": "cell phone introduction"
+    },
+    "pdiabtst": {
+        "alt-name": "pdiabtst",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "had a test for high blood sugar in past three years",
+        "location": "210",
+        "section": "module 1: pre-diabetes"
+    },
+    "persdoc2": {
+        "alt-name": "pers2doc",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes, only one",
+            "2": "More than one",
+            "3": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "multiple health care professionals",
+        "location": "81",
+        "section": "health care access"
+    },
+    "physhlth": {
+        "alt-name": "physhlth",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 30": "Number of days",
+            "77": "Dont know/Not sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "number of days physical health not good",
+        "location": "74-75",
+        "section": "healthy days - health-related quality of life"
+    },
+    "pneuvac3": {
+        "alt-name": "pneu3vac",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "pneumonia shot ever",
+        "location": "169",
+        "section": "immunization"
+    },
+    "poorhlth": {
+        "alt-name": "poorhlth",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 30": "Number of days",
+            "77": "Dont know/Not sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "poor physical or mental health",
+        "location": "78-79",
+        "section": "healthy days - health-related quality of life"
+    },
+    "precall": {
+        "alt-name": "precall",
+        "codes": {
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "To be called",
+            "3": "Pre-screened as non-working number",
+            "4": "cell phone - PRO-T-S",
+            "5": "Pre-screened as business number",
+            "6": "cell phone - Interviewer"
+        },
+        "label": "pre-call status code",
+        "location": "6",
+        "section": "record identification"
+    },
+    "prediab1": {
+        "alt-name": "pre1diab",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "Yes, during pregnancy",
+            "3": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "ever been told you have pre-diabetes or borderline diabetes",
+        "location": "211",
+        "section": "module 1: pre-diabetes"
+    },
+    "pregnant": {
+        "alt-name": "pregnant",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "pregnancy status",
+        "location": "142",
+        "section": "demographics"
+    },
+    "profexam": {
+        "alt-name": "profexam",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "ever had breast physical exam by doctor",
+        "location": "179",
+        "section": "breast/cervical cancer screening"
+    },
+    "psatest1": {
+        "alt-name": "psa1test",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "ever had psa test",
+        "location": "187",
+        "section": "prostate cancer screening"
+    },
+    "psatime": {
+        "alt-name": "psatime",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Within the past year (anytime less than 12 months ago)",
+            "2": "Within the past 2 years (1 year but less than 2 years ago)",
+            "3": "Within the past 3 years (2 years but less than 3 years ago)",
+            "4": "Within the past 5 years (3 years but less than 5 years ago)",
+            "5": "5 or more years ago",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "time since last psa test",
+        "location": "188",
+        "section": "prostate cancer screening"
+    },
+    "pvtresd2": {
+        "alt-name": "pvt2resd",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "do you live in a private residence?",
+        "location": "427",
+        "section": "cell phone introduction"
+    },
+    "pvtresid": {
+        "alt-name": "pvtresid",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No"
+        },
+        "label": "private residence?",
+        "location": "62",
+        "section": "record identification"
+    },
+    "qlactlm2": {
+        "alt-name": "ql2actlm",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "activity limitation due to health problems",
+        "location": "143",
+        "section": "disability"
+    },
+    "qlhlth2": {
+        "alt-name": "ql2hlth",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 30": "Number of days",
+            "77": "Dont know/Not sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "how many days full of energy in past 30 days",
+        "location": "236-237",
+        "section": "module 3: healthy days (symptoms)"
+    },
+    "qlmentl2": {
+        "alt-name": "ql2mentl",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 30": "Number of days",
+            "77": "Dont know/Not sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "how many days depressed in past 30 days",
+        "location": "232-233",
+        "section": "module 3: healthy days (symptoms)"
+    },
+    "qlrest2": {
+        "alt-name": "ql2rest",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 30": "Number of days",
+            "77": "Dont know/Not sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "how many days did you get enough sleep in past 30 days",
+        "location": "257-258",
+        "section": "module 7: inadequate sleep"
+    },
+    "qlstres2": {
+        "alt-name": "ql2stres",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 30": "Number of days",
+            "77": "Dont know/Not sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "how many days felt anxious in past 30 days",
+        "location": "234-235",
+        "section": "module 3: healthy days (symptoms)"
+    },
+    "qstlang": {
+        "alt-name": "qstlang",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "English",
+            "2": "Spanish",
+            "3 - 99": "Other"
+        },
+        "label": "language identifier",
+        "location": "823-824",
+        "section": "questionnaire language"
+    },
+    "qstver": {
+        "label": "questionnaire version identifier",
+        "location": "821-822",
+        "section": "questionnaire version"
+    },
+    "race2": {
+        "alt-name": "race2fmt",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "White only, non-Hispanic",
+            "2": "Black only, non-Hispanic",
+            "3": "Asian only, non-Hispanic",
+            "4": "Native Hawaiian or other Pacific Islander only, Non-Hispanic",
+            "5": "American Indian or Alaskan Native only, Non-Hispanic",
+            "6": "Other race only, non-Hispanic",
+            "7": "Multiracial, non-Hispanic",
+            "8": "Hispanic",
+            "9": "Dont know/Not sure/Refused"
+        },
+        "label": "computed race-ethnicity grouping",
+        "location": "1623",
+        "section": "calculated race variables"
+    },
+    "rchislat": {
+        "alt-name": "rchislat",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "ethnicity of child",
+        "location": "399",
+        "section": "module 23: random child selection"
+    },
+    "rcsbirth": {
+        "label": "birth date of child",
+        "location": "392-397",
+        "section": "module 23: random child selection"
+    },
+    "rcsbrace": {
+        "alt-name": "rcsbrace",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "White",
+            "2": "Black or African American",
+            "3": "Asian",
+            "4": "Native Hawaiian or other Pacific Islander",
+            "5": "American Indian or Alaskan Native",
+            "6": "Other",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "race of child",
+        "location": "406",
+        "section": "module 23: random child selection"
+    },
+    "rcsgendr": {
+        "alt-name": "rcsgendr",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Boy",
+            "2": "Girl",
+            "9": "Refused"
+        },
+        "label": "gender of child",
+        "location": "398",
+        "section": "module 23: random child selection"
+    },
+    "rcsrace": {
+        "label": "race of child (multiple possible)",
+        "location": "400-405",
+        "section": "module 23: random child selection"
+    },
+    "rcsrltn2": {
+        "alt-name": "rcs2rltn",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Parent (include biologic, step, or adoptive parent)",
+            "2": "Grandparent",
+            "3": "Foster parent or guardian",
+            "4": "Sibling (include biologic, step, and adoptive sibling)",
+            "5": "Other relative",
+            "6": "Not related in any way",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "relationship to child",
+        "location": "407",
+        "section": "module 23: random child selection"
+    },
+    "rcvfvch4": {
+        "alt-name": "$rcvfv4c",
+        "codes": {
+            " ": "Not asked or Missing",
+            "012011\"- \"122012": "Code month and year",
+            "777777": "Dont know/Not Sure",
+            "999999": "Refused"
+        },
+        "label": "date child rcvd most recent seasonal flu vaccine(mmyyyy)",
+        "location": "411-416",
+        "section": "module 25: childhood immunization"
+    },
+    "renthom1": {
+        "alt-name": "rent1hom",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Own",
+            "2": "Rent",
+            "3": "Other arrangement",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "own or rent home",
+        "location": "140",
+        "section": "demographics"
+    },
+    "repdepth": {
+        "label": "replicate depth",
+        "location": "13-14",
+        "section": "record identification"
+    },
+    "repnum": {
+        "label": "replicate number",
+        "location": "7-12",
+        "section": "record identification"
+    },
+    "rmvteth3": {
+        "alt-name": "rmv3teth",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "1 to 5",
+            "2": "6 or more, but not all",
+            "3": "All",
+            "7": "Dont know/Not sure",
+            "8": "None",
+            "9": "Refused"
+        },
+        "label": "number of permanent teeth removed",
+        "location": "99",
+        "section": "oral health"
+    },
+    "rratwrk2": {
+        "alt-name": "rr2atwrk",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Worse than other races",
+            "2": "The same as other races",
+            "3": "Better than other races",
+            "4": "Worse than some races, better than others",
+            "5": "Only encountered people of the same race",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "how do you feel you were treated at work compared to people of other races in past 12 months?",
+        "location": "334",
+        "section": "module 16: reactions to race"
+    },
+    "rrclass2": {
+        "alt-name": "rrclass",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "White",
+            "2": "Black or African American",
+            "3": "Hispanic or Latino",
+            "4": "Asian",
+            "5": "Native Hawaiian or Other Pacific Islander",
+            "6": "American Indian or Alaska Native",
+            "7": "Dont know/Not sure",
+            "8": "Some Other Group",
+            "9": "Refused"
+        },
+        "label": "how do other people usually classify you in this country?",
+        "location": "332",
+        "section": "module 16: reactions to race"
+    },
+    "rrcognt2": {
+        "alt-name": "rr2cognt",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Never",
+            "2": "Once a year",
+            "3": "Once a month",
+            "4": "Once a week",
+            "5": "Once a day",
+            "6": "Once an hour",
+            "7": "Dont know/Not sure",
+            "8": "Constantly",
+            "9": "Refused"
+        },
+        "label": "how often do you think about your race?",
+        "location": "333",
+        "section": "module 16: reactions to race"
+    },
+    "rremtsm2": {
+        "alt-name": "rr2emtsm",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "times past 30 days felt emotionally upset because of treatment due to your race",
+        "location": "337",
+        "section": "module 16: reactions to race"
+    },
+    "rrhcare3": {
+        "alt-name": "rr3hcare",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Worse than other races",
+            "2": "The same as other races",
+            "3": "Better than other races",
+            "4": "Worse than some races, better than others",
+            "5": "Only encountered people of the same race",
+            "6": "No health care in past 12 months",
+            "7": "Dont know/Not sure",
+            "9": "Refused"
+        },
+        "label": "when seeking health care past 12 months, was experience worse, same, better than people of other races?",
+        "location": "335",
+        "section": "module 16: reactions to race"
+    },
+    "rrphysm2": {
+        "alt-name": "rr2physm",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "times past 30 days felt physical symptoms because of treatment due to your race",
+        "location": "336",
+        "section": "module 16: reactions to race"
+    },
+    "rspstate": {
+        "alt-name": "rspstate",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Alabama",
+            "10": "Delaware",
+            "11": "District of Columbia",
+            "12": "Florida",
+            "13": "Georgia",
+            "15": "Hawaii",
+            "16": "Idaho",
+            "17": "Illinois",
+            "18": "Indiana",
+            "19": "Iowa",
+            "2": "Alaska",
+            "20": "Kansas",
+            "21": "Kentucky",
+            "22": "Louisiana",
+            "23": "Maine",
+            "24": "Maryland",
+            "25": "Massachusetts",
+            "26": "Michigan",
+            "27": "Minnesota",
+            "28": "Mississippi",
+            "29": "Missouri",
+            "30": "Montana",
+            "31": "Nebraska",
+            "32": "Nevada",
+            "33": "New Hampshire",
+            "34": "New Jersey",
+            "35": "New Mexico",
+            "36": "New York",
+            "37": "North Carolina",
+            "38": "North Dakota",
+            "39": "Ohio",
+            "4": "Arizona",
+            "40": "Oklahoma",
+            "41": "Oregon",
+            "42": "Pennsylvania",
+            "44": "Rhode Island",
+            "45": "South Carolina",
+            "46": "South Dakota",
+            "47": "Tennessee",
+            "48": "Texas",
+            "49": "Utah",
+            "5": "Arkansas",
+            "50": "Vermont",
+            "51": "Virginia",
+            "53": "Washington",
+            "54": "West Virginia",
+            "55": "Wisconsin",
+            "56": "Wyoming",
+            "6": "California",
+            "66": "Guam",
+            "72": "Puerto Rico",
+            "78": "Virgin Islands",
+            "8": "Colorado",
+            "9": "Connecticut",
+            "99": "Refused"
+        },
+        "label": "in what state do you live?",
+        "location": "430-431",
+        "section": "cell phone introduction"
+    },
+    "scntlpad": {
+        "alt-name": "scntlpad",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Paid by salary",
+            "2": "Paid by the hour",
+            "3": "Paid by the job/task (e.g. commission, piecework)",
+            "4": "Paid some other way",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "how were you generally paid for the work you did",
+        "location": "354",
+        "section": "module 18: social context"
+    },
+    "scntlwk1": {
+        "alt-name": "scntl1wk",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 96": "Hours (1-96 or more)",
+            "97": "Dont know/Not Sure",
+            "98": "Zero (none)",
+            "99": "Refused"
+        },
+        "label": "how many hours per week did you work",
+        "location": "355-356",
+        "section": "module 18: social context"
+    },
+    "scntmeal": {
+        "alt-name": "scntmeal",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Always",
+            "2": "Usually",
+            "3": "Sometimes",
+            "4": "Rarely",
+            "5": "Never",
+            "7": "Dont know/Not Sure",
+            "8": "Not applicable",
+            "9": "Refused"
+        },
+        "label": "times past 12 months worried/stressed about having enough money to buy nutritious meals?",
+        "location": "350",
+        "section": "module 18: social context"
+    },
+    "scntmony": {
+        "alt-name": "scntmony",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Always",
+            "2": "Usually",
+            "3": "Sometimes",
+            "4": "Rarely",
+            "5": "Never",
+            "7": "Dont know/Not Sure",
+            "8": "Not applicable",
+            "9": "Refused"
+        },
+        "label": "times past 12 months worried/stressed about having enough money to pay your rent/mortgage?",
+        "location": "349",
+        "section": "module 18: social context"
+    },
+    "scntpaid": {
+        "alt-name": "scntpaid",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Paid by salary",
+            "2": "Paid by the hour",
+            "3": "Paid by the job/task (e.g. commission, piecework)",
+            "4": "Paid some other way",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "how are you generally paid for the work you do",
+        "location": "351",
+        "section": "module 18: social context"
+    },
+    "scntwrk1": {
+        "alt-name": "scnt1wrk",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 96": "Hours (1-96 or more)",
+            "97": "Dont know/Not Sure",
+            "98": "Zero (none)",
+            "99": "Refused"
+        },
+        "label": "how many hours per week do you work",
+        "location": "352-353",
+        "section": "module 18: social context"
+    },
+    "seatbelt": {
+        "alt-name": "seatbelt",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Always",
+            "2": "Nearly always",
+            "3": "Sometimes",
+            "4": "Seldom",
+            "5": "Never",
+            "7": "Dont know/Not sure",
+            "8": "Never drive or ride in a car",
+            "9": "Refused"
+        },
+        "label": "how often use seatbelts in car?",
+        "location": "174",
+        "section": "seatbelt use"
+    },
+    "seqno": {
+        "label": "annual sequence number",
+        "location": "34-43",
+        "section": "record identification"
+    },
+    "sex": {
+        "alt-name": "sex",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Male",
+            "2": "Female"
+        },
+        "label": "respondents sex",
+        "location": "141",
+        "section": "demographics"
+    },
+    "shingle1": {
+        "alt-name": "shin1gle",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "have you had shingles vaccine?",
+        "location": "303",
+        "section": "module 11: shingles (zostavax or zos)"
+    },
+    "slepday": {
+        "alt-name": "slepday",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 30": "Number of days [1-30]",
+            "77": "Dont know/Not Sure",
+            "88": "None",
+            "99": "Refused"
+        },
+        "label": "number of days in past thirty fell asleep during the day",
+        "location": "262-263",
+        "section": "module 7: inadequate sleep"
+    },
+    "slepdriv": {
+        "alt-name": "slepdriv",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "3": "Dont drive",
+            "4": "Dont have license",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "number of days in past thirty fell asleep while driving",
+        "location": "264",
+        "section": "module 7: inadequate sleep"
+    },
+    "slepsnor": {
+        "alt-name": "slepsnor",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "do you snore?",
+        "location": "261",
+        "section": "module 7: inadequate sleep"
+    },
+    "sleptime": {
+        "alt-name": "sleptime",
+        "codes": {
+            ".": "Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1 - 24": "Number of hours [1-24]",
+            "77": "Dont know/Not Sure",
+            "99": "Refused"
+        },
+        "label": "how much time do you sleep",
+        "location": "259-260",
+        "section": "module 7: inadequate sleep"
+    },
+    "smokday2": {
+        "alt-name": "smok2day",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Every day",
+            "2": "Some days",
+            "3": "Not at all",
+            "7": "Dont Know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "frequency of days now smoking",
+        "location": "146",
+        "section": "tobacco use"
+    },
+    "smoke100": {
+        "alt-name": "smok100_",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "smoked at least 100 cigarettes",
+        "location": "145",
+        "section": "tobacco use"
+    },
+    "ssbcalri": {
+        "alt-name": "ssbcalri",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Always",
+            "2": "Most of the time",
+            "3": "About half the time",
+            "4": "Sometimes",
+            "5": "Never",
+            "55": "Do not eat at fast food or chain restaurants",
+            "6": "Never noticed or never looked for calorie information",
+            "77": "Dont know/Not sure",
+            "8": "Usually cannot find calorie information",
+            "99": "Refused"
+        },
+        "label": "how often does calorie information help you decide what to order?",
+        "location": "254-255",
+        "section": "module 5: sugar sweetened beverages and menu labeling"
+    },
+    "ssbfrut1": {
+        "alt-name": "ssb1frut",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "101 - 199": "Times per day",
+            "201 - 299": "Times per week",
+            "300": "Less than one time per month",
+            "301 - 399": "Times per month",
+            "777": "Dont know/Not sure",
+            "888": "Never",
+            "999": "Refused"
+        },
+        "label": "how often did you drink sweetened fruit drinks, such as kool-aid, cranberry juice cocktail, and lemonade?",
+        "location": "251-253",
+        "section": "module 5: sugar sweetened beverages and menu labeling"
+    },
+    "ssbsugr1": {
+        "alt-name": "ssb1sugr",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "101 - 199": "Times per day",
+            "201 - 299": "Times per week",
+            "300": "Less than one time per month",
+            "301 - 399": "Times per month",
+            "777": "Dont know/Not sure",
+            "888": "Never",
+            "999": "Refused"
+        },
+        "label": "how often did you drink regular soda or pop that contains sugar?",
+        "location": "248-250",
+        "section": "module 5: sugar sweetened beverages and menu labeling"
+    },
+    "stopsmk2": {
+        "alt-name": "stop2smk",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "stopped smoking in past 12 months",
+        "location": "147",
+        "section": "tobacco use"
+    },
+    "tnsarcnt": {
+        "alt-name": "tnsarcnt",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "was most recent tetanus shot in 2005 or later?",
+        "location": "305",
+        "section": "module 12: tetanus diphtheria (adults)"
+    },
+    "tnsarcv": {
+        "alt-name": "tnsarcv",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "received tetanus shot in the past 10 years?",
+        "location": "304",
+        "section": "module 12: tetanus diphtheria (adults)"
+    },
+    "tnsasht1": {
+        "alt-name": "tnsa1sht",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes (included pertusis)",
+            "2": "No  (did not include pertusis)",
+            "3": "Doctor did not say",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "did tetanus shot included the pertussis vaccine?",
+        "location": "306",
+        "section": "module 12: tetanus diphtheria (adults)"
+    },
+    "useequip": {
+        "alt-name": "useequip",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "health problems requiring special equipment",
+        "location": "144",
+        "section": "disability"
+    },
+    "usenow3": {
+        "alt-name": "use3now",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Every day",
+            "2": "Some days",
+            "3": "Not at all",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "use of smokeless tobacco products",
+        "location": "150",
+        "section": "tobacco use"
+    },
+    "vegetab1": {
+        "alt-name": "vege1tab",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "101 - 199": "Servings per day",
+            "201 - 299": "Servings per week",
+            "300": "Less than one time per month",
+            "301 - 399": "Servings per month",
+            "555": "Never",
+            "777": "Dont know/Not sure",
+            "999": "Refused"
+        },
+        "label": "how many times did you eat other vegetables?",
+        "location": "280-282",
+        "section": "module 8: fruits and vegetables"
+    },
+    "veteran3": {
+        "alt-name": "vet3eran",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "are you a veteran",
+        "location": "110",
+        "section": "demographics"
+    },
+    "vhcombat": {
+        "alt-name": "vhcombat",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "ever serve in a combat or war zone?",
+        "location": "369",
+        "section": "module 20: veterans health"
+    },
+    "vhcounsl": {
+        "alt-name": "vhcounsl",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes, from a VA facility",
+            "2": "Yes, from a non-VA facility",
+            "3": "Yes, from both VA and non-VA facilities",
+            "4": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "receive psychological or psychiatric counseling or treatment past 12 months?",
+        "location": "372",
+        "section": "module 20: veterans health"
+    },
+    "vhdrptsd": {
+        "alt-name": "vhdrptsd",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "doctor diagnosed depression, anxiety, or post traumatic stress disorder (ptsd)?",
+        "location": "370",
+        "section": "module 20: veterans health"
+    },
+    "vhdrtbi": {
+        "alt-name": "vhdrtbi",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "doctor diagnosed traumatic brain injury (tbi)?",
+        "location": "371",
+        "section": "module 20: veterans health"
+    },
+    "vhsuicid": {
+        "alt-name": "vhsuicid",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes, but did not require treatment",
+            "2": "Yes, was treated at a VA facility",
+            "3": "Yes, was treated at a non-VA facility",
+            "4": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "attempt to commit suicide in past 12 months?",
+        "location": "374",
+        "section": "module 20: veterans health"
+    },
+    "vhtaklif": {
+        "alt-name": "vhtaklif",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "thought of taking your own life in the past 12 months?",
+        "location": "373",
+        "section": "module 20: veterans health"
+    },
+    "victrct4": {
+        "alt-name": "vi4ctrct",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No, I had them removed",
+            "3": "No",
+            "7": "Dont know/Not Sure",
+            "8": "Not applicable (Blind)",
+            "9": "Refused"
+        },
+        "label": "hlth care pro said now have cataracts",
+        "location": "245",
+        "section": "module 4: visual impairment and access to eye care"
+    },
+    "vidfclt2": {
+        "alt-name": "vi2dfclt",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "No difficulty",
+            "2": "A little difficulty",
+            "3": "Moderate difficulty",
+            "4": "Extreme difficulty",
+            "5": "Unable to do because of eyesight",
+            "6": "Unable to do for other reasons",
+            "7": "Dont know/Not sure",
+            "8": "Not applicable (Blind)",
+            "9": "Refused"
+        },
+        "label": "difficulty recognizing friend across street",
+        "location": "238",
+        "section": "module 4: visual impairment and access to eye care"
+    },
+    "vieyexm2": {
+        "alt-name": "vi2eyexm",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Within the past month (anytime less than 1 month ago)",
+            "2": "Within the past year (1 month but less than 12 months ago)",
+            "3": "Within the past 2 years (1 year but less than 2 years)",
+            "4": "2 or more years ago",
+            "5": "Never",
+            "7": "Dont know/Not Sure",
+            "8": "Not applicable (Blind)",
+            "9": "Refused"
+        },
+        "label": "when last eyexam",
+        "location": "243",
+        "section": "module 4: visual impairment and access to eye care"
+    },
+    "vigluma2": {
+        "alt-name": "vi2gluma",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "8": "Not applicable (Blind)",
+            "9": "Refused"
+        },
+        "label": "hlth care pro ever said have glaucoma",
+        "location": "246",
+        "section": "module 4: visual impairment and access to eye care"
+    },
+    "viinsur2": {
+        "alt-name": "vi2insur",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "8": "Not applicable (Blind)",
+            "9": "Refused"
+        },
+        "label": "eye care health insurance",
+        "location": "244",
+        "section": "module 4: visual impairment and access to eye care"
+    },
+    "vimacdg2": {
+        "alt-name": "vimac2dg",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "8": "Not applicable (Blind)",
+            "9": "Refused"
+        },
+        "label": "hlth care pro ever said have macular degeneration",
+        "location": "247",
+        "section": "module 4: visual impairment and access to eye care"
+    },
+    "vinocre2": {
+        "alt-name": "vi2nocre",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Cost/insurance",
+            "2": "Do not have/know an eye doctor",
+            "3": "Cannot get to the office/clinic (too far away,no transportation)",
+            "4": "Could not get an appointment",
+            "5": "No reason to go (no problem)",
+            "6": "Have not thought of it",
+            "7": "Other",
+            "77": "Dont know/Not Sure",
+            "8": "Not Applicable (Blind)",
+            "99": "Refused"
+        },
+        "label": "reason did not use eye doc past 12 mos",
+        "location": "241-242",
+        "section": "module 4: visual impairment and access to eye care"
+    },
+    "viprfvs2": {
+        "alt-name": "vi2prfvs",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Within the past month (anytime less than 1 month ago)",
+            "2": "Within the past year (1month but less than 12 months ago)",
+            "3": "Within the past 2 years (1years but less than 2 years ago)",
+            "4": "2 or more years ago",
+            "5": "Never",
+            "7": "Dont know/Not sure",
+            "8": "Not applicable (Blind)",
+            "9": "Refused"
+        },
+        "label": "last time visited eye care provider",
+        "location": "240",
+        "section": "module 4: visual impairment and access to eye care"
+    },
+    "viredif2": {
+        "alt-name": "vi2redif",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "No difficulty",
+            "2": "A little difficulty",
+            "3": "Moderate difficulty",
+            "4": "Extreme difficulty",
+            "5": "Unable to do because of eyesight",
+            "6": "Unable to do for other reasons",
+            "7": "Dont know/Not sure",
+            "8": "Not applicable (Blind)",
+            "9": "Refused"
+        },
+        "label": "difficulty reading typed text",
+        "location": "239",
+        "section": "module 4: visual impairment and access to eye care"
+    },
+    "weight2": {
+        "alt-name": "weight",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "50 - 999": "Weight (pounds)",
+            "7777": "Dont know/Not sure",
+            "9000 - 9998": "Weight (kilograms)",
+            "9999": "Refused"
+        },
+        "label": "reported weight in pounds",
+        "location": "118-121",
+        "section": "demographics"
+    },
+    "whrtst8": {
+        "alt-name": "whr8tst",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Private doctor or HMO",
+            "2": "Counseling and testing site",
+            "3": "Hospital",
+            "4": "Clinic",
+            "5": "Jail or prison (or other correctional facility)",
+            "6": "Drug treatment facility",
+            "7": "At home",
+            "77": "Dont know/Not sure",
+            "8": "Somewhere else",
+            "99": "Refused"
+        },
+        "label": "location of last hiv test",
+        "location": "417-418",
+        "section": "module 26: hiv/aids"
+    },
+    "wrkhcf1": {
+        "alt-name": "hr01hcw",
+        "codes": {
+            ".": "Not asked or Missing",
+            ".D": "DK/NS",
+            ".R": "REFUSED",
+            "1": "Yes",
+            "2": "No",
+            "7": "Dont know/Not Sure",
+            "9": "Refused"
+        },
+        "label": "do you currently volunteer or work in a hospital, medical clinic, doctors office, dentists office, nursing home or some other health-care facility?",
+        "location": "299",
+        "section": "module 10: high risk/health care worker"
+    },
+    "wtkg3": {
+        "label": "computed weight in kilograms",
+        "location": "1639-1643",
+        "section": "calculated race variables"
+    }
+}
