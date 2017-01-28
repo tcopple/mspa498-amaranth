@@ -7,7 +7,7 @@
 
 /src/r/MonetDB/
 /src/r/download
-/src/r/R.Rproj
+/src/r/*.Rproj
 *.rda
 
 .DS_Store
