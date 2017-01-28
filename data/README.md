@@ -22,3 +22,7 @@ script converts the XPT SAS formatted files to csv.
   /brfss-unzip.py - unzips every file in `/brfss-zips` to `/brfss-xpts`
 
   /brfss-convert.py - converts xpt files in `/brfss-xpts` to csv files located in `/brfss-csvs`
+
+  /codebooks - a directory with the codebooks from many of the downloaded years
+
+  /formats - a sas & json directory with variable code mappings for use in other languages
