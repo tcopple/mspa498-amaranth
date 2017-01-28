@@ -15,7 +15,7 @@ Navigate to the ./data directory and run python scripts to pull down BRFSS data 
 
  ./src - directory to store any code files
 
- ./etc - directory to store misc files
+ ./docs - directory to store misc files project files and reports
 
 ###Contributors
  * Tyler Copple (tcopple)
