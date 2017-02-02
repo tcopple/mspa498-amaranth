@@ -25,4 +25,4 @@ script converts the XPT SAS formatted files to csv.
 
   /codebooks - a directory with the codebooks from many of the downloaded years
 
-  /formats - a sas & json directory with variable code mappings for use in other languages
+  /supplemental - a directory of sas and text files, with python scripts that create json files that represent data dictionaries
