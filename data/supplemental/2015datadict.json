@@ -8,9 +8,13 @@
             "2": "Age 65 or older",
             "3": "Dont know/Refused/Missing"
         },
+        "derived": 0,
         "label": "reported age in two age groups calculated variable",
-        "location": "1973",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 1973,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_age80": {
         "alt-name": "_age80f",
@@ -32,9 +36,13 @@
             "75 - 79": "Imputed Age 75 to 79",
             "80 - 99": "Imputed Age 80 or older"
         },
+        "derived": 0,
         "label": "imputed age value collapsed above 80",
-        "location": "1974-1975",
-        "section": "calculated variables"
+        "levels": "",
+        "location": 1974,
+        "section": "calculated variables",
+        "size": 2,
+        "type": "integer"
     },
     "_age_g": {
         "alt-name": "_age_g",
@@ -48,9 +56,13 @@
             "5": "Age 55 to 64",
             "6": "Age 65 or older"
         },
+        "derived": 0,
         "label": "imputed age in six groups",
-        "location": "1976",
-        "section": "calculated variables"
+        "levels": 8,
+        "location": 1976,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_ageg5yr": {
         "alt-name": "_ageg5yr",
@@ -72,9 +84,13 @@
             "8": "Age 55 to 59",
             "9": "Age 60 to 64"
         },
+        "derived": 0,
         "label": "reported age in five-year age categories calculated variable",
-        "location": "1971-1972",
-        "section": "calculated variables"
+        "levels": 16,
+        "location": 1971,
+        "section": "calculated variables",
+        "size": 2,
+        "type": "categorical"
     },
     "_aidtst3": {
         "alt-name": "_3aidtst",
@@ -86,9 +102,13 @@
             "2": "No",
             "9": "Dont know/Not Sure/Refused"
         },
+        "derived": 0,
         "label": "ever been tested for hiv calculated variable",
-        "location": "2154",
-        "section": "calculated variables"
+        "levels": 6,
+        "location": 2154,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_asthms1": {
         "alt-name": "_1asthms",
@@ -100,9 +120,13 @@
             "3": "Never",
             "9": "Dont know/Not Sure Or Refused/Missing"
         },
+        "derived": 0,
         "label": "computed asthma status",
-        "location": "1902",
-        "section": "calculated variables"
+        "levels": 6,
+        "location": 1902,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_bmi5": {
         "alt-name": "_5bmi",
@@ -112,9 +136,13 @@
             ".R": "REFUSED",
             "1 - 9999": "1 or greater"
         },
+        "derived": 0,
         "label": "computed body mass index",
-        "location": "1988-1991",
-        "section": "calculated variables"
+        "levels": "",
+        "location": 1988,
+        "section": "calculated variables",
+        "size": 4,
+        "type": "integer"
     },
     "_bmi5cat": {
         "alt-name": "_bmi5cat",
@@ -127,9 +155,13 @@
             "3": "Overweight",
             "4": "Obese"
         },
+        "derived": 0,
         "label": "computed body mass index categories",
-        "location": "1992",
-        "section": "calculated variables"
+        "levels": 7,
+        "location": 1992,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_casthm1": {
         "alt-name": "_1casthm",
@@ -140,9 +172,13 @@
             "2": "Yes",
             "9": "Dont know/Not Sure Or Refused/Missing"
         },
+        "derived": 0,
         "label": "current asthma calculated variable",
-        "location": "1901",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 1901,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_chispnc": {
         "alt-name": "_chispnc",
@@ -154,9 +190,13 @@
             "2": "Child not of Hispanic, Latino/a, or Spanish origin",
             "9": "Dont know/Not Sure/Refused"
         },
+        "derived": 0,
         "label": "child hispanic, latino/a, or spanish origin calculated variable",
-        "location": "1478",
-        "section": "child demographic variables"
+        "levels": 6,
+        "location": 1478,
+        "section": "child demographic variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_chldcnt": {
         "alt-name": "_chldcnt",
@@ -171,9 +211,13 @@
             "6": "Five or more children in household",
             "9": "Dont know/Not sure/Missing"
         },
+        "derived": 0,
         "label": "computed number of children in household",
-        "location": "1994",
-        "section": "calculated variables"
+        "levels": 9,
+        "location": 1994,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_cholchk": {
         "alt-name": "_cholchk",
@@ -185,14 +229,22 @@
             "3": "Have never had cholesterol checked",
             "9": "Dont know/Not Sure Or Refused/Missing"
         },
+        "derived": 0,
         "label": "cholesterol checked calculated variable",
-        "location": "1897",
-        "section": "calculated variables"
+        "levels": 6,
+        "location": 1897,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_cllcpwt": {
+        "derived": 1,
         "label": "final child weight: land-line and cell-phone data",
-        "location": "1580-1589",
-        "section": "child demographic variables"
+        "levels": 0,
+        "location": 1580,
+        "section": "child demographic variables",
+        "size": 10,
+        "type": "numeric"
     },
     "_cprace": {
         "alt-name": "_cprace",
@@ -211,9 +263,13 @@
             "8": "Multiracial but preferred race not answered",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "preferred child race categories",
-        "location": "1537-1538",
-        "section": "child demographic variables"
+        "levels": 13,
+        "location": 1537,
+        "section": "child demographic variables",
+        "size": 2,
+        "type": "categorical"
     },
     "_crace1": {
         "alt-name": "_c1race",
@@ -231,9 +287,13 @@
             "77": "Dont know/Not sure",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "child non-hispanic race including multiracial",
-        "location": "1535-1536",
-        "section": "child demographic variables"
+        "levels": 12,
+        "location": 1535,
+        "section": "child demographic variables",
+        "size": 2,
+        "type": "categorical"
     },
     "_drdxar1": {
         "alt-name": "_drdx1ar",
@@ -244,9 +304,13 @@
             "1": "Diagnosed with arthritis",
             "2": "Not diagnosed with arthritis"
         },
+        "derived": 0,
         "label": "respondents diagnosed with arthritis",
-        "location": "1903",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 1903,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_drnkwek": {
         "alt-name": "_drnkwek",
@@ -257,14 +321,22 @@
             "1 - 98999": "Number of drinks per week",
             "99900": "Dont know/Not sure/Refused/Missing"
         },
+        "derived": 0,
         "label": "computed number of drinks of alcohol beverages per week",
-        "location": "2004-2008",
-        "section": "calculated variables"
+        "levels": "",
+        "location": 2004,
+        "section": "calculated variables",
+        "size": 5,
+        "type": "integer"
     },
     "_dualcor": {
+        "derived": 1,
         "label": "dual phone use correction factor",
-        "location": "1678-1687",
-        "section": "child demographic variables"
+        "levels": 0,
+        "location": 1678,
+        "section": "child demographic variables",
+        "size": 10,
+        "type": "numeric"
     },
     "_dualuse": {
         "alt-name": "_dualuse",
@@ -278,9 +350,13 @@
             "4": "Cell Phone: Cell Phone Occasionally",
             "9": "No Dual Phone Use"
         },
+        "derived": 0,
         "label": "dual phone use categories",
-        "location": "1677",
-        "section": "child demographic variables"
+        "levels": 8,
+        "location": 1677,
+        "section": "child demographic variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_educag": {
         "alt-name": "_educag",
@@ -293,9 +369,13 @@
             "4": "Graduated from College or Technical School",
             "9": "Dont know/Not sure/Missing"
         },
+        "derived": 0,
         "label": "computed level of education completed categories",
-        "location": "1995",
-        "section": "calculated variables"
+        "levels": 7,
+        "location": 1995,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_flshot6": {
         "alt-name": "_6flshot",
@@ -307,9 +387,13 @@
             "2": "No",
             "9": "Dont know/Not Sure Or Refused/Missing"
         },
+        "derived": 0,
         "label": "flu shot calculated variable",
-        "location": "2152",
-        "section": "calculated variables"
+        "levels": 6,
+        "location": 2152,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_frt16": {
         "alt-name": "_16frt",
@@ -320,9 +404,13 @@
             "0": "Not Included - Values are too high",
             "1": "Included - Values are in accepted range"
         },
+        "derived": 0,
         "label": "reported consuming fruit >16/day",
-        "location": "2052",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 2052,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_frtlt1": {
         "alt-name": "_frt1lt",
@@ -333,9 +421,13 @@
             "2": "Consumed fruit less than one time per day",
             "9": "Dont know, refused or missing values"
         },
+        "derived": 0,
         "label": "consume fruit 1 or more times per day",
-        "location": "2050",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 2050,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_frtresp": {
         "alt-name": "_frtresp",
@@ -346,9 +438,13 @@
             "0": "Not Included - Missing Fruit Responses",
             "1": "Included - Not Missing Fruit Responses"
         },
+        "derived": 0,
         "label": "missing any fruit responses",
-        "location": "2036",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 2036,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_fruitex": {
         "alt-name": "_fruitex",
@@ -360,14 +456,22 @@
             "1": "Missing Fruit responses",
             "2": "Fruit values out of range"
         },
+        "derived": 0,
         "label": "fruit exclusion from analyses",
-        "location": "2054",
-        "section": "calculated variables"
+        "levels": 6,
+        "location": 2054,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_frutsum": {
+        "derived": 1,
         "label": "total fruits consumed per day",
-        "location": "2038-2043",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2038,
+        "section": "calculated variables",
+        "size": 6,
+        "type": "numeric"
     },
     "_hcvu651": {
         "alt-name": "_hcv165u",
@@ -378,9 +482,13 @@
             "2": "Do not have health care coverage",
             "9": "Dont know/Not Sure, Refused or Missing"
         },
+        "derived": 0,
         "label": "respondents aged 18-64 with health care coverage",
-        "location": "1895",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 1895,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_hispanc": {
         "alt-name": "_hispanc",
@@ -392,9 +500,13 @@
             "2": "Not of Hispanic, Latino/a, or Spanish origin",
             "9": "Dont Know, Refused or Missing"
         },
+        "derived": 0,
         "label": "hispanic, latino/a, or spanish origin calculated variable",
-        "location": "1966",
-        "section": "calculated variables"
+        "levels": 6,
+        "location": 1966,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_incomg": {
         "alt-name": "_incomg",
@@ -408,14 +520,22 @@
             "5": "$50,000 or more",
             "9": "Dont know/Not sure/Missing"
         },
+        "derived": 0,
         "label": "computed income categories",
-        "location": "1996",
-        "section": "calculated variables"
+        "levels": 8,
+        "location": 1996,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_llcpwt": {
+        "derived": 1,
         "label": "final weight: land-line and cell-phone data",
-        "location": "1746-1755",
-        "section": "child demographic variables"
+        "levels": 0,
+        "location": 1746,
+        "section": "child demographic variables",
+        "size": 10,
+        "type": "numeric"
     },
     "_lmtact1": {
         "alt-name": "_lmt1act",
@@ -428,9 +548,13 @@
             "3": "Not told they have arthritis",
             "9": "Dont know, refused or missing usual activities limited"
         },
+        "derived": 0,
         "label": "limited usual activities",
-        "location": "2147",
-        "section": "calculated variables"
+        "levels": 7,
+        "location": 2147,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_lmtscl1": {
         "alt-name": "_lmt1scl",
@@ -444,9 +568,13 @@
             "4": "Not told they have arthritis",
             "9": "Dont know, refused or missing social activities limited"
         },
+        "derived": 0,
         "label": "limited social activities",
-        "location": "2149",
-        "section": "calculated variables"
+        "levels": 8,
+        "location": 2149,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_lmtwrk1": {
         "alt-name": "_lmt1wrk",
@@ -459,9 +587,13 @@
             "3": "Not told they have arthritis",
             "9": "Dont know, refused or missing work limited"
         },
+        "derived": 0,
         "label": "limited work activities",
-        "location": "2148",
-        "section": "calculated variables"
+        "levels": 7,
+        "location": 2148,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_ltasth1": {
         "alt-name": "_1ltasth",
@@ -472,9 +604,13 @@
             "2": "Yes",
             "9": "Dont know/Not Sure Or Refused/Missing"
         },
+        "derived": 0,
         "label": "lifetime asthma calculated variable",
-        "location": "1900",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 1900,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_michd": {
         "alt-name": "_michd",
@@ -485,19 +621,31 @@
             "1": "Reported having MI or CHD",
             "2": "Did not report having MI or CHD"
         },
+        "derived": 0,
         "label": "respondents that have ever reported having coronary heart disease (chd) or myocardial infarction (mi)",
-        "location": "1899",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 1899,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_minac11": {
+        "derived": 1,
         "label": "minutes of physical activity per week for first activity",
-        "location": "2093-2097",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2093,
+        "section": "calculated variables",
+        "size": 5,
+        "type": "numeric"
     },
     "_minac21": {
+        "derived": 1,
         "label": "minutes of physical activity per week for second activity",
-        "location": "2098-2102",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2098,
+        "section": "calculated variables",
+        "size": 5,
+        "type": "numeric"
     },
     "_misfrtn": {
         "alt-name": "_misfrtn",
@@ -508,9 +656,13 @@
             "0": "No missing fruit responses",
             "1 - 2": "Has 1 or 2 missing fruit responses"
         },
+        "derived": 0,
         "label": "the number of missing fruit responses",
-        "location": "2034",
-        "section": "calculated variables"
+        "levels": "",
+        "location": 2034,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "integer"
     },
     "_misvegn": {
         "alt-name": "_misvegn",
@@ -521,9 +673,13 @@
             "0": "No missing vegetable responses",
             "1 - 4": "Has 1, 2, 3, or 4 missing vegetable responses"
         },
+        "derived": 0,
         "label": "the number of missing vegetable responses",
-        "location": "2035",
-        "section": "calculated variables"
+        "levels": "",
+        "location": 2035,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "integer"
     },
     "_mrace1": {
         "alt-name": "_m1race",
@@ -541,9 +697,13 @@
             "77": "Dont know/Not sure",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "calculated non-hispanic race including multiracial",
-        "location": "1962-1963",
-        "section": "calculated variables"
+        "levels": 12,
+        "location": 1962,
+        "section": "calculated variables",
+        "size": 2,
+        "type": "categorical"
     },
     "_pa150r2": {
         "alt-name": "_2pa150r",
@@ -555,9 +715,13 @@
             "3": "0 minutes (or vigorous equivalent minutes) of physical activity",
             "9": "Dont know/Not Sure/Refused/Missing"
         },
+        "derived": 0,
         "label": "150 minute physical activity calculated variable",
-        "location": "2141",
-        "section": "calculated variables"
+        "levels": 6,
+        "location": 2141,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_pa30021": {
         "alt-name": "_30021pa",
@@ -568,9 +732,13 @@
             "2": "0-300 minutes  (or vigorous equivalent minutes) of physical activity",
             "9": "Dont know/Not Sure/Refused/Missing"
         },
+        "derived": 0,
         "label": "300 minute physical activity 2-level calculated variable",
-        "location": "2143",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 2143,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_pa300r2": {
         "alt-name": "_2pa300r",
@@ -582,9 +750,13 @@
             "3": "0 minutes  (or vigorous equivalent minutes) of physical activity",
             "9": "Dont know/Not Sure/Refused/Missing"
         },
+        "derived": 0,
         "label": "300 minute physical activity calculated variable",
-        "location": "2142",
-        "section": "calculated variables"
+        "levels": 6,
+        "location": 2142,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_pacat1": {
         "alt-name": "_pa1cat",
@@ -597,9 +769,13 @@
             "4": "Inactive",
             "9": "Dont know/Not Sure/Refused/Missing"
         },
+        "derived": 0,
         "label": "physical activity categories",
-        "location": "2139",
-        "section": "calculated variables"
+        "levels": 7,
+        "location": 2139,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_paindx1": {
         "alt-name": "_pa1indx",
@@ -610,9 +786,13 @@
             "2": "Did Not Meet Aerobic Recommendations",
             "9": "Dont know/Not Sure/Refused/Missing"
         },
+        "derived": 0,
         "label": "physical activity index",
-        "location": "2140",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 2140,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_parec1": {
         "alt-name": "_pa1rec",
@@ -625,9 +805,13 @@
             "4": "Did not meet Either Guideline",
             "9": "Dont know/Not Sure/Refused/Missing"
         },
+        "derived": 0,
         "label": "aerobic and strengthening guideline",
-        "location": "2145",
-        "section": "calculated variables"
+        "levels": 7,
+        "location": 2145,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_pastae1": {
         "alt-name": "_pa1atae",
@@ -638,9 +822,13 @@
             "2": "Did Not Meet Both Guidelines",
             "9": "Dont know/Not Sure/Refused/Missing"
         },
+        "derived": 0,
         "label": "aerobic and strengthening (2-level)",
-        "location": "2146",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 2146,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_pastrng": {
         "alt-name": "_pastrng",
@@ -651,9 +839,13 @@
             "2": "Did not meet muscle strengthening recommendations",
             "9": "Dont know/Not Sure/Refused/Missing"
         },
+        "derived": 0,
         "label": "muscle strengthening recommendation",
-        "location": "2144",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 2144,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_pneumo2": {
         "alt-name": "_2pneumo",
@@ -665,9 +857,13 @@
             "2": "No",
             "9": "Dont know/Not Sure Or Refused/Missing"
         },
+        "derived": 0,
         "label": "pneumonia vaccination calculated variable",
-        "location": "2153",
-        "section": "calculated variables"
+        "levels": 6,
+        "location": 2153,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_prace1": {
         "alt-name": "_p1race",
@@ -686,14 +882,22 @@
             "8": "Multiracial but preferred race not answered",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "computed preferred race",
-        "location": "1960-1961",
-        "section": "calculated variables"
+        "levels": 13,
+        "location": 1960,
+        "section": "calculated variables",
+        "size": 2,
+        "type": "categorical"
     },
     "_psu": {
+        "derived": 1,
         "label": "primary sampling unit",
-        "location": "36-45",
-        "section": "record identification"
+        "levels": 0,
+        "location": 36,
+        "section": "record identification",
+        "size": 10,
+        "type": "numeric"
     },
     "_race": {
         "alt-name": "_race",
@@ -711,9 +915,13 @@
             "8": "Hispanic",
             "9": "Dont know/Not sure/Refused"
         },
+        "derived": 0,
         "label": "computed race-ethnicity grouping",
-        "location": "1967",
-        "section": "calculated variables"
+        "levels": 12,
+        "location": 1967,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_race_g1": {
         "alt-name": "_race1_g",
@@ -727,9 +935,13 @@
             "4": "Other race only, Non-Hispanic",
             "5": "Multiracial, Non-Hispanic"
         },
+        "derived": 0,
         "label": "computed race groups used for internet prevalence tables",
-        "location": "1970",
-        "section": "calculated variables"
+        "levels": 8,
+        "location": 1970,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_raceg21": {
         "alt-name": "_21raceg",
@@ -741,9 +953,13 @@
             "2": "Non-White or Hispanic",
             "9": "Dont know/Not sure/Refused"
         },
+        "derived": 0,
         "label": "computed non-hispanic whites/all others race categories race/ethnic group codes used in post-stratification.",
-        "location": "1968",
-        "section": "calculated variables"
+        "levels": 6,
+        "location": 1968,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_racegr3": {
         "alt-name": "_3racegr",
@@ -758,14 +974,22 @@
             "5": "Hispanic",
             "9": "Dont know/Not sure/Refused"
         },
+        "derived": 0,
         "label": "computed five level race/ethnicity category.",
-        "location": "1969",
-        "section": "calculated variables"
+        "levels": 9,
+        "location": 1969,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_rawrake": {
+        "derived": 1,
         "label": "raw weighting factor used in raking",
-        "location": "1443-1452",
-        "section": "questionnaire language"
+        "levels": 0,
+        "location": 1443,
+        "section": "questionnaire language",
+        "size": 10,
+        "type": "numeric"
     },
     "_rfbing5": {
         "alt-name": "_5rfbing",
@@ -776,9 +1000,13 @@
             "2": "Yes",
             "9": "Dont know/Refused/Missing"
         },
+        "derived": 0,
         "label": "binge drinking calculated variable",
-        "location": "2003",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 2003,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_rfbmi5": {
         "alt-name": "_5rfbmi",
@@ -789,9 +1017,13 @@
             "2": "Yes",
             "9": "Dont know/Refused/Missing"
         },
+        "derived": 0,
         "label": "overweight or obese calculated variable",
-        "location": "1993",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 1993,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_rfchol": {
         "alt-name": "_rfchol",
@@ -803,9 +1035,13 @@
             "2": "Yes",
             "9": "Dont know/Not Sure Or Refused/Missing"
         },
+        "derived": 0,
         "label": "high cholesterol calculated variable",
-        "location": "1898",
-        "section": "calculated variables"
+        "levels": 6,
+        "location": 1898,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_rfdrhv5": {
         "alt-name": "_5rfdrhv",
@@ -816,9 +1052,13 @@
             "2": "Yes",
             "9": "Dont know/Refused/Missing"
         },
+        "derived": 0,
         "label": "heavy alcohol consumption  calculated variable",
-        "location": "2009",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 2009,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_rfhlth": {
         "alt-name": "_rfhlth",
@@ -829,9 +1069,13 @@
             "2": "Fair or Poor Health",
             "9": "Dont know/Not Sure Or Refused/Missing"
         },
+        "derived": 0,
         "label": "adults with good or better health",
-        "location": "1894",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 1894,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_rfhype5": {
         "alt-name": "_5rfhype",
@@ -842,9 +1086,13 @@
             "2": "Yes",
             "9": "Dont know/Not Sure/Refused/Missing"
         },
+        "derived": 0,
         "label": "high blood pressure calculated variable",
-        "location": "1896",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 1896,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_rfseat2": {
         "alt-name": "_2rfseat",
@@ -856,9 +1104,13 @@
             "2": "Sometimes, Seldom, or Never Wear Seat Belt",
             "9": "Dont know/Not Sure Or Refused/Missing"
         },
+        "derived": 0,
         "label": "always or nearly always wear seat belts",
-        "location": "2150",
-        "section": "calculated variables"
+        "levels": 6,
+        "location": 2150,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_rfseat3": {
         "alt-name": "_3rfseat",
@@ -870,9 +1122,13 @@
             "2": "Dont Always Wear Seat Belt",
             "9": "Dont know/Not Sure Or Refused/Missing"
         },
+        "derived": 0,
         "label": "always wear seat belts",
-        "location": "2151",
-        "section": "calculated variables"
+        "levels": 6,
+        "location": 2151,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_rfsmok3": {
         "alt-name": "_3rfsmok",
@@ -883,9 +1139,13 @@
             "2": "Yes",
             "9": "Dont know/Refused/Missing"
         },
+        "derived": 0,
         "label": "current smoking calculated variable",
-        "location": "1998",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 1998,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_smoker3": {
         "alt-name": "_3smoker",
@@ -898,9 +1158,13 @@
             "4": "Never smoked",
             "9": "Dont know/Refused/Missing"
         },
+        "derived": 0,
         "label": "computed smoking status",
-        "location": "1997",
-        "section": "calculated variables"
+        "levels": 7,
+        "location": 1997,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_state": {
         "alt-name": "_state",
@@ -962,19 +1226,31 @@
             "8": "Colorado",
             "9": "Connecticut"
         },
+        "derived": 0,
         "label": "state fips code",
-        "location": "1-2",
-        "section": "record identification"
+        "levels": 56,
+        "location": 1,
+        "section": "record identification",
+        "size": 2,
+        "type": "categorical"
     },
     "_strwt": {
+        "derived": 1,
         "label": "stratum weight",
-        "location": "1413-1422",
-        "section": "questionnaire language"
+        "levels": 0,
+        "location": 1413,
+        "section": "questionnaire language",
+        "size": 10,
+        "type": "numeric"
     },
     "_ststr": {
+        "derived": 1,
         "label": "sample design stratification variable",
-        "location": "1407-1412",
-        "section": "questionnaire language"
+        "levels": 0,
+        "location": 1407,
+        "section": "questionnaire language",
+        "size": 6,
+        "type": "numeric"
     },
     "_totinda": {
         "alt-name": "_totinda",
@@ -985,9 +1261,13 @@
             "2": "No physical activity or exercise in last 30 days",
             "9": "Dont know/Refused/Missing"
         },
+        "derived": 0,
         "label": "leisure time physical activity calculated variable",
-        "location": "2058",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 2058,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_veg23": {
         "alt-name": "_23veg",
@@ -998,14 +1278,22 @@
             "0": "Not Included - Values are too high",
             "1": "Included - Values are in accepted range"
         },
+        "derived": 0,
         "label": "reported consuming vegetables >23/day",
-        "location": "2053",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 2053,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_vegesum": {
+        "derived": 1,
         "label": "total vegetables consumed per day",
-        "location": "2044-2049",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2044,
+        "section": "calculated variables",
+        "size": 6,
+        "type": "numeric"
     },
     "_vegetex": {
         "alt-name": "_vegetex",
@@ -1017,9 +1305,13 @@
             "1": "Missing Vegetable responses",
             "2": "Vegetable values out of range"
         },
+        "derived": 0,
         "label": "vegetable exclusion from analyses",
-        "location": "2055",
-        "section": "calculated variables"
+        "levels": 6,
+        "location": 2055,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_veglt1": {
         "alt-name": "_veg1lt",
@@ -1030,9 +1322,13 @@
             "2": "Consumed vegetables less than one time per day",
             "9": "Dont know, refused or missing values"
         },
+        "derived": 0,
         "label": "consume vegetables 1 or more times per day",
-        "location": "2051",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 2051,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_vegresp": {
         "alt-name": "_vegresp",
@@ -1043,24 +1339,40 @@
             "0": "Not Included - Missing Vegetable Responses",
             "1": "Included - Not Missing Vegetable Responses"
         },
+        "derived": 0,
         "label": "missing any vegetable responses",
-        "location": "2037",
-        "section": "calculated variables"
+        "levels": 5,
+        "location": 2037,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "_wt2rake": {
+        "derived": 1,
         "label": "design weight used in raking",
-        "location": "1453-1462",
-        "section": "questionnaire language"
+        "levels": 0,
+        "location": 1453,
+        "section": "questionnaire language",
+        "size": 10,
+        "type": "numeric"
     },
     "actin11_": {
+        "derived": 1,
         "label": "estimated activity intensity for first activity",
-        "location": "2075",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2075,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "numeric"
     },
     "actin21_": {
+        "derived": 1,
         "label": "estimated activity intensity for second activity",
-        "location": "2076",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2076,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "numeric"
     },
     "adanxev": {
         "alt-name": "adanxev",
@@ -1073,9 +1385,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever told you had an anxiety disorder",
-        "location": "677",
-        "section": "module 25: anxiety and depression"
+        "levels": 7,
+        "location": 677,
+        "section": "module 25: anxiety and depression",
+        "size": 1,
+        "type": "categorical"
     },
     "addepev2": {
         "alt-name": "ad2depev",
@@ -1088,9 +1404,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever told you had a depressive disorder",
-        "location": "115",
-        "section": "chronic health conditions"
+        "levels": 7,
+        "location": 115,
+        "section": "chronic health conditions",
+        "size": 1,
+        "type": "categorical"
     },
     "addown": {
         "alt-name": "addown",
@@ -1103,9 +1423,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "days felt down, depressed or hopeless",
-        "location": "662-663",
-        "section": "module 25: anxiety and depression"
+        "levels": "",
+        "location": 662,
+        "section": "module 25: anxiety and depression",
+        "size": 2,
+        "type": "integer"
     },
     "adeat1": {
         "alt-name": "ad1eat",
@@ -1118,9 +1442,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "days ate too little or too much",
-        "location": "668-669",
-        "section": "module 25: anxiety and depression"
+        "levels": "",
+        "location": 668,
+        "section": "module 25: anxiety and depression",
+        "size": 2,
+        "type": "integer"
     },
     "adenergy": {
         "alt-name": "adenergy",
@@ -1133,9 +1461,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "days were tired or had little energy",
-        "location": "666-667",
-        "section": "module 25: anxiety and depression"
+        "levels": "",
+        "location": 666,
+        "section": "module 25: anxiety and depression",
+        "size": 2,
+        "type": "integer"
     },
     "adfail": {
         "alt-name": "adfail",
@@ -1148,9 +1480,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "days felt like failure or let family down",
-        "location": "670-671",
-        "section": "module 25: anxiety and depression"
+        "levels": "",
+        "location": 670,
+        "section": "module 25: anxiety and depression",
+        "size": 2,
+        "type": "integer"
     },
     "admove": {
         "alt-name": "admove",
@@ -1163,9 +1499,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "days talked to move slower or faster than usual",
-        "location": "674-675",
-        "section": "module 25: anxiety and depression"
+        "levels": "",
+        "location": 674,
+        "section": "module 25: anxiety and depression",
+        "size": 2,
+        "type": "integer"
     },
     "adpleasr": {
         "alt-name": "adpleasr",
@@ -1178,9 +1518,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "days had little pleasure doing things",
-        "location": "660-661",
-        "section": "module 25: anxiety and depression"
+        "levels": "",
+        "location": 660,
+        "section": "module 25: anxiety and depression",
+        "size": 2,
+        "type": "integer"
     },
     "adsleep": {
         "alt-name": "adsleep",
@@ -1193,9 +1537,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "days had trouble with sleep",
-        "location": "664-665",
-        "section": "module 25: anxiety and depression"
+        "levels": "",
+        "location": 664,
+        "section": "module 25: anxiety and depression",
+        "size": 2,
+        "type": "integer"
     },
     "adthink": {
         "alt-name": "adthink",
@@ -1208,9 +1556,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "days had trouble concentrating",
-        "location": "672-673",
-        "section": "module 25: anxiety and depression"
+        "levels": "",
+        "location": 672,
+        "section": "module 25: anxiety and depression",
+        "size": 2,
+        "type": "integer"
     },
     "alcday5": {
         "alt-name": "alc5day",
@@ -1224,9 +1576,13 @@
             "888": "No drinks in past 30 days",
             "999": "Refused"
         },
+        "derived": 0,
         "label": "days in past 30 had alcoholic beverage",
-        "location": "200-202",
-        "section": "alcohol consumption"
+        "levels": "",
+        "location": 200,
+        "section": "alcohol consumption",
+        "size": 3,
+        "type": "integer"
     },
     "arthdis2": {
         "alt-name": "arth2dis",
@@ -1239,9 +1595,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "does arthritis affect whether you work",
-        "location": "248",
-        "section": "arthritis burden"
+        "levels": 7,
+        "location": 248,
+        "section": "arthritis burden",
+        "size": 1,
+        "type": "categorical"
     },
     "arthedu": {
         "alt-name": "arthedu",
@@ -1254,9 +1614,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever taken class in managing arthritis or joint symptoms",
-        "location": "371",
-        "section": "module 10: arthritis management"
+        "levels": 7,
+        "location": 371,
+        "section": "module 10: arthritis management",
+        "size": 1,
+        "type": "categorical"
     },
     "arthexer": {
         "alt-name": "arthexer",
@@ -1269,9 +1633,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "dr. suggest use of physical activity or exercise for arthritis or joint symptoms",
-        "location": "370",
-        "section": "module 10: arthritis management"
+        "levels": 7,
+        "location": 370,
+        "section": "module 10: arthritis management",
+        "size": 1,
+        "type": "categorical"
     },
     "arthsocl": {
         "alt-name": "arthsocl",
@@ -1285,9 +1653,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "social activities limited because of joint symptoms",
-        "location": "249",
-        "section": "arthritis burden"
+        "levels": 8,
+        "location": 249,
+        "section": "arthritis burden",
+        "size": 1,
+        "type": "categorical"
     },
     "arthwgt": {
         "alt-name": "arthwgt",
@@ -1300,9 +1672,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "dr. suggest lose weight for arthritis or joint symptoms",
-        "location": "369",
-        "section": "module 10: arthritis management"
+        "levels": 7,
+        "location": 369,
+        "section": "module 10: arthritis management",
+        "size": 1,
+        "type": "categorical"
     },
     "arttoday": {
         "alt-name": "arttoday",
@@ -1317,9 +1693,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "what can you do because of arthritis or joint symptoms",
-        "location": "368",
-        "section": "module 10: arthritis management"
+        "levels": 9,
+        "location": 368,
+        "section": "module 10: arthritis management",
+        "size": 1,
+        "type": "categorical"
     },
     "asactlim": {
         "alt-name": "asactlim",
@@ -1332,9 +1712,13 @@
             "888": "None",
             "999": "Refused"
         },
+        "derived": 0,
         "label": "activities limited due to asthma during past 12 months",
-        "location": "354-356",
-        "section": "module 8: adult asthma history"
+        "levels": "",
+        "location": 354,
+        "section": "module 8: adult asthma history",
+        "size": 3,
+        "type": "integer"
     },
     "asattack": {
         "alt-name": "asattack",
@@ -1347,9 +1731,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "asthma during past 12 months",
-        "location": "347",
-        "section": "module 8: adult asthma history"
+        "levels": 7,
+        "location": 347,
+        "section": "module 8: adult asthma history",
+        "size": 1,
+        "type": "categorical"
     },
     "asdrvist": {
         "alt-name": "asdrvist",
@@ -1362,9 +1750,13 @@
             "98": "Dont know/Not sure",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "urgent asthma treatment during past 12 months",
-        "location": "350-351",
-        "section": "module 8: adult asthma history"
+        "levels": "",
+        "location": 350,
+        "section": "module 8: adult asthma history",
+        "size": 2,
+        "type": "integer"
     },
     "aservist": {
         "alt-name": "aservist",
@@ -1377,9 +1769,13 @@
             "98": "Dont know/Not sure",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "emergency asthma care during past 12 months",
-        "location": "348-349",
-        "section": "module 8: adult asthma history"
+        "levels": "",
+        "location": 348,
+        "section": "module 8: adult asthma history",
+        "size": 2,
+        "type": "integer"
     },
     "asinhalr": {
         "alt-name": "asinhalr",
@@ -1397,9 +1793,13 @@
             "8": "Never (include no attack in past 30 days)",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "times used asthma inhaler during an attack in past 30 days",
-        "location": "360",
-        "section": "module 8: adult asthma history"
+        "levels": 12,
+        "location": 360,
+        "section": "module 8: adult asthma history",
+        "size": 1,
+        "type": "categorical"
     },
     "asnoslep": {
         "alt-name": "asnoslep",
@@ -1416,9 +1816,13 @@
             "8": "None",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "sleep difficulty due to asthma during past 30 days",
-        "location": "358",
-        "section": "module 8: adult asthma history"
+        "levels": 11,
+        "location": 358,
+        "section": "module 8: adult asthma history",
+        "size": 1,
+        "type": "categorical"
     },
     "aspunsaf": {
         "alt-name": "aspunsaf",
@@ -1432,9 +1836,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "health makes taking aspirin unsafe",
-        "location": "364",
-        "section": "module 9: cardiovascular health"
+        "levels": 8,
+        "location": 364,
+        "section": "module 9: cardiovascular health",
+        "size": 1,
+        "type": "categorical"
     },
     "asrchkup": {
         "alt-name": "asrchkup",
@@ -1447,9 +1855,13 @@
             "98": "Dont know/Not sure",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "routine asthma care during past 12 months",
-        "location": "352-353",
-        "section": "module 8: adult asthma history"
+        "levels": "",
+        "location": 352,
+        "section": "module 8: adult asthma history",
+        "size": 2,
+        "type": "integer"
     },
     "asthma3": {
         "alt-name": "ast3hma",
@@ -1462,9 +1874,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever told had asthma",
-        "location": "109",
-        "section": "chronic health conditions"
+        "levels": 7,
+        "location": 109,
+        "section": "chronic health conditions",
+        "size": 1,
+        "type": "categorical"
     },
     "asthmage": {
         "alt-name": "asthmage",
@@ -1477,9 +1893,13 @@
             "98": "Dont know/Not sure",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "age at asthma diagnosis",
-        "location": "345-346",
-        "section": "module 8: adult asthma history"
+        "levels": "",
+        "location": 345,
+        "section": "module 8: adult asthma history",
+        "size": 2,
+        "type": "integer"
     },
     "asthmed3": {
         "alt-name": "asth3med",
@@ -1494,9 +1914,13 @@
             "8": "Never",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "days used prescribed preventative asthma med in past 30 days",
-        "location": "359",
-        "section": "module 8: adult asthma history"
+        "levels": 9,
+        "location": 359,
+        "section": "module 8: adult asthma history",
+        "size": 1,
+        "type": "categorical"
     },
     "asthnow": {
         "alt-name": "asthnow",
@@ -1509,9 +1933,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "still have asthma",
-        "location": "110",
-        "section": "chronic health conditions"
+        "levels": 7,
+        "location": 110,
+        "section": "chronic health conditions",
+        "size": 1,
+        "type": "categorical"
     },
     "asymptom": {
         "alt-name": "asymptom",
@@ -1528,9 +1956,13 @@
             "8": "Not at any time",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "asthma symptoms during past 30 days",
-        "location": "357",
-        "section": "module 8: adult asthma history"
+        "levels": 11,
+        "location": 357,
+        "section": "module 8: adult asthma history",
+        "size": 1,
+        "type": "categorical"
     },
     "avedrnk2": {
         "alt-name": "ave2drnk",
@@ -1543,14 +1975,22 @@
             "78 - 98": "Number of drinks",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "avg alcoholic drinks per day in past 30",
-        "location": "203-204",
-        "section": "alcohol consumption"
+        "levels": "",
+        "location": 203,
+        "section": "alcohol consumption",
+        "size": 2,
+        "type": "integer"
     },
     "beanday_": {
+        "derived": 1,
         "label": "computed bean intake in times per day",
-        "location": "2018-2021",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2018,
+        "section": "calculated variables",
+        "size": 4,
+        "type": "numeric"
     },
     "bldstool": {
         "alt-name": "bldstool",
@@ -1563,9 +2003,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever had blood stool test using home kit",
-        "location": "386",
-        "section": "module 16: colorectal cancer screening"
+        "levels": 7,
+        "location": 386,
+        "section": "module 16: colorectal cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "bldsugar": {
         "alt-name": "bldsugar",
@@ -1581,9 +2025,13 @@
             "888": "Never",
             "999": "Refused"
         },
+        "derived": 0,
         "label": "how often check blood for glucose",
-        "location": "290-292",
-        "section": "module 2: diabetes"
+        "levels": "",
+        "location": 290,
+        "section": "module 2: diabetes",
+        "size": 3,
+        "type": "integer"
     },
     "blind": {
         "alt-name": "blind",
@@ -1596,9 +2044,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "blind or difficulty seeing",
-        "location": "189",
-        "section": "demographics"
+        "levels": 7,
+        "location": 189,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "bloodcho": {
         "alt-name": "bloodcho",
@@ -1611,9 +2063,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever had blood cholesterol checked",
-        "location": "103",
-        "section": "cholesterol awareness"
+        "levels": 7,
+        "location": 103,
+        "section": "cholesterol awareness",
+        "size": 1,
+        "type": "categorical"
     },
     "bphigh4": {
         "alt-name": "bp4high",
@@ -1628,9 +2084,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever told blood pressure high",
-        "location": "101",
-        "section": "hypertension awareness"
+        "levels": 9,
+        "location": 101,
+        "section": "hypertension awareness",
+        "size": 1,
+        "type": "categorical"
     },
     "bpmeds": {
         "alt-name": "bpmeds",
@@ -1643,9 +2103,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "currently taking blood pressure medication",
-        "location": "102",
-        "section": "hypertension awareness"
+        "levels": 7,
+        "location": 102,
+        "section": "hypertension awareness",
+        "size": 1,
+        "type": "categorical"
     },
     "cadult": {
         "alt-name": "cadult",
@@ -1657,9 +2121,13 @@
             "2": "Yes, Female Respondent",
             "3": "No"
         },
+        "derived": 0,
         "label": "are you 18 years of age or older?",
-        "location": "77",
-        "section": "record identification"
+        "levels": 6,
+        "location": 77,
+        "section": "record identification",
+        "size": 1,
+        "type": "categorical"
     },
     "caregiv1": {
         "alt-name": "care1giv",
@@ -1673,9 +2141,13 @@
             "8": "Caregiving recipient died in past 30 days",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "provided regular care for family or friend",
-        "location": "313",
-        "section": "module 4: caregiver"
+        "levels": 8,
+        "location": 313,
+        "section": "module 4: caregiver",
+        "size": 1,
+        "type": "categorical"
     },
     "casthdx2": {
         "alt-name": "casth2dx",
@@ -1688,9 +2160,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "hlth pro ever said child has asthma",
-        "location": "656",
-        "section": "module 23: childhood asthma prevalence"
+        "levels": 7,
+        "location": 656,
+        "section": "module 23: childhood asthma prevalence",
+        "size": 1,
+        "type": "categorical"
     },
     "casthno2": {
         "alt-name": "casth2no",
@@ -1703,9 +2179,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "child still have asthma?",
-        "location": "657",
-        "section": "module 23: childhood asthma prevalence"
+        "levels": 7,
+        "location": 657,
+        "section": "module 23: childhood asthma prevalence",
+        "size": 1,
+        "type": "categorical"
     },
     "cclghous": {
         "alt-name": "cclghous",
@@ -1716,9 +2196,13 @@
             "1": "Yes",
             "2": "No"
         },
+        "derived": 0,
         "label": "do you live in college housing?",
-        "location": "79",
-        "section": "record identification"
+        "levels": 5,
+        "location": 79,
+        "section": "record identification",
+        "size": 1,
+        "type": "categorical"
     },
     "cdassist": {
         "alt-name": "cdassist",
@@ -1734,9 +2218,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "need assistance with day-to_day activities due to confusion or memory loss",
-        "location": "336",
-        "section": "module 6: cognitive decline"
+        "levels": 10,
+        "location": 336,
+        "section": "module 6: cognitive decline",
+        "size": 1,
+        "type": "categorical"
     },
     "cddiscus": {
         "alt-name": "cddiscus",
@@ -1749,9 +2237,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "have you discussed your confusion or memory loss with a health care professional?",
-        "location": "339",
-        "section": "module 6: cognitive decline"
+        "levels": 7,
+        "location": 339,
+        "section": "module 6: cognitive decline",
+        "size": 1,
+        "type": "categorical"
     },
     "cdhelp": {
         "alt-name": "cdhelp",
@@ -1767,9 +2259,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "when you need help with day-to-day activities are you able to get it",
-        "location": "337",
-        "section": "module 6: cognitive decline"
+        "levels": 10,
+        "location": 337,
+        "section": "module 6: cognitive decline",
+        "size": 1,
+        "type": "categorical"
     },
     "cdhouse": {
         "alt-name": "cdhouse",
@@ -1785,9 +2281,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "given up day-to-day chores due to confusion or memory loss",
-        "location": "335",
-        "section": "module 6: cognitive decline"
+        "levels": 10,
+        "location": 335,
+        "section": "module 6: cognitive decline",
+        "size": 1,
+        "type": "categorical"
     },
     "cdsocial": {
         "alt-name": "cdsocial",
@@ -1803,9 +2303,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "does confusion or memory loss interfere with work or social activities",
-        "location": "338",
-        "section": "module 6: cognitive decline"
+        "levels": 10,
+        "location": 338,
+        "section": "module 6: cognitive decline",
+        "size": 1,
+        "type": "categorical"
     },
     "cellfon2": {
         "alt-name": "cell2fon",
@@ -1816,9 +2320,13 @@
             "1": "Yes",
             "2": "No"
         },
+        "derived": 0,
         "label": "is this a cellular telephone?",
-        "location": "76",
-        "section": "record identification"
+        "levels": 5,
+        "location": 76,
+        "section": "record identification",
+        "size": 1,
+        "type": "categorical"
     },
     "cellfon3": {
         "alt-name": "cell3fon",
@@ -1829,9 +2337,13 @@
             "1": "Not a cellular phone",
             "2": "Yes"
         },
+        "derived": 0,
         "label": "cellular telephone",
-        "location": "67",
-        "section": "record identification"
+        "levels": 5,
+        "location": 67,
+        "section": "record identification",
+        "size": 1,
+        "type": "categorical"
     },
     "chccopd1": {
         "alt-name": "chc1copd",
@@ -1844,9 +2356,13 @@
             "7": "Dont know / Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "(ever told) you have (copd) chronic obstructive pulmonary disease, emphysema or chronic bronchitis?",
-        "location": "113",
-        "section": "chronic health conditions"
+        "levels": 7,
+        "location": 113,
+        "section": "chronic health conditions",
+        "size": 1,
+        "type": "categorical"
     },
     "chckidny": {
         "alt-name": "chckidny",
@@ -1859,9 +2375,13 @@
             "7": "Dont know / Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "(ever told) you have kidney disease?",
-        "location": "116",
-        "section": "chronic health conditions"
+        "levels": 7,
+        "location": 116,
+        "section": "chronic health conditions",
+        "size": 1,
+        "type": "categorical"
     },
     "chcocncr": {
         "alt-name": "chcocncr",
@@ -1874,9 +2394,13 @@
             "7": "Dont know / Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "(ever told) you had any other types of cancer?",
-        "location": "112",
-        "section": "chronic health conditions"
+        "levels": 7,
+        "location": 112,
+        "section": "chronic health conditions",
+        "size": 1,
+        "type": "categorical"
     },
     "chcscncr": {
         "alt-name": "chcscncr",
@@ -1889,9 +2413,13 @@
             "7": "Dont know / Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "(ever told) you had skin cancer?",
-        "location": "111",
-        "section": "chronic health conditions"
+        "levels": 7,
+        "location": 111,
+        "section": "chronic health conditions",
+        "size": 1,
+        "type": "categorical"
     },
     "checkup1": {
         "alt-name": "check1up",
@@ -1907,9 +2435,13 @@
             "8": "Never",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "length of time since last routine checkup",
-        "location": "100",
-        "section": "health care access"
+        "levels": 10,
+        "location": 100,
+        "section": "health care access",
+        "size": 1,
+        "type": "categorical"
     },
     "children": {
         "alt-name": "children",
@@ -1921,9 +2453,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "number of children in household",
-        "location": "173-174",
-        "section": "demographics"
+        "levels": "",
+        "location": 173,
+        "section": "demographics",
+        "size": 2,
+        "type": "integer"
     },
     "chkhemo3": {
         "alt-name": "chk3hemo",
@@ -1937,9 +2473,13 @@
             "98": "Never heard of A one C test",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "times checked for glycosylated hemoglobin",
-        "location": "298-299",
-        "section": "module 2: diabetes"
+        "levels": "",
+        "location": 298,
+        "section": "module 2: diabetes",
+        "size": 2,
+        "type": "integer"
     },
     "cholchk": {
         "alt-name": "cholchk",
@@ -1954,9 +2494,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "how long since cholesterol checked",
-        "location": "104",
-        "section": "cholesterol awareness"
+        "levels": 9,
+        "location": 104,
+        "section": "cholesterol awareness",
+        "size": 1,
+        "type": "categorical"
     },
     "cimemlos": {
         "alt-name": "cimemlos",
@@ -1969,9 +2513,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "have you experienced confusion or memory loss that is happening more often or is getting worse?",
-        "location": "334",
-        "section": "module 6: cognitive decline"
+        "levels": 7,
+        "location": 334,
+        "section": "module 6: cognitive decline",
+        "size": 1,
+        "type": "categorical"
     },
     "colghous": {
         "alt-name": "colghous",
@@ -1982,9 +2530,13 @@
             "1": "Yes",
             "2": "No"
         },
+        "derived": 0,
         "label": "do you live in college housing?",
-        "location": "65",
-        "section": "record identification"
+        "levels": 5,
+        "location": 65,
+        "section": "record identification",
+        "size": 1,
+        "type": "categorical"
     },
     "cpdemo1": {
         "alt-name": "cp1demo",
@@ -1997,9 +2549,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "do you have a cell phone for personal use?",
-        "location": "170",
-        "section": "demographics"
+        "levels": 7,
+        "location": 170,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "crgvexpt": {
         "alt-name": "crgvexpt",
@@ -2012,9 +2568,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "do you expect to have a relative you will need to provide care for?",
-        "location": "323",
-        "section": "module 4: caregiver"
+        "levels": 7,
+        "location": 323,
+        "section": "module 4: caregiver",
+        "size": 1,
+        "type": "categorical"
     },
     "crgvhous": {
         "alt-name": "crgvhous",
@@ -2027,9 +2587,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "managed household tasks",
-        "location": "321",
-        "section": "module 4: caregiver"
+        "levels": 7,
+        "location": 321,
+        "section": "module 4: caregiver",
+        "size": 1,
+        "type": "categorical"
     },
     "crgvhrs1": {
         "alt-name": "crgv1hrs",
@@ -2044,9 +2608,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "how many hours do you provide care for person?",
-        "location": "317",
-        "section": "module 4: caregiver"
+        "levels": 9,
+        "location": 317,
+        "section": "module 4: caregiver",
+        "size": 1,
+        "type": "categorical"
     },
     "crgvlng1": {
         "alt-name": "crgv1lng",
@@ -2062,9 +2630,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "how long provided care for person.",
-        "location": "316",
-        "section": "module 4: caregiver"
+        "levels": 10,
+        "location": 316,
+        "section": "module 4: caregiver",
+        "size": 1,
+        "type": "categorical"
     },
     "crgvmst2": {
         "alt-name": "crgv2mst",
@@ -2081,9 +2653,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "which support do you most need that you are not getting?",
-        "location": "322",
-        "section": "module 4: caregiver"
+        "levels": 11,
+        "location": 322,
+        "section": "module 4: caregiver",
+        "size": 1,
+        "type": "categorical"
     },
     "crgvpers": {
         "alt-name": "crgvpers",
@@ -2096,9 +2672,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "managed personal care",
-        "location": "320",
-        "section": "module 4: caregiver"
+        "levels": 7,
+        "location": 320,
+        "section": "module 4: caregiver",
+        "size": 1,
+        "type": "categorical"
     },
     "crgvprb1": {
         "alt-name": "crgv1prb",
@@ -2122,9 +2702,13 @@
             "9": "Human Immunodeficiency Virus Infection (HIV)",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "what is the major health problem, illness, disability for care for person?",
-        "location": "318-319",
-        "section": "module 4: caregiver"
+        "levels": 18,
+        "location": 318,
+        "section": "module 4: caregiver",
+        "size": 2,
+        "type": "categorical"
     },
     "crgvrel1": {
         "alt-name": "crgv1rel",
@@ -2150,9 +2734,13 @@
             "9": "Brother or brother-in-law",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "relationship of person to whom you are giving care?",
-        "location": "314-315",
-        "section": "module 4: caregiver"
+        "levels": 20,
+        "location": 314,
+        "section": "module 4: caregiver",
+        "size": 2,
+        "type": "categorical"
     },
     "cstate": {
         "alt-name": "cstate",
@@ -2163,9 +2751,13 @@
             "1": "Yes",
             "2": "No"
         },
+        "derived": 0,
         "label": "are you a resident of [state]?",
-        "location": "80",
-        "section": "record identification"
+        "levels": 5,
+        "location": 80,
+        "section": "record identification",
+        "size": 1,
+        "type": "categorical"
     },
     "ctelenum": {
         "alt-name": "ctelenum",
@@ -2176,9 +2768,13 @@
             "1": "Yes",
             "2": "No"
         },
+        "derived": 0,
         "label": "correct telephone number?",
-        "location": "63",
-        "section": "record identification"
+        "levels": 5,
+        "location": 63,
+        "section": "record identification",
+        "size": 1,
+        "type": "categorical"
     },
     "ctelnum1": {
         "alt-name": "ctel1num",
@@ -2189,9 +2785,13 @@
             "1": "Yes",
             "2": "No"
         },
+        "derived": 0,
         "label": "correct phone number?",
-        "location": "75",
-        "section": "record identification"
+        "levels": 5,
+        "location": 75,
+        "section": "record identification",
+        "size": 1,
+        "type": "categorical"
     },
     "cvdasprn": {
         "alt-name": "cvdasprn",
@@ -2204,9 +2804,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "take aspirin daily or every other day",
-        "location": "363",
-        "section": "module 9: cardiovascular health"
+        "levels": 7,
+        "location": 363,
+        "section": "module 9: cardiovascular health",
+        "size": 1,
+        "type": "categorical"
     },
     "cvdcrhd4": {
         "alt-name": "cvd4crhd",
@@ -2219,9 +2823,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever diagnosed with angina or coronary heart disease",
-        "location": "107",
-        "section": "chronic health conditions"
+        "levels": 7,
+        "location": 107,
+        "section": "chronic health conditions",
+        "size": 1,
+        "type": "categorical"
     },
     "cvdinfr4": {
         "alt-name": "cvd4infr",
@@ -2234,9 +2842,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever diagnosed with heart attack",
-        "location": "106",
-        "section": "chronic health conditions"
+        "levels": 7,
+        "location": 106,
+        "section": "chronic health conditions",
+        "size": 1,
+        "type": "categorical"
     },
     "cvdstrk3": {
         "alt-name": "cvd3strk",
@@ -2249,9 +2861,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever diagnosed with a stroke",
-        "location": "108",
-        "section": "chronic health conditions"
+        "levels": 7,
+        "location": 108,
+        "section": "chronic health conditions",
+        "size": 1,
+        "type": "categorical"
     },
     "decide": {
         "alt-name": "decide",
@@ -2264,9 +2880,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "difficulty concentrating or remembering",
-        "location": "190",
-        "section": "demographics"
+        "levels": 7,
+        "location": 190,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "diabage2": {
         "alt-name": "diab2age",
@@ -2278,9 +2898,13 @@
             "98": "Dont know/Not sure",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "age when told diabetic",
-        "location": "118-119",
-        "section": "chronic health conditions"
+        "levels": "",
+        "location": 118,
+        "section": "chronic health conditions",
+        "size": 2,
+        "type": "integer"
     },
     "diabedu": {
         "alt-name": "diabedu",
@@ -2293,9 +2917,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever taken class in managing diabetes",
-        "location": "304",
-        "section": "module 2: diabetes"
+        "levels": 7,
+        "location": 304,
+        "section": "module 2: diabetes",
+        "size": 1,
+        "type": "categorical"
     },
     "diabete3": {
         "alt-name": "dia3bete",
@@ -2310,9 +2938,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "(ever told) you have diabetes",
-        "location": "117",
-        "section": "chronic health conditions"
+        "levels": 9,
+        "location": 117,
+        "section": "chronic health conditions",
+        "size": 1,
+        "type": "categorical"
     },
     "diabeye": {
         "alt-name": "diabeye",
@@ -2325,9 +2957,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever told diabetes has affected eyes",
-        "location": "303",
-        "section": "module 2: diabetes"
+        "levels": 7,
+        "location": 303,
+        "section": "module 2: diabetes",
+        "size": 1,
+        "type": "categorical"
     },
     "diffalon": {
         "alt-name": "diffalon",
@@ -2340,9 +2976,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "difficulty doing errands alone",
-        "location": "193",
-        "section": "demographics"
+        "levels": 7,
+        "location": 193,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "diffdres": {
         "alt-name": "diffdres",
@@ -2355,9 +2995,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "difficulty dressing or bathing",
-        "location": "192",
-        "section": "demographics"
+        "levels": 7,
+        "location": 192,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "diffwalk": {
         "alt-name": "diffwalk",
@@ -2370,14 +3014,22 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "difficulty walking or climbing stairs",
-        "location": "191",
-        "section": "demographics"
+        "levels": 7,
+        "location": 191,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "dispcode": {
+        "derived": 1,
         "label": "final disposition",
-        "location": "32-35",
-        "section": "record identification"
+        "levels": 0,
+        "location": 32,
+        "section": "record identification",
+        "size": 4,
+        "type": "numeric"
     },
     "doctdiab": {
         "alt-name": "doctdiab",
@@ -2390,9 +3042,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "times seen health professional for diabetes",
-        "location": "296-297",
-        "section": "module 2: diabetes"
+        "levels": "",
+        "location": 296,
+        "section": "module 2: diabetes",
+        "size": 2,
+        "type": "integer"
     },
     "dradvise": {
         "alt-name": "dradvise",
@@ -2405,9 +3061,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "doctor advised reduced sodium/salt intake",
-        "location": "344",
-        "section": "module 7: sodium or salt-related behavior"
+        "levels": 7,
+        "location": 344,
+        "section": "module 7: sodium or salt-related behavior",
+        "size": 1,
+        "type": "categorical"
     },
     "drnk3ge5": {
         "alt-name": "drnk35ge",
@@ -2420,9 +3080,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "binge drinking",
-        "location": "205-206",
-        "section": "alcohol consumption"
+        "levels": "",
+        "location": 205,
+        "section": "alcohol consumption",
+        "size": 2,
+        "type": "integer"
     },
     "drnkany5": {
         "alt-name": "drnk5any",
@@ -2434,9 +3098,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused/Missing"
         },
+        "derived": 0,
         "label": "drink any alcoholic beverages in past 30 days",
-        "location": "1999",
-        "section": "calculated variables"
+        "levels": 6,
+        "location": 1999,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "categorical"
     },
     "drocdy3_": {
         "alt-name": "drocdy3_",
@@ -2447,9 +3115,13 @@
             "1 - 899": "Drink-Occasions per day",
             "900": "Dont know/Not Sure Or Refused/Missing"
         },
+        "derived": 0,
         "label": "computed drink-occasions-per-day",
-        "location": "2000-2002",
-        "section": "calculated variables"
+        "levels": "",
+        "location": 2000,
+        "section": "calculated variables",
+        "size": 3,
+        "type": "integer"
     },
     "educa": {
         "alt-name": "educa",
@@ -2465,9 +3137,13 @@
             "6": "College 4 years or more (College graduate)",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "education level",
-        "location": "158",
-        "section": "demographics"
+        "levels": 10,
+        "location": 158,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "employ1": {
         "alt-name": "employ1f",
@@ -2485,9 +3161,13 @@
             "8": "Unable to work",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "employment status",
-        "location": "172",
-        "section": "demographics"
+        "levels": 12,
+        "location": 172,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "emtsuprt": {
         "alt-name": "emtsuprt",
@@ -2503,19 +3183,31 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "how often get emotional support needed",
-        "location": "658",
-        "section": "module 24: emotional support and life satisfaction"
+        "levels": 10,
+        "location": 658,
+        "section": "module 24: emotional support and life satisfaction",
+        "size": 1,
+        "type": "categorical"
     },
     "exactot1": {
+        "derived": 1,
         "label": "first activity other response description",
-        "location": "841-860",
-        "section": "questionnaire language"
+        "levels": 0,
+        "location": 841,
+        "section": "questionnaire language",
+        "size": 20,
+        "type": "numeric"
     },
     "exactot2": {
+        "derived": 1,
         "label": "second activity other response description",
-        "location": "861-880",
-        "section": "questionnaire language"
+        "levels": 0,
+        "location": 861,
+        "section": "questionnaire language",
+        "size": 20,
+        "type": "numeric"
     },
     "exerany2": {
         "alt-name": "exer2any",
@@ -2528,9 +3220,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "exercise in past 30 days",
-        "location": "227",
-        "section": "exercise (physical activity)"
+        "levels": 7,
+        "location": 227,
+        "section": "exercise (physical activity)",
+        "size": 1,
+        "type": "categorical"
     },
     "exerhmm1": {
         "alt-name": "exer1hmm",
@@ -2543,9 +3239,13 @@
             "800 - 959": "Hours and Minutes",
             "999": "Refused"
         },
+        "derived": 0,
         "label": "minutes or hours walking, running, jogging, or swimming",
-        "location": "233-235",
-        "section": "exercise (physical activity)"
+        "levels": "",
+        "location": 233,
+        "section": "exercise (physical activity)",
+        "size": 3,
+        "type": "integer"
     },
     "exerhmm2": {
         "alt-name": "exer2hmm",
@@ -2558,9 +3258,13 @@
             "800 - 959": "Hours and Minutes",
             "999": "Refused"
         },
+        "derived": 0,
         "label": "minutes or hours walking, running, jogging, or swimming",
-        "location": "241-243",
-        "section": "exercise (physical activity)"
+        "levels": "",
+        "location": 241,
+        "section": "exercise (physical activity)",
+        "size": 3,
+        "type": "integer"
     },
     "exeroft1": {
         "alt-name": "exer1oft",
@@ -2573,9 +3277,13 @@
             "777": "Dont know/Not sure",
             "999": "Refused"
         },
+        "derived": 0,
         "label": "how many times walking, running, jogging, or swimming",
-        "location": "230-232",
-        "section": "exercise (physical activity)"
+        "levels": "",
+        "location": 230,
+        "section": "exercise (physical activity)",
+        "size": 3,
+        "type": "integer"
     },
     "exeroft2": {
         "alt-name": "exer2oft",
@@ -2588,9 +3296,13 @@
             "777": "Dont know/Not sure",
             "999": "Refused"
         },
+        "derived": 0,
         "label": "how many times walking, running, jogging, or swimming",
-        "location": "238-240",
-        "section": "exercise (physical activity)"
+        "levels": "",
+        "location": 238,
+        "section": "exercise (physical activity)",
+        "size": 3,
+        "type": "integer"
     },
     "exract11": {
         "alt-name": "exr11act",
@@ -2676,9 +3388,13 @@
             "98": "Other______",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "type of physical activity",
-        "location": "228-229",
-        "section": "exercise (physical activity)"
+        "levels": 80,
+        "location": 228,
+        "section": "exercise (physical activity)",
+        "size": 2,
+        "type": "categorical"
     },
     "exract21": {
         "alt-name": "exr21act",
@@ -2765,9 +3481,13 @@
             "98": "Other______",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "other type of physical activity giving most exercise during past month",
-        "location": "236-237",
-        "section": "exercise (physical activity)"
+        "levels": 81,
+        "location": 236,
+        "section": "exercise (physical activity)",
+        "size": 2,
+        "type": "categorical"
     },
     "eyeexam": {
         "alt-name": "eyeexam",
@@ -2783,14 +3503,22 @@
             "8": "Never",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "last eye exam where pupils were dilated",
-        "location": "302",
-        "section": "module 2: diabetes"
+        "levels": 10,
+        "location": 302,
+        "section": "module 2: diabetes",
+        "size": 1,
+        "type": "categorical"
     },
     "fc60_": {
+        "derived": 1,
         "label": "estimated functional capacity",
-        "location": "2070-2074",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2070,
+        "section": "calculated variables",
+        "size": 5,
+        "type": "numeric"
     },
     "feetchk": {
         "alt-name": "feetchk",
@@ -2803,9 +3531,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "times feet check for sores/irritations",
-        "location": "300-301",
-        "section": "module 2: diabetes"
+        "levels": "",
+        "location": 300,
+        "section": "module 2: diabetes",
+        "size": 2,
+        "type": "integer"
     },
     "feetchk2": {
         "alt-name": "feet2chk",
@@ -2822,9 +3554,13 @@
             "888": "Never",
             "999": "Refused"
         },
+        "derived": 0,
         "label": "how often check feet for sores or irritations",
-        "location": "293-295",
-        "section": "module 2: diabetes"
+        "levels": "",
+        "location": 293,
+        "section": "module 2: diabetes",
+        "size": 3,
+        "type": "integer"
     },
     "flshtmy2": {
         "alt-name": "flsht2my",
@@ -2836,9 +3572,13 @@
             "777777": "Dont know/Not Sure",
             "999999": "Refused"
         },
+        "derived": 0,
         "label": "when received most recent seasonal flu shot/spray",
-        "location": "254-259",
-        "section": "immunization"
+        "levels": "",
+        "location": 254,
+        "section": "immunization",
+        "size": 6,
+        "type": "integer"
     },
     "flushot6": {
         "alt-name": "flu6shot",
@@ -2851,9 +3591,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "adult flu shot/spray past 12 mos",
-        "location": "253",
-        "section": "immunization"
+        "levels": 7,
+        "location": 253,
+        "section": "immunization",
+        "size": 1,
+        "type": "categorical"
     },
     "fmonth": {
         "alt-name": "fmonth",
@@ -2873,9 +3617,13 @@
             "8": "August",
             "9": "September"
         },
+        "derived": 0,
         "label": "file month",
-        "location": "17-18",
-        "section": "record identification"
+        "levels": 14,
+        "location": 17,
+        "section": "record identification",
+        "size": 2,
+        "type": "categorical"
     },
     "fruit1": {
         "alt-name": "fruit1f",
@@ -2891,9 +3639,13 @@
             "777": "Dont know/Not sure",
             "999": "Refused"
         },
+        "derived": 0,
         "label": "how many times did you eat fruit?",
-        "location": "212-214",
-        "section": "fruits & vegetables"
+        "levels": "",
+        "location": 212,
+        "section": "fruits & vegetables",
+        "size": 3,
+        "type": "integer"
     },
     "fruitju1": {
         "alt-name": "fruit1ju",
@@ -2909,19 +3661,31 @@
             "777": "Dont know/Not sure",
             "999": "Refused"
         },
+        "derived": 0,
         "label": "how many times did you drink 100 percent pure fruit juices?",
-        "location": "209-211",
-        "section": "fruits & vegetables"
+        "levels": "",
+        "location": 209,
+        "section": "fruits & vegetables",
+        "size": 3,
+        "type": "integer"
     },
     "frutda1_": {
+        "derived": 1,
         "label": "computed fruit intake in times per day",
-        "location": "2014-2017",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2014,
+        "section": "calculated variables",
+        "size": 4,
+        "type": "numeric"
     },
     "ftjuda1_": {
+        "derived": 1,
         "label": "computed fruit juice intake in times per day",
-        "location": "2010-2013",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2010,
+        "section": "calculated variables",
+        "size": 4,
+        "type": "numeric"
     },
     "fvbeans": {
         "alt-name": "fvbeans",
@@ -2937,9 +3701,13 @@
             "777": "Dont know/Not sure",
             "999": "Refused"
         },
+        "derived": 0,
         "label": "how many times did you eat beans or lentils?",
-        "location": "215-217",
-        "section": "fruits & vegetables"
+        "levels": "",
+        "location": 215,
+        "section": "fruits & vegetables",
+        "size": 3,
+        "type": "integer"
     },
     "fvgreen": {
         "alt-name": "fvgreen",
@@ -2955,9 +3723,13 @@
             "777": "Dont know/Not sure",
             "999": "Refused"
         },
+        "derived": 0,
         "label": "how many times did you eat dark green vegetables?",
-        "location": "218-220",
-        "section": "fruits & vegetables"
+        "levels": "",
+        "location": 218,
+        "section": "fruits & vegetables",
+        "size": 3,
+        "type": "integer"
     },
     "fvorang": {
         "alt-name": "fvorang",
@@ -2973,9 +3745,13 @@
             "777": "Dont know/Not sure",
             "999": "Refused"
         },
+        "derived": 0,
         "label": "how many times did you eat orange-colored vegetables?",
-        "location": "221-223",
-        "section": "fruits & vegetables"
+        "levels": "",
+        "location": 221,
+        "section": "fruits & vegetables",
+        "size": 3,
+        "type": "integer"
     },
     "genhlth": {
         "alt-name": "genhlth",
@@ -2991,14 +3767,22 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "general health",
-        "location": "90",
-        "section": "health status"
+        "levels": 10,
+        "location": 90,
+        "section": "health status",
+        "size": 1,
+        "type": "categorical"
     },
     "grenday_": {
+        "derived": 1,
         "label": "computed dark green vegetable intake in times per day",
-        "location": "2022-2025",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2022,
+        "section": "calculated variables",
+        "size": 4,
+        "type": "numeric"
     },
     "hadhyst2": {
         "alt-name": "had2hyst",
@@ -3011,9 +3795,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "had hysterectomy",
-        "location": "383",
-        "section": "module 14: breast and cervical cancer screening"
+        "levels": 7,
+        "location": 383,
+        "section": "module 14: breast and cervical cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "hadmam": {
         "alt-name": "hadmam",
@@ -3026,9 +3814,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "have you ever had a mammogram",
-        "location": "377",
-        "section": "module 14: breast and cervical cancer screening"
+        "levels": 7,
+        "location": 377,
+        "section": "module 14: breast and cervical cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "hadpap2": {
         "alt-name": "had2pap",
@@ -3041,9 +3833,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever had a pap test",
-        "location": "379",
-        "section": "module 14: breast and cervical cancer screening"
+        "levels": 7,
+        "location": 379,
+        "section": "module 14: breast and cervical cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "hadsgco1": {
         "alt-name": "had1sgco",
@@ -3056,9 +3852,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "was last test a sigmoidoscopy or colonoscopy",
-        "location": "389",
-        "section": "module 16: colorectal cancer screening"
+        "levels": 7,
+        "location": 389,
+        "section": "module 16: colorectal cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "hadsigm3": {
         "alt-name": "had3sigm",
@@ -3071,9 +3871,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever had sigmoidoscopy/colonoscopy",
-        "location": "388",
-        "section": "module 16: colorectal cancer screening"
+        "levels": 7,
+        "location": 388,
+        "section": "module 16: colorectal cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "harehab1": {
         "alt-name": "ha1rehab",
@@ -3086,9 +3890,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "outpatient rehab after heart attack hosp stay",
-        "location": "361",
-        "section": "module 9: cardiovascular health"
+        "levels": 7,
+        "location": 361,
+        "section": "module 9: cardiovascular health",
+        "size": 1,
+        "type": "categorical"
     },
     "havarth3": {
         "alt-name": "hav3arth",
@@ -3101,9 +3909,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "told have arthritis",
-        "location": "114",
-        "section": "chronic health conditions"
+        "levels": 7,
+        "location": 114,
+        "section": "chronic health conditions",
+        "size": 1,
+        "type": "categorical"
     },
     "height3": {
         "alt-name": "height",
@@ -3116,9 +3928,13 @@
             "9000 - 9998": "Height (meters/centimeters)",
             "9999": "Refused"
         },
+        "derived": 0,
         "label": "reported height in feet and inches",
-        "location": "182-185",
-        "section": "demographics"
+        "levels": "",
+        "location": 182,
+        "section": "demographics",
+        "size": 4,
+        "type": "integer"
     },
     "hhadult": {
         "alt-name": "hhadult",
@@ -3130,9 +3946,13 @@
             "77": "Dont know/Not sure",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "number of adults in household",
-        "location": "84-85",
-        "section": "record identification"
+        "levels": "",
+        "location": 84,
+        "section": "record identification",
+        "size": 2,
+        "type": "integer"
     },
     "hivtst6": {
         "alt-name": "hiv6tst",
@@ -3145,9 +3965,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever tested hiv",
-        "location": "263",
-        "section": "hiv/aids"
+        "levels": 7,
+        "location": 263,
+        "section": "hiv/aids",
+        "size": 1,
+        "type": "categorical"
     },
     "hivtstd3": {
         "alt-name": "hiv3tstd",
@@ -3160,9 +3984,13 @@
             "777777": "Dont know/Not sure",
             "999999": "Refused"
         },
+        "derived": 0,
         "label": "month and year of last hiv test",
-        "location": "264-269",
-        "section": "hiv/aids"
+        "levels": "",
+        "location": 264,
+        "section": "hiv/aids",
+        "size": 6,
+        "type": "integer"
     },
     "hlthpln1": {
         "alt-name": "hlth1pln",
@@ -3175,9 +4003,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "have any health care coverage",
-        "location": "97",
-        "section": "health care access"
+        "levels": 7,
+        "location": 97,
+        "section": "health care access",
+        "size": 1,
+        "type": "categorical"
     },
     "howlong": {
         "alt-name": "howlong",
@@ -3193,9 +4025,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "how long since last mammogram",
-        "location": "378",
-        "section": "module 14: breast and cervical cancer screening"
+        "levels": 10,
+        "location": 378,
+        "section": "module 14: breast and cervical cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "hplsttst": {
         "alt-name": "hplsttst",
@@ -3211,9 +4047,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "how long since your last hpv test?",
-        "location": "382",
-        "section": "module 14: breast and cervical cancer screening"
+        "levels": 10,
+        "location": 382,
+        "section": "module 14: breast and cervical cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "hpvadsht": {
         "alt-name": "hpvadsht",
@@ -3226,9 +4066,13 @@
             "77": "Dont know/Not Sure",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "number of hpv shots received",
-        "location": "374-375",
-        "section": "module 12: adult human papilloma virus (hpv) - vaccination"
+        "levels": "",
+        "location": 374,
+        "section": "module 12: adult human papilloma virus (hpv) - vaccination",
+        "size": 2,
+        "type": "integer"
     },
     "hpvadvc2": {
         "alt-name": "hpv2advc",
@@ -3242,9 +4086,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever had the hpv vaccination?",
-        "location": "373",
-        "section": "module 12: adult human papilloma virus (hpv) - vaccination"
+        "levels": 8,
+        "location": 373,
+        "section": "module 12: adult human papilloma virus (hpv) - vaccination",
+        "size": 1,
+        "type": "categorical"
     },
     "hpvtest": {
         "alt-name": "hpvtest",
@@ -3257,9 +4105,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "have you ever had an hpv test?",
-        "location": "381",
-        "section": "module 14: breast and cervical cancer screening"
+        "levels": 7,
+        "location": 381,
+        "section": "module 14: breast and cervical cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "htin4": {
         "alt-name": "ht4in",
@@ -3269,9 +4121,13 @@
             "36 - 95": "Height in inches",
             "999": "Dont know/Refused/Missing"
         },
+        "derived": 0,
         "label": "computed height in inches",
-        "location": "1977-1979",
-        "section": "calculated variables"
+        "levels": "",
+        "location": 1977,
+        "section": "calculated variables",
+        "size": 3,
+        "type": "integer"
     },
     "htm4": {
         "alt-name": "ht4m",
@@ -3281,19 +4137,31 @@
             "91 - 244": "Height in meters [2 implied decimal places]",
             "999": "Dont know/Refused/Missing"
         },
+        "derived": 0,
         "label": "computed height in meters",
-        "location": "1980-1982",
-        "section": "calculated variables"
+        "levels": "",
+        "location": 1980,
+        "section": "calculated variables",
+        "size": 3,
+        "type": "integer"
     },
     "idate": {
+        "derived": 1,
         "label": "interview date",
-        "location": "19-26",
-        "section": "record identification"
+        "levels": 0,
+        "location": 19,
+        "section": "record identification",
+        "size": 8,
+        "type": "numeric"
     },
     "iday": {
+        "derived": 1,
         "label": "interview day",
-        "location": "21-22",
-        "section": "record identification"
+        "levels": 0,
+        "location": 21,
+        "section": "record identification",
+        "size": 2,
+        "type": "numeric"
     },
     "imfvplac": {
         "alt-name": "imfvplac",
@@ -3315,9 +4183,13 @@
             "9": "Some other kind of place",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "where did you get your last flu shot/vaccine?",
-        "location": "260-261",
-        "section": "immunization"
+        "levels": 16,
+        "location": 260,
+        "section": "immunization",
+        "size": 2,
+        "type": "categorical"
     },
     "imonth": {
         "alt-name": "$imonth",
@@ -3335,9 +4207,13 @@
             "8": "August",
             "9": "September"
         },
+        "derived": 0,
         "label": "interview month",
-        "location": "19-20",
-        "section": "record identification"
+        "levels": 12,
+        "location": 19,
+        "section": "record identification",
+        "size": 2,
+        "type": "categorical"
     },
     "income2": {
         "alt-name": "in2come",
@@ -3356,9 +4232,13 @@
             "8": "$75,000 or more",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "income level",
-        "location": "175-176",
-        "section": "demographics"
+        "levels": 13,
+        "location": 175,
+        "section": "demographics",
+        "size": 2,
+        "type": "categorical"
     },
     "insulin": {
         "alt-name": "insulin",
@@ -3370,9 +4250,13 @@
             "2": "No",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "now taking insulin",
-        "location": "289",
-        "section": "module 2: diabetes"
+        "levels": 6,
+        "location": 289,
+        "section": "module 2: diabetes",
+        "size": 1,
+        "type": "categorical"
     },
     "internet": {
         "alt-name": "internet",
@@ -3385,14 +4269,22 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "internet use in the past 30 days?",
-        "location": "177",
-        "section": "demographics"
+        "levels": 7,
+        "location": 177,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "iyear": {
+        "derived": 1,
         "label": "interview year",
-        "location": "23-26",
-        "section": "record identification"
+        "levels": 0,
+        "location": 23,
+        "section": "record identification",
+        "size": 4,
+        "type": "numeric"
     },
     "joinpain": {
         "alt-name": "joinpain",
@@ -3404,14 +4296,22 @@
             "77": "Dont know/Not Sure",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "how bad was joint pain",
-        "location": "250-251",
-        "section": "arthritis burden"
+        "levels": "",
+        "location": 250,
+        "section": "arthritis burden",
+        "size": 2,
+        "type": "integer"
     },
     "ladult": {
+        "derived": 1,
         "label": "are you 18 years of age or older?",
-        "location": "68",
-        "section": "record identification"
+        "levels": 0,
+        "location": 68,
+        "section": "record identification",
+        "size": 1,
+        "type": "numeric"
     },
     "landline": {
         "alt-name": "landline",
@@ -3424,9 +4324,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "do you also have a landline telephone?",
-        "location": "83",
-        "section": "record identification"
+        "levels": 7,
+        "location": 83,
+        "section": "record identification",
+        "size": 1,
+        "type": "categorical"
     },
     "lastpap2": {
         "alt-name": "last2pap",
@@ -3442,9 +4346,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "how long since last pap test",
-        "location": "380",
-        "section": "module 14: breast and cervical cancer screening"
+        "levels": 10,
+        "location": 380,
+        "section": "module 14: breast and cervical cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "lastsig3": {
         "alt-name": "last3sig",
@@ -3461,9 +4369,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "time since last sigmoidoscopy/colonoscopy",
-        "location": "390",
-        "section": "module 16: colorectal cancer screening"
+        "levels": 11,
+        "location": 390,
+        "section": "module 16: colorectal cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "lastsmk2": {
         "alt-name": "last2smk",
@@ -3482,9 +4394,13 @@
             "8": "Never smoked regularly",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "interval since last smoked",
-        "location": "197-198",
-        "section": "tobacco use"
+        "levels": 13,
+        "location": 197,
+        "section": "tobacco use",
+        "size": 2,
+        "type": "categorical"
     },
     "lengexam": {
         "alt-name": "lengexam",
@@ -3500,9 +4416,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "how long since last breast physical exam",
-        "location": "385",
-        "section": "module 15: clinical breast exam for breast cancer screening"
+        "levels": 10,
+        "location": 385,
+        "section": "module 15: clinical breast exam for breast cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "lmtjoin3": {
         "alt-name": "lmt3join",
@@ -3515,9 +4435,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "limited because of joint symptoms",
-        "location": "247",
-        "section": "arthritis burden"
+        "levels": 7,
+        "location": 247,
+        "section": "arthritis burden",
+        "size": 1,
+        "type": "categorical"
     },
     "longwtch": {
         "alt-name": "longwtch",
@@ -3533,9 +4457,13 @@
             "777": "Dont know/Not Sure",
             "999": "Refused"
         },
+        "derived": 0,
         "label": "how long watching salt/sodium intake",
-        "location": "341-343",
-        "section": "module 7: sodium or salt-related behavior"
+        "levels": "",
+        "location": 341,
+        "section": "module 7: sodium or salt-related behavior",
+        "size": 3,
+        "type": "integer"
     },
     "lsatisfy": {
         "alt-name": "lsatisfy",
@@ -3550,9 +4478,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "satisfaction with life",
-        "location": "659",
-        "section": "module 24: emotional support and life satisfaction"
+        "levels": 9,
+        "location": 659,
+        "section": "module 24: emotional support and life satisfaction",
+        "size": 1,
+        "type": "categorical"
     },
     "lstblds3": {
         "alt-name": "lst3blds",
@@ -3568,9 +4500,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "time since last blood stool test",
-        "location": "387",
-        "section": "module 16: colorectal cancer screening"
+        "levels": 10,
+        "location": 387,
+        "section": "module 16: colorectal cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "marital": {
         "alt-name": "marital",
@@ -3586,9 +4522,13 @@
             "6": "A member of an unmarried couple",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "marital status",
-        "location": "157",
-        "section": "demographics"
+        "levels": 10,
+        "location": 157,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "maxdrnks": {
         "alt-name": "maxdrnks",
@@ -3601,14 +4541,22 @@
             "88": "Invalid response",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "most drinks on single occasion past 30 days",
-        "location": "207-208",
-        "section": "alcohol consumption"
+        "levels": "",
+        "location": 207,
+        "section": "alcohol consumption",
+        "size": 2,
+        "type": "integer"
     },
     "maxvo2_": {
+        "derived": 1,
         "label": "estimated age-gender specific maximum oxygen consumption",
-        "location": "2065-2069",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2065,
+        "section": "calculated variables",
+        "size": 5,
+        "type": "numeric"
     },
     "medcost": {
         "alt-name": "medcost",
@@ -3621,9 +4569,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "could not see dr. because of cost",
-        "location": "99",
-        "section": "health care access"
+        "levels": 7,
+        "location": 99,
+        "section": "health care access",
+        "size": 1,
+        "type": "categorical"
     },
     "menthlth": {
         "alt-name": "menthlth",
@@ -3636,19 +4588,31 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "number of days mental health not good",
-        "location": "93-94",
-        "section": "healthy days  health related quality of life"
+        "levels": "",
+        "location": 93,
+        "section": "healthy days  health related quality of life",
+        "size": 2,
+        "type": "integer"
     },
     "metvl11_": {
+        "derived": 1,
         "label": "activity met value for first activity",
-        "location": "2059-2061",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2059,
+        "section": "calculated variables",
+        "size": 3,
+        "type": "numeric"
     },
     "metvl21_": {
+        "derived": 1,
         "label": "activity met value for second activity",
-        "location": "2062-2064",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2062,
+        "section": "calculated variables",
+        "size": 3,
+        "type": "numeric"
     },
     "mistmnt": {
         "alt-name": "mistmnt",
@@ -3661,9 +4625,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "receiving medicine or treatment from health pro for emotional problem",
-        "location": "676",
-        "section": "module 25: anxiety and depression"
+        "levels": 7,
+        "location": 676,
+        "section": "module 25: anxiety and depression",
+        "size": 1,
+        "type": "categorical"
     },
     "mscode": {
         "alt-name": "mscode",
@@ -3677,14 +4645,22 @@
             "4": "In an MSA that has no center city",
             "5": "Not in an MSA"
         },
+        "derived": 0,
         "label": "metropolitan status code",
-        "location": "1406",
-        "section": "questionnaire language"
+        "levels": 8,
+        "location": 1406,
+        "section": "questionnaire language",
+        "size": 1,
+        "type": "categorical"
     },
     "numadult": {
+        "derived": 1,
         "label": "number of adults in household",
-        "location": "69-70",
-        "section": "record identification"
+        "levels": 0,
+        "location": 69,
+        "section": "record identification",
+        "size": 2,
+        "type": "numeric"
     },
     "numhhol2": {
         "alt-name": "num2hhol",
@@ -3697,14 +4673,22 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "household telephones",
-        "location": "168",
-        "section": "demographics"
+        "levels": 7,
+        "location": 168,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "nummen": {
+        "derived": 1,
         "label": "number of adult men in household",
-        "location": "71-72",
-        "section": "record identification"
+        "levels": 0,
+        "location": 71,
+        "section": "record identification",
+        "size": 2,
+        "type": "numeric"
     },
     "numphon2": {
         "alt-name": "num2phon",
@@ -3721,49 +4705,85 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "residential phones",
-        "location": "169",
-        "section": "demographics"
+        "levels": 11,
+        "location": 169,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "numwomen": {
+        "derived": 1,
         "label": "number of adult women in household",
-        "location": "73-74",
-        "section": "record identification"
+        "levels": 0,
+        "location": 73,
+        "section": "record identification",
+        "size": 2,
+        "type": "numeric"
     },
     "orngday_": {
+        "derived": 1,
         "label": "computed orange-colored vegetable intake in times per day",
-        "location": "2026-2029",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2026,
+        "section": "calculated variables",
+        "size": 4,
+        "type": "numeric"
     },
     "pa1min_": {
+        "derived": 1,
         "label": "minutes of total physical activity per week",
-        "location": "2119-2123",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2119,
+        "section": "calculated variables",
+        "size": 5,
+        "type": "numeric"
     },
     "pa1vigm_": {
+        "derived": 1,
         "label": "minutes of total vigorous physical activity per week",
-        "location": "2134-2138",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2134,
+        "section": "calculated variables",
+        "size": 5,
+        "type": "numeric"
     },
     "padur1_": {
+        "derived": 1,
         "label": "minutes of first activity",
-        "location": "2077-2079",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2077,
+        "section": "calculated variables",
+        "size": 3,
+        "type": "numeric"
     },
     "padur2_": {
+        "derived": 1,
         "label": "minutes of second activity",
-        "location": "2080-2082",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2080,
+        "section": "calculated variables",
+        "size": 3,
+        "type": "numeric"
     },
     "pafreq1_": {
+        "derived": 1,
         "label": "physical activity frequency per week for first activity",
-        "location": "2083-2087",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2083,
+        "section": "calculated variables",
+        "size": 5,
+        "type": "numeric"
     },
     "pafreq2_": {
+        "derived": 1,
         "label": "physical activity frequency per week for second activity",
-        "location": "2088-2092",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2088,
+        "section": "calculated variables",
+        "size": 5,
+        "type": "numeric"
     },
     "painact2": {
         "alt-name": "pain2act",
@@ -3776,39 +4796,67 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "how many days hard to do usual activities in past 30 days",
-        "location": "305-306",
-        "section": "module 3: healthy days (symptoms)"
+        "levels": "",
+        "location": 305,
+        "section": "module 3: healthy days (symptoms)",
+        "size": 2,
+        "type": "integer"
     },
     "pamin11_": {
+        "derived": 1,
         "label": "minutes of physical activity per week for first activity",
-        "location": "2109-2113",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2109,
+        "section": "calculated variables",
+        "size": 5,
+        "type": "numeric"
     },
     "pamin21_": {
+        "derived": 1,
         "label": "minutes of physical activity per week for second activity",
-        "location": "2114-2118",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2114,
+        "section": "calculated variables",
+        "size": 5,
+        "type": "numeric"
     },
     "pamiss1_": {
+        "derived": 1,
         "label": "missing physical activity data",
-        "location": "2108",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2108,
+        "section": "calculated variables",
+        "size": 1,
+        "type": "numeric"
     },
     "pavig11_": {
+        "derived": 1,
         "label": "minutes of vigorous physical activity per week for first activity",
-        "location": "2124-2128",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2124,
+        "section": "calculated variables",
+        "size": 5,
+        "type": "numeric"
     },
     "pavig21_": {
+        "derived": 1,
         "label": "minutes of vigorousphysical activity per week for second activity",
-        "location": "2129-2133",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2129,
+        "section": "calculated variables",
+        "size": 5,
+        "type": "numeric"
     },
     "pcdmdecn": {
+        "derived": 1,
         "label": "who made the decision with you to have psa test?",
-        "location": "398-401",
-        "section": "module 18: prostate cancer screening decision making"
+        "levels": 0,
+        "location": 398,
+        "section": "module 18: prostate cancer screening decision making",
+        "size": 4,
+        "type": "numeric"
     },
     "pcpsaad2": {
         "alt-name": "pcpsa2ad",
@@ -3821,9 +4869,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "has a health professional ever talked with you about the advantages of the psa test?",
-        "location": "391",
-        "section": "module 17: prostate cancer screening"
+        "levels": 7,
+        "location": 391,
+        "section": "module 17: prostate cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "pcpsade1": {
         "alt-name": "pcpsa1de",
@@ -3837,9 +4889,13 @@
             "4": "You dont remember how the decision was made",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "why was psa test done?",
-        "location": "397",
-        "section": "module 18: prostate cancer screening decision making"
+        "levels": 8,
+        "location": 397,
+        "section": "module 18: prostate cancer screening decision making",
+        "size": 1,
+        "type": "categorical"
     },
     "pcpsadi1": {
         "alt-name": "pcpsa1di",
@@ -3852,9 +4908,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "has a health professional ever talked with you about the disadvantages of the psa test?",
-        "location": "392",
-        "section": "module 17: prostate cancer screening"
+        "levels": 7,
+        "location": 392,
+        "section": "module 17: prostate cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "pcpsare1": {
         "alt-name": "pcpsa1re",
@@ -3867,9 +4927,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "has a doctor ever recommended that you have a psa test?",
-        "location": "393",
-        "section": "module 17: prostate cancer screening"
+        "levels": 7,
+        "location": 393,
+        "section": "module 17: prostate cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "pcpsars1": {
         "alt-name": "pcpsa1rs",
@@ -3885,9 +4949,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "what was the main reason you had this psa test?",
-        "location": "396",
-        "section": "module 17: prostate cancer screening"
+        "levels": 10,
+        "location": 396,
+        "section": "module 17: prostate cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "pdiabtst": {
         "alt-name": "pdiabtst",
@@ -3900,9 +4968,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "had a test for high blood sugar in past three years",
-        "location": "287",
-        "section": "module 1: pre-diabetes"
+        "levels": 7,
+        "location": 287,
+        "section": "module 1: pre-diabetes",
+        "size": 1,
+        "type": "categorical"
     },
     "persdoc2": {
         "alt-name": "pers2doc",
@@ -3916,9 +4988,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "multiple health care professionals",
-        "location": "98",
-        "section": "health care access"
+        "levels": 8,
+        "location": 98,
+        "section": "health care access",
+        "size": 1,
+        "type": "categorical"
     },
     "physhlth": {
         "alt-name": "physhlth",
@@ -3931,9 +5007,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "number of days physical health not good",
-        "location": "91-92",
-        "section": "healthy days  health related quality of life"
+        "levels": "",
+        "location": 91,
+        "section": "healthy days  health related quality of life",
+        "size": 2,
+        "type": "integer"
     },
     "pneuvac3": {
         "alt-name": "pneu3vac",
@@ -3946,9 +5026,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "pneumonia shot ever",
-        "location": "262",
-        "section": "immunization"
+        "levels": 7,
+        "location": 262,
+        "section": "immunization",
+        "size": 1,
+        "type": "categorical"
     },
     "poorhlth": {
         "alt-name": "poorhlth",
@@ -3961,9 +5045,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "poor physical or mental health",
-        "location": "95-96",
-        "section": "healthy days  health related quality of life"
+        "levels": "",
+        "location": 95,
+        "section": "healthy days  health related quality of life",
+        "size": 2,
+        "type": "integer"
     },
     "prediab1": {
         "alt-name": "pre1diab",
@@ -3977,9 +5065,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever been told you have pre-diabetes or borderline diabetes",
-        "location": "288",
-        "section": "module 1: pre-diabetes"
+        "levels": 8,
+        "location": 288,
+        "section": "module 1: pre-diabetes",
+        "size": 1,
+        "type": "categorical"
     },
     "pregnant": {
         "alt-name": "pregnant",
@@ -3992,9 +5084,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "pregnancy status",
-        "location": "186",
-        "section": "demographics"
+        "levels": 7,
+        "location": 186,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "profexam": {
         "alt-name": "profexam",
@@ -4007,9 +5103,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever had breast physical exam by doctor",
-        "location": "384",
-        "section": "module 15: clinical breast exam for breast cancer screening"
+        "levels": 7,
+        "location": 384,
+        "section": "module 15: clinical breast exam for breast cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "psatest1": {
         "alt-name": "psa1test",
@@ -4022,9 +5122,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever had psa test",
-        "location": "394",
-        "section": "module 17: prostate cancer screening"
+        "levels": 7,
+        "location": 394,
+        "section": "module 17: prostate cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "psatime": {
         "alt-name": "psatime",
@@ -4040,9 +5144,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "time since last psa test",
-        "location": "395",
-        "section": "module 17: prostate cancer screening"
+        "levels": 10,
+        "location": 395,
+        "section": "module 17: prostate cancer screening",
+        "size": 1,
+        "type": "categorical"
     },
     "pvtresd1": {
         "alt-name": "pvt1resd",
@@ -4054,9 +5162,13 @@
             "2": "No",
             "3": "No, business phone only"
         },
+        "derived": 0,
         "label": "private residence?",
-        "location": "64",
-        "section": "record identification"
+        "levels": 6,
+        "location": 64,
+        "section": "record identification",
+        "size": 1,
+        "type": "categorical"
     },
     "pvtresd2": {
         "alt-name": "pvt2resd",
@@ -4067,9 +5179,13 @@
             "1": "Yes",
             "2": "No"
         },
+        "derived": 0,
         "label": "do you live in a private residence?",
-        "location": "78",
-        "section": "record identification"
+        "levels": 5,
+        "location": 78,
+        "section": "record identification",
+        "size": 1,
+        "type": "categorical"
     },
     "qlactlm2": {
         "alt-name": "ql2actlm",
@@ -4082,9 +5198,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "activity limitation due to health problems",
-        "location": "187",
-        "section": "demographics"
+        "levels": 7,
+        "location": 187,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "qlhlth2": {
         "alt-name": "ql2hlth",
@@ -4097,9 +5217,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "how many days full of energy in past 30 days",
-        "location": "311-312",
-        "section": "module 3: healthy days (symptoms)"
+        "levels": "",
+        "location": 311,
+        "section": "module 3: healthy days (symptoms)",
+        "size": 2,
+        "type": "integer"
     },
     "qlmentl2": {
         "alt-name": "ql2mentl",
@@ -4112,9 +5236,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "how many days depressed in past 30 days",
-        "location": "307-308",
-        "section": "module 3: healthy days (symptoms)"
+        "levels": "",
+        "location": 307,
+        "section": "module 3: healthy days (symptoms)",
+        "size": 2,
+        "type": "integer"
     },
     "qlstres2": {
         "alt-name": "ql2stres",
@@ -4127,9 +5255,13 @@
             "88": "None",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "how many days felt anxious in past 30 days",
-        "location": "309-310",
-        "section": "module 3: healthy days (symptoms)"
+        "levels": "",
+        "location": 309,
+        "section": "module 3: healthy days (symptoms)",
+        "size": 2,
+        "type": "integer"
     },
     "qstlang": {
         "alt-name": "qstlang",
@@ -4141,14 +5273,22 @@
             "2": "Spanish",
             "3 - 99": "Other"
         },
+        "derived": 0,
         "label": "language identifier",
-        "location": "684-685",
-        "section": "questionnaire language"
+        "levels": "",
+        "location": 684,
+        "section": "questionnaire language",
+        "size": 2,
+        "type": "integer"
     },
     "qstver": {
+        "derived": 1,
         "label": "questionnaire version identifier",
-        "location": "682-683",
-        "section": "questionnaire version"
+        "levels": 0,
+        "location": 682,
+        "section": "questionnaire version",
+        "size": 2,
+        "type": "numeric"
     },
     "rcsgendr": {
         "alt-name": "rcsgendr",
@@ -4160,9 +5300,13 @@
             "2": "Girl",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "gender of child",
-        "location": "618",
-        "section": "module 21: sexual orientation and gender identity"
+        "levels": 6,
+        "location": 618,
+        "section": "module 21: sexual orientation and gender identity",
+        "size": 1,
+        "type": "categorical"
     },
     "rcsrltn2": {
         "alt-name": "rcs2rltn",
@@ -4179,9 +5323,13 @@
             "7": "Dont know/Not sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "relationship to child",
-        "location": "655",
-        "section": "module 21: sexual orientation and gender identity"
+        "levels": 11,
+        "location": 655,
+        "section": "module 21: sexual orientation and gender identity",
+        "size": 1,
+        "type": "categorical"
     },
     "rduchart": {
         "alt-name": "rduchart",
@@ -4194,9 +5342,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "take aspirin to reduce chance of heart attack",
-        "location": "366",
-        "section": "module 9: cardiovascular health"
+        "levels": 7,
+        "location": 366,
+        "section": "module 9: cardiovascular health",
+        "size": 1,
+        "type": "categorical"
     },
     "rducstrk": {
         "alt-name": "rducstrk",
@@ -4209,9 +5361,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "take aspirin to reduce chance of stroke",
-        "location": "367",
-        "section": "module 9: cardiovascular health"
+        "levels": 7,
+        "location": 367,
+        "section": "module 9: cardiovascular health",
+        "size": 1,
+        "type": "categorical"
     },
     "renthom1": {
         "alt-name": "rent1hom",
@@ -4225,9 +5381,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "own or rent home",
-        "location": "159",
-        "section": "demographics"
+        "levels": 8,
+        "location": 159,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "rlivpain": {
         "alt-name": "rlivpain",
@@ -4240,9 +5400,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "take aspirin to relieve pain",
-        "location": "365",
-        "section": "module 9: cardiovascular health"
+        "levels": 7,
+        "location": 365,
+        "section": "module 9: cardiovascular health",
+        "size": 1,
+        "type": "categorical"
     },
     "scntlpad": {
         "alt-name": "scntlpad",
@@ -4257,9 +5421,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "how were you generally paid for the work you did",
-        "location": "607",
-        "section": "module 20: social context"
+        "levels": 9,
+        "location": 607,
+        "section": "module 20: social context",
+        "size": 1,
+        "type": "categorical"
     },
     "scntlwk1": {
         "alt-name": "scntl1wk",
@@ -4272,9 +5440,13 @@
             "98": "Zero (none)",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "how many hours per week did you work",
-        "location": "608-609",
-        "section": "module 20: social context"
+        "levels": "",
+        "location": 608,
+        "section": "module 20: social context",
+        "size": 2,
+        "type": "integer"
     },
     "scntmel1": {
         "alt-name": "scnt1mel",
@@ -4291,9 +5463,13 @@
             "8": "Not applicable",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "times past 12 months worried/stressed about having enough money to buy nutritious meals?",
-        "location": "603",
-        "section": "module 20: social context"
+        "levels": 11,
+        "location": 603,
+        "section": "module 20: social context",
+        "size": 1,
+        "type": "categorical"
     },
     "scntmny1": {
         "alt-name": "scnt1mny",
@@ -4310,9 +5486,13 @@
             "8": "Not applicable",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "times past 12 months worried/stressed about having enough money to pay your rent/mortgage?",
-        "location": "602",
-        "section": "module 20: social context"
+        "levels": 11,
+        "location": 602,
+        "section": "module 20: social context",
+        "size": 1,
+        "type": "categorical"
     },
     "scntpaid": {
         "alt-name": "scntpaid",
@@ -4327,9 +5507,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "how are you generally paid for the work you do",
-        "location": "604",
-        "section": "module 20: social context"
+        "levels": 9,
+        "location": 604,
+        "section": "module 20: social context",
+        "size": 1,
+        "type": "categorical"
     },
     "scntwrk1": {
         "alt-name": "scnt1wrk",
@@ -4342,9 +5526,13 @@
             "98": "Zero (none)",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "how many hours per week do you work",
-        "location": "605-606",
-        "section": "module 20: social context"
+        "levels": "",
+        "location": 605,
+        "section": "module 20: social context",
+        "size": 2,
+        "type": "integer"
     },
     "seatbelt": {
         "alt-name": "seatbelt",
@@ -4361,14 +5549,22 @@
             "8": "Never drive or ride in a car",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "how often use seatbelts in car?",
-        "location": "252",
-        "section": "seatbelt use"
+        "levels": 11,
+        "location": 252,
+        "section": "seatbelt use",
+        "size": 1,
+        "type": "categorical"
     },
     "seqno": {
+        "derived": 1,
         "label": "annual sequence number",
-        "location": "36-45",
-        "section": "record identification"
+        "levels": 0,
+        "location": 36,
+        "section": "record identification",
+        "size": 10,
+        "type": "numeric"
     },
     "sex": {
         "alt-name": "sex",
@@ -4379,9 +5575,13 @@
             "2": "Female",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "respondents sex",
-        "location": "120",
-        "section": "demographics"
+        "levels": 5,
+        "location": 120,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "shingle2": {
         "alt-name": "shin2gle",
@@ -4394,9 +5594,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "have you ever had the shingles or zoster vaccine?",
-        "location": "376",
-        "section": "module 13: shingles (zostavax or zos)"
+        "levels": 7,
+        "location": 376,
+        "section": "module 13: shingles (zostavax or zos)",
+        "size": 1,
+        "type": "categorical"
     },
     "smokday2": {
         "alt-name": "smok2day",
@@ -4410,9 +5614,13 @@
             "7": "Dont Know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "frequency of days now smoking",
-        "location": "195",
-        "section": "tobacco use"
+        "levels": 8,
+        "location": 195,
+        "section": "tobacco use",
+        "size": 1,
+        "type": "categorical"
     },
     "smoke100": {
         "alt-name": "smok100_",
@@ -4425,14 +5633,22 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "smoked at least 100 cigarettes",
-        "location": "194",
-        "section": "tobacco use"
+        "levels": 7,
+        "location": 194,
+        "section": "tobacco use",
+        "size": 1,
+        "type": "categorical"
     },
     "stateres": {
+        "derived": 1,
         "label": "resident of state",
-        "location": "66",
-        "section": "record identification"
+        "levels": 0,
+        "location": 66,
+        "section": "record identification",
+        "size": 1,
+        "type": "numeric"
     },
     "stopsmk2": {
         "alt-name": "stop2smk",
@@ -4445,9 +5661,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "stopped smoking in past 12 months",
-        "location": "196",
-        "section": "tobacco use"
+        "levels": 7,
+        "location": 196,
+        "section": "tobacco use",
+        "size": 1,
+        "type": "categorical"
     },
     "strehab1": {
         "alt-name": "st1rehab",
@@ -4460,9 +5680,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "outpatient rehab after hosp stay for stroke",
-        "location": "362",
-        "section": "module 9: cardiovascular health"
+        "levels": 7,
+        "location": 362,
+        "section": "module 9: cardiovascular health",
+        "size": 1,
+        "type": "categorical"
     },
     "strength": {
         "alt-name": "strength",
@@ -4476,14 +5700,22 @@
             "888": "Never",
             "999": "Refused"
         },
+        "derived": 0,
         "label": "how many times did you do physical activities or exercises to strengthen your muscles?",
-        "location": "244-246",
-        "section": "exercise (physical activity)"
+        "levels": "",
+        "location": 244,
+        "section": "exercise (physical activity)",
+        "size": 3,
+        "type": "integer"
     },
     "strfreq_": {
+        "derived": 1,
         "label": "strength activity frequency per week",
-        "location": "2103-2107",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2103,
+        "section": "calculated variables",
+        "size": 5,
+        "type": "numeric"
     },
     "sxorient": {
         "alt-name": "sxorient",
@@ -4498,9 +5730,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "sexual orientation or gender identity",
-        "location": "610",
-        "section": "module 21: sexual orientation and gender identity"
+        "levels": 9,
+        "location": 610,
+        "section": "module 21: sexual orientation and gender identity",
+        "size": 1,
+        "type": "categorical"
     },
     "tetanus": {
         "alt-name": "tetanus",
@@ -4515,9 +5751,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "received tetanus shot since 2005?",
-        "location": "372",
-        "section": "module 11: tetanus diphtheria (tdap) (adults)"
+        "levels": 9,
+        "location": 372,
+        "section": "module 11: tetanus diphtheria (tdap) (adults)",
+        "size": 1,
+        "type": "categorical"
     },
     "toldhi2": {
         "alt-name": "told2hi",
@@ -4530,9 +5770,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "ever told blood cholesterol high",
-        "location": "105",
-        "section": "cholesterol awareness"
+        "levels": 7,
+        "location": 105,
+        "section": "cholesterol awareness",
+        "size": 1,
+        "type": "categorical"
     },
     "trnsgndr": {
         "alt-name": "trnsgndr",
@@ -4547,9 +5791,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "do you consider yourself to be transgender?",
-        "location": "611",
-        "section": "module 21: sexual orientation and gender identity"
+        "levels": 9,
+        "location": 611,
+        "section": "module 21: sexual orientation and gender identity",
+        "size": 1,
+        "type": "categorical"
     },
     "useequip": {
         "alt-name": "useequip",
@@ -4562,9 +5810,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "health problems requiring special equipment",
-        "location": "188",
-        "section": "demographics"
+        "levels": 7,
+        "location": 188,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "usenow3": {
         "alt-name": "use3now",
@@ -4578,14 +5830,22 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "use of smokeless tobacco products",
-        "location": "199",
-        "section": "tobacco use"
+        "levels": 8,
+        "location": 199,
+        "section": "tobacco use",
+        "size": 1,
+        "type": "categorical"
     },
     "vegeda1_": {
+        "derived": 1,
         "label": "computed other vegetable intake in times per  day",
-        "location": "2030-2033",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 2030,
+        "section": "calculated variables",
+        "size": 4,
+        "type": "numeric"
     },
     "vegetab1": {
         "alt-name": "vege1tab",
@@ -4601,9 +5861,13 @@
             "777": "Dont know/Not sure",
             "999": "Refused"
         },
+        "derived": 0,
         "label": "how many times did you eat other vegetables?",
-        "location": "224-226",
-        "section": "fruits & vegetables"
+        "levels": "",
+        "location": 224,
+        "section": "fruits & vegetables",
+        "size": 3,
+        "type": "integer"
     },
     "veteran3": {
         "alt-name": "vet3eran",
@@ -4616,9 +5880,13 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "are you a veteran",
-        "location": "171",
-        "section": "demographics"
+        "levels": 7,
+        "location": 171,
+        "section": "demographics",
+        "size": 1,
+        "type": "categorical"
     },
     "victrct4": {
         "alt-name": "vi4ctrct",
@@ -4633,9 +5901,13 @@
             "8": "Not applicable (Blind)",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "hlth care pro said now have cataracts",
-        "location": "331",
-        "section": "module 5: visual impairment and access to eye care"
+        "levels": 9,
+        "location": 331,
+        "section": "module 5: visual impairment and access to eye care",
+        "size": 1,
+        "type": "categorical"
     },
     "vidfclt2": {
         "alt-name": "vi2dfclt",
@@ -4653,9 +5925,13 @@
             "8": "Not applicable (Blind)",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "difficulty recognizing friend across street",
-        "location": "324",
-        "section": "module 5: visual impairment and access to eye care"
+        "levels": 12,
+        "location": 324,
+        "section": "module 5: visual impairment and access to eye care",
+        "size": 1,
+        "type": "categorical"
     },
     "vieyexm2": {
         "alt-name": "vi2eyexm",
@@ -4672,9 +5948,13 @@
             "8": "Not applicable (Blind)",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "when last eyexam",
-        "location": "329",
-        "section": "module 5: visual impairment and access to eye care"
+        "levels": 11,
+        "location": 329,
+        "section": "module 5: visual impairment and access to eye care",
+        "size": 1,
+        "type": "categorical"
     },
     "vigluma2": {
         "alt-name": "vi2gluma",
@@ -4688,9 +5968,13 @@
             "8": "Not applicable (Blind)",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "hlth care pro ever said have glaucoma",
-        "location": "332",
-        "section": "module 5: visual impairment and access to eye care"
+        "levels": 8,
+        "location": 332,
+        "section": "module 5: visual impairment and access to eye care",
+        "size": 1,
+        "type": "categorical"
     },
     "viinsur2": {
         "alt-name": "vi2insur",
@@ -4704,9 +5988,13 @@
             "8": "Not applicable (Blind)",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "eye care health insurance",
-        "location": "330",
-        "section": "module 5: visual impairment and access to eye care"
+        "levels": 8,
+        "location": 330,
+        "section": "module 5: visual impairment and access to eye care",
+        "size": 1,
+        "type": "categorical"
     },
     "vimacdg2": {
         "alt-name": "vimac2dg",
@@ -4720,9 +6008,13 @@
             "8": "Not applicable (Blind)",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "hlth care pro ever said have macular degeneration",
-        "location": "333",
-        "section": "module 5: visual impairment and access to eye care"
+        "levels": 8,
+        "location": 333,
+        "section": "module 5: visual impairment and access to eye care",
+        "size": 1,
+        "type": "categorical"
     },
     "vinocre2": {
         "alt-name": "vi2nocre",
@@ -4741,9 +6033,13 @@
             "8": "Not Applicable (Blind)",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "reason did not use eye doc past 12 mos",
-        "location": "327-328",
-        "section": "module 5: visual impairment and access to eye care"
+        "levels": 13,
+        "location": 327,
+        "section": "module 5: visual impairment and access to eye care",
+        "size": 2,
+        "type": "categorical"
     },
     "viprfvs2": {
         "alt-name": "vi2prfvs",
@@ -4760,9 +6056,13 @@
             "8": "Not applicable (Blind)",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "last time visited eye care provider",
-        "location": "326",
-        "section": "module 5: visual impairment and access to eye care"
+        "levels": 11,
+        "location": 326,
+        "section": "module 5: visual impairment and access to eye care",
+        "size": 1,
+        "type": "categorical"
     },
     "viredif3": {
         "alt-name": "vi3redif",
@@ -4780,9 +6080,13 @@
             "8": "Not applicable (Blind)",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "difficulty reading typed text",
-        "location": "325",
-        "section": "module 5: visual impairment and access to eye care"
+        "levels": 12,
+        "location": 325,
+        "section": "module 5: visual impairment and access to eye care",
+        "size": 1,
+        "type": "categorical"
     },
     "weight2": {
         "alt-name": "weight",
@@ -4795,9 +6099,13 @@
             "9000 - 9998": "Weight (kilograms)",
             "9999": "Refused"
         },
+        "derived": 0,
         "label": "reported weight in pounds",
-        "location": "178-181",
-        "section": "demographics"
+        "levels": "",
+        "location": 178,
+        "section": "demographics",
+        "size": 4,
+        "type": "integer"
     },
     "whrtst10": {
         "alt-name": "whr10tst",
@@ -4817,9 +6125,13 @@
             "9": "Emergency room",
             "99": "Refused"
         },
+        "derived": 0,
         "label": "location of last hiv test",
-        "location": "270-271",
-        "section": "hiv/aids"
+        "levels": 14,
+        "location": 270,
+        "section": "hiv/aids",
+        "size": 2,
+        "type": "categorical"
     },
     "wtchsalt": {
         "alt-name": "wtchsalt",
@@ -4832,13 +6144,21 @@
             "7": "Dont know/Not Sure",
             "9": "Refused"
         },
+        "derived": 0,
         "label": "watching sodium or salt intake",
-        "location": "340",
-        "section": "module 7: sodium or salt-related behavior"
+        "levels": 7,
+        "location": 340,
+        "section": "module 7: sodium or salt-related behavior",
+        "size": 1,
+        "type": "categorical"
     },
     "wtkg3": {
+        "derived": 1,
         "label": "computed weight in kilograms",
-        "location": "1983-1987",
-        "section": "calculated variables"
+        "levels": 0,
+        "location": 1983,
+        "section": "calculated variables",
+        "size": 5,
+        "type": "numeric"
     }
 }

@@ -77,7 +77,12 @@ def process_sasout_file(sasout_filepath):
         section = comment if comment else section
 
         data[variable] = {}
-        data[variable]["location"] = location
+
+        locations = location.split("-")
+        x = int(locations[0])
+        y = int(locations[1]) if len(locations) == 2 else int(x)
+        data[variable]["location"] = x
+        data[variable]["size"] = y - x + 1
         data[variable]["section"] = section.lower()
 
     labels_regex = re.compile("(?P<VAR>.*?) = '(?P<LABEL>.*?)'")
@@ -140,17 +145,33 @@ if __name__ == '__main__':
     mappings_dict = process_mapper_file(mapper_filepath)
 
     for key, value in sasout_dict.items():
+        sasout_dict[key]["derived"] = 1
         if not key in mappings_dict:
             print("Cannot find key[" + key + "] in mappings label is [" + value["section"] +"].")
+            sasout_dict[key]["type"] = "numeric"
+            sasout_dict[key]["levels"] = 0
             continue;
 
         format_key = mappings_dict[key]
 
-        if not format_key in format_dict:
-            print("Cannot find key [" + format_key + "]")
-            continue
+        categorical = 1
+        levels = ""
+        if format_key in format_dict:
+            codes = format_dict[format_key]
+            sasout_dict[key]["codes"] = codes
+            sasout_dict[key]["derived"] = 0
 
-        sasout_dict[key]["codes"] = format_dict[format_key]
+            code_keys = codes.keys()
+            for code_key in code_keys:
+                if "-" in code_key:
+                    categorical = 0
+
+            if(categorical == 1):
+                levels = len(codes.keys())
+
+        sasout_dict[key]["type"] = "categorical" if categorical else "integer"
+        sasout_dict[key]["levels"] = levels if categorical else ""
+
         sasout_dict[key]["alt-name"] = format_key
 
     print("Writing to JSON @ [", json_filepath, "]")
