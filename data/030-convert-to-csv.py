@@ -4,20 +4,13 @@ import glob
 import pandas
 
 def convert_to_csv(xpt_filepath, csv_filepath):
-    try:
-        print("Converting ", xpt_filepath, " to ", csv_filepath)
-        path = os.path.dirname(csv_filepath)
-        if not os.path.exists(path):
-            os.makedirs(path)
+    print("Converting ", xpt_filepath, " to ", csv_filepath)
+    path = os.path.dirname(csv_filepath)
+    if not os.path.exists(path):
+        os.makedirs(path)
 
-        df = pandas.read_sas(xpt_filepath)
-        df.to_csv(csv_filepath, encoding='utf-8')
-
-    except:
-        msg = "Error: Failed converting " + xpt_filepath + "\n"
-        sys.stderr.write(msg)
-        sys.stderr.write(str(sys.exc_info()[0]))
-        sys.exit(1)
+    df = pandas.read_sas(xpt_filepath, "XPORT")
+    df.to_csv(csv_filepath, encoding='utf-8')
 
     return
 
