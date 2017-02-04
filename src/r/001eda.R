@@ -7,12 +7,16 @@ library(DBI)
 library(stringr)
 
 year = 2011
-rdaFileName = paste0("./design-rdas/b", year, "design.rda")
+rdaFileName = paste0("./design-rda/b", year, "design.rda")
 load(rdaFileName)
 
-variables.categorical = c("medcost", "physhlth")
+dbfolder = paste0( getwd() , "/MonetDB" )
+db = dbConnect(MonetDBLite::MonetDBLite() , dbfolder)
+
+variables.categorical = c("pneuvac3")
 for(variable in variables.categorical) {
   formula = as.formula(paste0("~", variable))
-  table.frequency = svytotal(formula, brfss.d, na.rm = "TRUE")
+  table.frequency = svytotal(formula, brfss.design, na.rm = "TRUE")
   table.frequency
 }
+
