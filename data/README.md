@@ -5,23 +5,16 @@ This directory is designed to store permanant and temporary data files related t
 
 ###Getting Started
 ####Downloading the BRFSS Data
-Three python files are provided to download the raw BRFSS data. Execute the following commands in the following order.
-The first file fetches the raw zips from the BRFSS website. The second script unzips the zip files to xpt files. The third
-script converts the XPT SAS formatted files to csv.
+Several python files are provided to download the raw BRFSS data. Execute the following commands in the following order.
 
-    ~ python brfss-fetch.py
-    ~ python brfss-unzip.py
-    ~ python brfss-convert.py
+    ~ python 010-fetch.py
+    ~ python 020-unzip.py
+    ~ python 030-convert-to-csv.py
+    ~ python 040-remove-vars.py
 
-###Files
+###Directories
 
   /files.csv - stores a list of files to download from the BRFSS website
-
-  /brfss-fetch.py - script to download files listed in `./files.csv`, stores them to directory `/brfss-zips`
-
-  /brfss-unzip.py - unzips every file in `/brfss-zips` to `/brfss-xpts`
-
-  /brfss-convert.py - converts xpt files in `/brfss-xpts` to csv files located in `/brfss-csvs`
 
   /codebooks - a directory with the codebooks from many of the downloaded years
 
