@@ -16,8 +16,8 @@ if __name__ == '__main__':
     script_dir = os.path.dirname(script_path)
 
     #local that store assumed paths
-    zips_path = os.path.join(script_dir, "brfss-zips", "*")
-    xpts_path = os.path.join(script_dir, "brfss-xpts")
+    zips_path = os.path.join(script_dir, "010-raw", "*")
+    xpts_path = os.path.join(script_dir, "020-xpts")
 
     print("Reading all zips from [" + zips_path + "].")
 

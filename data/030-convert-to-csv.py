@@ -26,8 +26,8 @@ if __name__ == '__main__':
 
     script_path = os.path.realpath(__file__)
     script_dir = os.path.dirname(script_path)
-    xpts_path = os.path.join(script_dir, "brfss-xpts")
-    csvs_path = os.path.join(script_dir, "brfss-csvs")
+    xpts_path = os.path.join(script_dir, "020-xpts")
+    csvs_path = os.path.join(script_dir, "030-csvs")
 
     #read all files in zips directory
     globs = os.path.join(xpts_path, "*")

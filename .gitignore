@@ -1,7 +1,8 @@
 # IGNORE LISTINGS SPECIFIC TO THIS MSPA PROJECT
-/data/brfss-xpts/
-/data/brfss-csvs/
-/data/brfss-zips/
+/data/010-raw/
+/data/020-xpts/
+/data/030-csvs/
+/data/040-trimmed-vars/
 /data/codebooks/
 /data/formats/sas/
 

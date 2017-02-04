@@ -6,7 +6,7 @@ library(MonetDBLite)
 library(DBI)
 library(stringr)
 
-year = 2011
+year = 2014
 rdaFileName = paste0("./design-rda/b", year, "design.rda")
 load(rdaFileName)
 
