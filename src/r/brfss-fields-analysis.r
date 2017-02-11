@@ -22,7 +22,7 @@ df.fields = data.frame(year = c(), fields = c(), found = c())
 for(year in years){
   tableName = paste0("b", year)
 
-  column.fields = dbListFields(db, tableName)
+  column.fields = dbListFields(monet.db, tableName)
   column.year = rep(year, length(column.fields))
   column.found = rep(1, length(column.fields))
 

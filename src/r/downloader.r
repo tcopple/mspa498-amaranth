@@ -402,7 +402,7 @@ for ( year in years.to.download ){
 
   # add a column containing all ones to the current table
   dbSendQuery( db , paste0( 'alter table ' , tablename , ' add column one int' ) )
-  dbSendQuery( db , paste0( 'UPDATE ' , tablename , ' SET one = 1' ) )
+  dbGetQuery( db , "SELECT SUM( xllcpwt ) AS sum_weights FROM b2011" )uery( db , paste0( 'UPDATE ' , tablename , ' SET one = 1' ) )
 
   # create a database-backed complex sample design object
   brfss.design =
